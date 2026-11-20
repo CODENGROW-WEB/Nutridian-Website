@@ -1,0 +1,13 @@
+# Netlify Configuration for Nutridian Animal Health Website
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
