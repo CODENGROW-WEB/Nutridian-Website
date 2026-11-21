@@ -216,30 +216,32 @@ export default function PoultryProducts({
   return (
     <section id="poultry-products-page" className="w-full bg-white overflow-hidden min-h-[90vh]">
       
-      {/* 1. Top Banner Header: Hexagon Chevron Background - Applied with natural aspect ratio and proper height */}
-      <div className="relative w-full bg-[#f68b1f] overflow-hidden shadow-xs">
-        <div className="relative w-full min-h-[260px] xs:min-h-[300px] sm:min-h-[360px] md:min-h-[420px] lg:min-h-[480px] flex flex-col items-center justify-center pt-8 pb-14 sm:pt-14 sm:pb-24 md:pt-16 md:pb-28 px-4 overflow-hidden">
-          
-          {/* Authentic Chevron Banner Graphic with Hexagon Constellation Network */}
+      {/* 1. Top Banner Header: Authentic Chevron V-Shape Banner matching exact uploaded shape */}
+      <div className="relative w-full overflow-hidden bg-white">
+        <div className="relative w-full">
+          {/* Authentic Chevron Banner Graphic with Hexagon Constellation Network and downward V-shape */}
           <img
-            src="/products/product_banner_custom_bg_hd.png"
+            src="/products/product_banner_custom_bg_hd.png?v=20261121"
             alt="Product Category Banner Background"
-            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none z-0"
+            className="w-full h-auto block select-none pointer-events-none"
           />
 
-          {/* ANTICOCCIDIALS / Category Title */}
-          <h1 className="relative z-10 text-2xl xs:text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-wider uppercase text-white drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] font-sans text-center px-2">
-            {currentCategory.label || currentCategory.name.toUpperCase()}
-          </h1>
+          {/* Titles Centered Over Banner */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center pb-[3%] sm:pb-[4%] px-4 z-10 pointer-events-none">
+            {/* ANTICOCCIDIALS / Category Title */}
+            <h1 className="text-xl xs:text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black tracking-wider uppercase text-white drop-shadow-[0_4px_14px_rgba(0,0,0,0.55)] font-sans text-center px-2">
+              {currentCategory.label || currentCategory.name.toUpperCase()}
+            </h1>
 
-          {/* Subtitle / COMBINATIONS */}
-          <p className="relative z-10 text-lg xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-wider uppercase mt-1 xs:mt-1.5 sm:mt-2.5 font-sans drop-shadow-[0_3px_10px_rgba(0,0,0,0.45)] text-center px-2">
-            {currentSubcategory ? currentSubcategory.name : currentCategory.name}
-          </p>
+            {/* Subtitle / COMBINATIONS */}
+            <p className="text-sm xs:text-base sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-black text-white tracking-wider uppercase mt-1 xs:mt-1.5 sm:mt-2.5 font-sans drop-shadow-[0_3px_10px_rgba(0,0,0,0.5)] text-center px-2">
+              {currentSubcategory ? currentSubcategory.name : currentCategory.name}
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-5 pb-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 pb-16">
 
         {/* Top Navigation Breadcrumb & Back Button */}
         <div className="mb-5 sm:mb-6 flex flex-wrap items-center justify-between gap-2.5 sm:gap-3 border-b border-slate-200 pb-3 sm:pb-4">
