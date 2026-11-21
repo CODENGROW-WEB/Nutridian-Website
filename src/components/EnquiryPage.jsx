@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { submitToNutridian } from '../services/formService'
 
-export default function EnquiryPage({ onBackToHome }) {
+export default function EnquiryPage({ onBackToHome, initialProduct = '' }) {
   const [formData, setFormData] = useState({
     fullName: '',
     companyName: '',
@@ -9,10 +9,16 @@ export default function EnquiryPage({ onBackToHome }) {
     telephone: '',
     mobile: '',
     address: '',
-    productDetails: ''
+    productDetails: initialProduct || ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+
+  useEffect(() => {
+    if (initialProduct) {
+      setFormData((prev) => ({ ...prev, productDetails: initialProduct }))
+    }
+  }, [initialProduct])
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -238,138 +244,62 @@ export default function EnquiryPage({ onBackToHome }) {
               <div className="flex-1 h-[1.5px] bg-slate-300" />
             </div>
 
-            {/* Social Icons Row matching reference layout & user-provided logos */}
-            <div className="grid grid-cols-4 sm:flex sm:justify-between items-center justify-center gap-2 xs:gap-3 sm:gap-4 text-center">
+            {/* Social Icons Row: Keep Facebook, LinkedIn, WhatsApp (remove everything else) */}
+            <div className="flex justify-center items-center gap-6 sm:gap-10 text-center">
               
-              {/* 1. FACEBOOK (User provided) */}
+              {/* 1. FACEBOOK */}
               <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noreferrer"
                 className="flex flex-col items-center gap-1.5 group cursor-pointer"
               >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
                   <img
                     src="/logo_facebook.png"
                     alt="Facebook"
                     className="w-full h-full object-contain select-none"
                   />
                 </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
+                <span className="text-[10px] sm:text-xs font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
                   FACEBOOK
                 </span>
               </a>
 
-              {/* 2. TWITTER (Crafted properly to exact spec) */}
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                className="flex flex-col items-center gap-1.5 group cursor-pointer"
-              >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
-                  <img
-                    src="/logo_twitter.png"
-                    alt="Twitter"
-                    className="w-full h-full object-contain select-none"
-                  />
-                </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
-                  TWITTER
-                </span>
-              </a>
-
-              {/* 3. PINTEREST (Crafted properly to exact spec) */}
-              <a
-                href="https://pinterest.com"
-                target="_blank"
-                rel="noreferrer"
-                className="flex flex-col items-center gap-1.5 group cursor-pointer"
-              >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
-                  <img
-                    src="/logo_pinterest.png"
-                    alt="Pinterest"
-                    className="w-full h-full object-contain select-none"
-                  />
-                </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
-                  PINTEREST
-                </span>
-              </a>
-
-              {/* 4. INSTAGRAM (Crafted properly to exact spec) */}
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noreferrer"
-                className="flex flex-col items-center gap-1.5 group cursor-pointer"
-              >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
-                  <img
-                    src="/logo_instagram.png"
-                    alt="Instagram"
-                    className="w-full h-full object-contain select-none"
-                  />
-                </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
-                  INSTAGRAM
-                </span>
-              </a>
-
-              {/* 5. SKYPE (Crafted properly to exact spec) */}
-              <a
-                href="https://skype.com"
-                target="_blank"
-                rel="noreferrer"
-                className="flex flex-col items-center gap-1.5 group cursor-pointer"
-              >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
-                  <img
-                    src="/logo_skype.png"
-                    alt="Skype"
-                    className="w-full h-full object-contain select-none"
-                  />
-                </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
-                  SKYPE
-                </span>
-              </a>
-
-              {/* 6. LINKEDIN (User provided) */}
+              {/* 2. LINKEDIN */}
               <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer"
                 className="flex flex-col items-center gap-1.5 group cursor-pointer"
               >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
                   <img
                     src="/logo_linkedin.png"
                     alt="LinkedIn"
                     className="w-full h-full object-contain select-none"
                   />
                 </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
+                <span className="text-[10px] sm:text-xs font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
                   LINKEDIN
                 </span>
               </a>
 
-              {/* 7. WHATSAPP (User provided) */}
+              {/* 3. WHATSAPP */}
               <a
-                href="https://wa.me/"
+                href="https://wa.me/919004423478"
                 target="_blank"
                 rel="noreferrer"
-                className="flex flex-col items-center gap-1.5 group cursor-pointer col-span-2 sm:col-span-1 justify-self-center sm:justify-self-auto"
+                className="flex flex-col items-center gap-1.5 group cursor-pointer"
               >
-                <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-xl xs:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden p-1">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden p-1">
                   <img
                     src="/logo_whatsapp.png"
                     alt="WhatsApp"
                     className="w-full h-full object-contain select-none"
                   />
                 </div>
-                <span className="text-[9px] xs:text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
+                <span className="text-[10px] sm:text-xs font-black uppercase tracking-wider text-black group-hover:text-[#ea4b00] transition-colors mt-0.5">
                   WHATSAPP
                 </span>
               </a>

@@ -2,6 +2,24 @@ export default function Footer({ onOpenRequestModal, onNavigate }) {
   return (
     <footer className="w-full bg-[#f0f0f0] text-slate-800 font-sans border-t border-slate-300">
       
+      {/* Signature Total Site Traffic Counter Bar */}
+      <div className="w-full bg-slate-900 text-white py-3.5 px-4 sm:px-6 lg:px-8 border-b border-slate-800">
+        <div className="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-3">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+            <span className="text-xs sm:text-sm font-bold text-slate-300 uppercase tracking-wider">
+              Total Site Traffic:
+            </span>
+            <span className="text-sm sm:text-base font-black text-white tracking-widest bg-slate-800 px-3.5 py-1 rounded-md border border-slate-700 shadow-inner">
+              24,580+
+            </span>
+          </div>
+          <span className="text-xs font-semibold text-slate-400 hidden sm:inline-block">
+            Verified Global Visitors &bull; Poultry Industry Integrators &bull; Exporters
+          </span>
+        </div>
+      </div>
+
       {/* Main 3-Column Footer Information Section */}
       <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12">

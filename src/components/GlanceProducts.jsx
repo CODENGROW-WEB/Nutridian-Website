@@ -4,41 +4,25 @@ export default function GlanceProducts({ onRequestInfo }) {
   const products = [
     {
       id: 'god_n',
-      title: (
-        <div className="flex items-center justify-center font-black text-4xl sm:text-5xl lg:text-6xl tracking-tight text-sky-600 transition-transform group-hover:scale-105">
-          <span>GOD-</span>
-          <span className="text-orange-500 font-serif italic text-5xl sm:text-6xl lg:text-7xl ml-0.5">N</span>
-        </div>
-      ),
+      name: 'GOD-N',
+      logo: '/products/god_n_logo.png',
       image: '/products/God-N 5000.png',
       alt: 'GOD-N Feed Additive Bag',
       kcplBadge: true
     },
     {
       id: 'nutriquinol',
-      title: (
-        <div className="flex flex-col items-center justify-center transition-transform group-hover:scale-105">
-          <div className="flex items-center text-3xl sm:text-4xl lg:text-5xl font-black text-slate-800 tracking-tight">
-            <span className="text-orange-600 font-black text-4xl sm:text-5xl lg:text-6xl">N</span>
-            <span>utriquinol<sup className="text-base sm:text-lg">®</sup></span>
-          </div>
-          <span className="text-base sm:text-lg lg:text-xl font-serif italic text-indigo-700 tracking-wider -mt-1 font-bold">
-            Powder
-          </span>
-        </div>
-      ),
+      name: 'Nutriquinol Powder',
+      logo: '/products/nutriquinol_60_logo.png',
+      isPowder: true,
       image: '/products/nutriquinol_60_pack.jpg',
       alt: 'Nutriquinol Powder Bag',
       kcplBadge: true
     },
     {
       id: 'avirom_plus',
-      title: (
-        <div className="flex items-center justify-center font-black text-3xl sm:text-4xl lg:text-5xl text-purple-900 tracking-wider uppercase transition-transform group-hover:scale-105">
-          <span>AVIROM</span>
-          <span className="text-purple-600 font-black ml-2 text-2xl sm:text-3xl lg:text-4xl">PLUS</span>
-        </div>
-      ),
+      name: 'AVIROM PLUS',
+      logo: '/products/avirom_plus_logo.png',
       image: '/products/AviromPlus.png',
       alt: 'Avirom Plus Bag',
       kcplBadge: true
@@ -57,7 +41,7 @@ export default function GlanceProducts({ onRequestInfo }) {
           {products.map((p) => (
             <div
               key={p.id}
-              onClick={onRequestInfo}
+              onClick={() => onRequestInfo && onRequestInfo(p.name)}
               className="group relative flex flex-col bg-white rounded-3xl border-2 border-slate-300/80 overflow-hidden shadow-lg hover:shadow-2xl hover:border-orange-500/80 transition-all duration-300 cursor-pointer"
             >
               
@@ -81,9 +65,18 @@ export default function GlanceProducts({ onRequestInfo }) {
                 </div>
               </div>
 
-              {/* Bottom White Rectangular Title Box - Big Bold Authentic Brand Logos */}
-              <div className="py-8 sm:py-10 px-4 bg-white flex items-center justify-center min-h-[120px] sm:min-h-[140px]">
-                {p.title}
+              {/* Bottom White Rectangular Title Box - Authentic Brand Logo Images */}
+              <div className="py-6 sm:py-8 px-4 bg-white flex flex-col items-center justify-center min-h-[120px] sm:min-h-[140px]">
+                <img
+                  src={p.logo}
+                  alt={p.name}
+                  className="h-11 sm:h-13 lg:h-15 w-auto max-w-[85%] object-contain drop-shadow-xs transition-transform group-hover:scale-105"
+                />
+                {p.isPowder && (
+                  <span className="text-sm sm:text-base font-serif italic text-indigo-700 tracking-wider font-bold mt-1">
+                    Powder
+                  </span>
+                )}
               </div>
 
             </div>

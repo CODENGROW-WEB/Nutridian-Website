@@ -4,49 +4,24 @@ import SectionHeading from './SectionHeading'
 export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
   const portfolioItems = [
     {
-      title: 'Advanced Feed Additives',
-      description: "High-performance non-AGPs, AGP's, Anticoccidials and Nutritional enhancers.",
-      icon: (
-        <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-        </svg>
-      )
+      title: 'Advanced Feed Additives :',
+      description: "High-performance non-AGPs, AGP's, Anticoccidials and Nutritional enhancers."
     },
     {
-      title: 'Targeted Health & Disease Control',
-      description: 'Effective Anti-mycoplasma Solutions, Injectables and specialized veterinary care.',
-      icon: (
-        <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-        </svg>
-      )
+      title: 'Targeted Health & Disease Control :',
+      description: 'Effective Anti-mycoplasma Solutions, Injectables and specialized veterinary care.'
     },
     {
-      title: 'Metabolic & Reproductive Support',
-      description: 'Premium Emulsifiers, Vitamins and Ovary Stimulants for peak productivity.',
-      icon: (
-        <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-      )
+      title: 'Metabolic & Reproductive Support :',
+      description: 'Premium Emulsifiers, Vitamins and Ovary Stimulants for peak productivity.'
     },
     {
-      title: 'Farm Biosecurity',
-      description: 'Heavy-duty disinfectants to maintain a safe, pathogen-free farm environment.',
-      icon: (
-        <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-        </svg>
-      )
+      title: 'Farm Biosecurity :',
+      description: 'Heavy-duty disinfectants to maintain a safe, pathogen-free farm environment.'
     },
     {
       title: 'Partner with NAH :',
-      description: 'For driving health, productivity and sustainable growth across borders, flock by flock.',
-      icon: (
-        <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-        </svg>
-      )
+      description: 'For driving health, productivity and sustainable growth across borders, flock by flock.'
     }
   ]
 
@@ -84,14 +59,14 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
         {/* 2. Content Section: 2 Column Layout (Left: Hatching Chick Egg Art, Right: Details) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-16">
 
-          {/* Left Column: Hatching Chick Illustration (Using exact provided image) */}
+          {/* Left Column: Hatching Chick Illustration (Using exact provided image - enlarged to match marked size) */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="relative group max-w-sm w-full flex flex-col items-center justify-center">
-              <div className="relative p-4 sm:p-6 flex items-center justify-center">
+            <div className="relative group max-w-md w-full flex flex-col items-center justify-center">
+              <div className="relative p-2 sm:p-4 flex items-center justify-center">
                 <img
                   src="/chick_hatching_egg.png"
                   alt="Nutridian Hatching Chick Mascot"
-                  className="w-full max-w-[260px] sm:max-w-[300px] h-auto object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                  className="w-full max-w-[340px] sm:max-w-[420px] lg:max-w-[460px] h-auto object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
@@ -118,20 +93,18 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
               </p>
             </div>
 
+            {/* Portfolio List - Icons removed as marked by user in PDF */}
             <div className="space-y-3 pt-1">
               {portfolioItems.map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-3 p-3 rounded-2xl bg-gradient-to-r from-amber-50/50 to-orange-50/30 hover:from-amber-100/60 hover:to-orange-100/40 border border-amber-100 transition-colors group"
+                  className="p-3.5 sm:p-4 rounded-xl sm:rounded-2xl bg-gradient-to-r from-amber-50/50 to-orange-50/30 hover:from-amber-100/60 hover:to-orange-100/40 border border-amber-100 transition-colors group"
                 >
-                  <div className="p-2 rounded-xl bg-white shadow-xs border border-orange-100 group-hover:scale-110 transition-transform">
-                    {item.icon}
-                  </div>
-                  <div className="text-sm">
-                    <span className="font-extrabold text-slate-900 mr-1.5">
+                  <div className="text-sm sm:text-[15px] leading-relaxed">
+                    <span className="font-extrabold text-slate-900 mr-2">
                       {item.title}
                     </span>
-                    <span className="text-slate-600 font-medium">
+                    <span className="text-slate-700 font-medium">
                       {item.description}
                     </span>
                   </div>
@@ -143,7 +116,7 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
               <button
                 onClick={() => {
                   if (onNavigate) {
-                    onNavigate('POULTRY PRODUCT')
+                    onNavigate('BLOG')
                   } else if (onRequestInfo) {
                     onRequestInfo()
                   }
@@ -269,15 +242,15 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
 
           </div>
 
-          {/* Bottom Quote Banner */}
-          <div className="mt-16 bg-gradient-to-r from-orange-600 via-amber-600 to-orange-700 p-6 sm:p-10 rounded-2xl shadow-xl text-white flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-8">
+          {/* Bottom Quote Banner - Spanning full page width container */}
+          <div className="mt-16 w-full rounded-2xl bg-gradient-to-r from-orange-600 via-amber-600 to-orange-700 p-8 sm:p-12 shadow-xl text-white flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-10 border border-orange-500/50">
             {/* Giant White Quote Icon */}
             <div className="text-white shrink-0 opacity-90 leading-none font-serif text-6xl sm:text-8xl -mt-2 sm:-mt-4 select-none">
               &ldquo;&ldquo;
             </div>
 
             {/* Quote Text & Author */}
-            <div className="space-y-2 text-center sm:text-left">
+            <div className="space-y-2 text-center sm:text-left flex-1">
               <h4 className="text-xl sm:text-2xl md:text-3xl font-extrabold leading-snug tracking-wide">
                 Customer service should not be a department. It should be the entire company.
               </h4>

@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import SectionHeading from './SectionHeading'
 
 export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
+  const [selectedCert, setSelectedCert] = useState(null)
 
   return (
     <section id="blog-page" className="w-full bg-white overflow-hidden min-h-[85vh]">
@@ -49,10 +51,10 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
         <div className="pt-2 pb-12 sm:pb-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
-            {/* Left Column: KCPL History Copy with Drop-Cap 'K' */}
+            {/* Left Column: KCPL History Copy with Drop-Cap 'K' - Enlarged box as drawn by user */}
             <div className="lg:col-span-7 text-slate-800 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-medium">
               <p className="text-justify leading-[1.75]">
-                <span className="float-left mr-2.5 mt-0.5 w-7 h-7 sm:w-8 sm:h-8 bg-[#f95700] text-white font-black text-lg sm:text-xl flex items-center justify-center rounded-xs shadow-xs select-none">
+                <span className="float-left mr-3.5 mt-1 w-11 h-11 sm:w-12 sm:h-12 bg-[#ea580c] text-white font-black text-2xl sm:text-3xl flex items-center justify-center rounded-md shadow-md select-none font-sans">
                   K
                 </span>
                 anad Chemicals Pvt. Ltd. (KCPL) is a well-established and reputed leader in the animal health industry, globally recognized for excellence in manufacturing and exporting high-quality solutions like Halquinol and allied products. Founded in 1971, KCPL brings over 55 years of deep expertise to producing feed additives, medicines and chemicals that prevent and treat animal diseases while optimizing production efficiency. Guided by a profound understanding of customer needs, our products are carefully formulated to meet strict standard specifications and are backed by rigorous research. At KCPL, we constantly upgrade our processes to deliver affordable, innovative and effective solutions worldwide. Expanding our global reach, KCPL launched Nutridian Animal Health—a dynamic venture dedicated to bringing premier products and services directly to the grassroots level of the animal healthcare market. Under the guidance of our Managing Director and executive leadership, Nutridian AH has quickly made a powerful impact across the industry.
@@ -73,27 +75,27 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
           </div>
         </div>
 
-        {/* SECTION 2: MANUFACTURING UNIT R&D */}
-        <div className="py-8 sm:py-12 border-t border-slate-200">
+        {/* SECTION 2: MANUFACTURING UNIT R&D (Gap reduced as marked by user) */}
+        <div className="py-6 sm:py-8 border-t border-slate-200">
           
-          <SectionHeading title="MANUFACTURING UNIT R&D" className="mb-8 sm:mb-10" />
+          <SectionHeading title="MANUFACTURING UNIT R&D" className="mb-6 sm:mb-8" />
 
-          <div className="space-y-8">
+          <div className="space-y-4 sm:space-y-5">
             
             {/* Top Grid: R&D Graphic Left + State-of-the-Art Manufacturing Right */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-start">
               
               {/* Left Column: 3D Puzzle R & D Graphic (Exact provided image) */}
               <div className="lg:col-span-6 flex justify-center">
                 <img
                   src="/rd_puzzle_graphic.png"
                   alt="Manufacturing Unit R&D Puzzle Innovation"
-                  className="w-full max-w-md lg:max-w-none h-auto object-contain select-none transition-transform duration-300 hover:scale-[1.02]"
+                  className="w-full max-w-sm lg:max-w-none h-auto object-contain select-none transition-transform duration-300 hover:scale-[1.02]"
                 />
               </div>
 
               {/* Right Column: State-of-the-Art Manufacturing */}
-              <div className="lg:col-span-6 space-y-3 pt-2">
+              <div className="lg:col-span-6 space-y-2.5 pt-1">
                 <h3 className="text-sm sm:text-base lg:text-lg font-extrabold text-slate-900 flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block shrink-0" />
                   <span>State-of-the-Art Manufacturing</span>
@@ -106,7 +108,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
             </div>
 
             {/* Bottom Row: Innovative Research & Development (Full width below) */}
-            <div className="space-y-3 pt-2">
+            <div className="space-y-2.5 pt-1">
               <h3 className="text-sm sm:text-base lg:text-lg font-extrabold text-slate-900 flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block shrink-0" />
                 <span>Innovative Research &amp; Development</span>
@@ -227,7 +229,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
             </p>
           </div>
 
-          {/* 5 Authentic Certificate Paper Documents Grid (Exact high-res scans) */}
+          {/* 5 Authentic Certificate Paper Documents Grid (Click to Enlarge Modal) */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 lg:gap-5 mb-10 max-w-5xl mx-auto">
             {[
               {
@@ -263,7 +265,9 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
             ].map((cert, idx) => (
               <div
                 key={idx}
-                className="bg-white border-2 border-slate-300 rounded-xl p-2 sm:p-2.5 shadow-xs hover:shadow-xl hover:border-orange-500 hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group overflow-hidden"
+                onClick={() => setSelectedCert(cert)}
+                className="bg-white border-2 border-slate-300 rounded-xl p-2 sm:p-2.5 shadow-xs hover:shadow-xl hover:border-orange-500 hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group overflow-hidden cursor-pointer"
+                title="Click to view full certificate in high-resolution"
               >
                 <div className="relative w-full overflow-hidden rounded-lg bg-slate-50 flex items-center justify-center">
                   <img
@@ -271,6 +275,14 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
                     alt={cert.name}
                     className="w-full h-auto object-contain select-none group-hover:scale-110 transition-transform duration-300 ease-out"
                   />
+                  {/* Hover Zoom Icon */}
+                  <div className="absolute inset-0 bg-slate-900/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span className="p-2 rounded-full bg-white text-orange-600 shadow-md">
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
                 <div className="mt-2 text-center w-full px-1">
                   <p className="text-[11px] sm:text-xs font-bold text-slate-800 truncate group-hover:text-orange-600 transition-colors">
@@ -293,6 +305,45 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
         </div>
 
       </div>
+
+      {/* Interactive Certificate Lightbox Modal (Click to Open High-Res) */}
+      {selectedCert && (
+        <div
+          className="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
+          onClick={() => setSelectedCert(null)}
+        >
+          <div
+            className="relative max-w-2xl w-full bg-white rounded-2xl p-4 sm:p-6 shadow-2xl flex flex-col items-center max-h-[92vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setSelectedCert(null)}
+              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 flex items-center justify-center font-bold text-xl transition-colors cursor-pointer"
+              aria-label="Close"
+            >
+              &times;
+            </button>
+            
+            {/* Title */}
+            <h3 className="text-lg sm:text-xl font-black text-slate-900 mb-0.5 text-center pr-8">
+              {selectedCert.name}
+            </h3>
+            <p className="text-xs text-slate-600 mb-4 text-center max-w-md">
+              {selectedCert.subtitle}
+            </p>
+
+            {/* High-Res Certificate Image */}
+            <div className="w-full flex justify-center bg-slate-50 p-2 sm:p-4 rounded-xl border border-slate-200 overflow-hidden">
+              <img
+                src={selectedCert.img}
+                alt={selectedCert.name}
+                className="max-h-[68vh] w-auto object-contain drop-shadow-lg select-none"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }

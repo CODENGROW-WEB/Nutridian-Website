@@ -8,28 +8,25 @@ export default function Events({ onBackToHome }) {
   const [selectedImage, setSelectedImage] = useState(null)
   const [isCollageModalOpen, setIsCollageModalOpen] = useState(false)
 
-  // Countdown timer state for upcoming 2026 events
-  const [timeLeft, setTimeLeft] = useState({
-    days: 10,
-    hours: 15,
-    minutes: 25,
-    seconds: 20
-  })
+  // Dynamic countdown timer calculated for Poultry India Expo 2026 (25 Nov 2026 09:00 IST)
+  const targetDate = new Date('2026-11-25T09:00:00+05:30').getTime()
+
+  const calculateTimeLeft = () => {
+    const now = new Date().getTime()
+    const diff = Math.max(0, targetDate - now)
+    return {
+      days: Math.floor(diff / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((diff / 1000 / 60) % 60),
+      seconds: Math.floor((diff / 1000) % 60)
+    }
+  }
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft)
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev.seconds > 0) {
-          return { ...prev, seconds: prev.seconds - 1 }
-        } else if (prev.minutes > 0) {
-          return { ...prev, minutes: 59, seconds: 59 }
-        } else if (prev.hours > 0) {
-          return { ...prev, hours: prev.hours - 1, minutes: 59, seconds: 59 }
-        } else if (prev.days > 0) {
-          return { ...prev, days: prev.days - 1, hours: 23, minutes: 59, seconds: 59 }
-        }
-        return prev
-      })
+      setTimeLeft(calculateTimeLeft())
     }, 1000)
 
     return () => clearInterval(timer)
@@ -175,21 +172,21 @@ export default function Events({ onBackToHome }) {
             {/* Timeline Horizontal Axis Line */}
             <div className="absolute inset-x-2 top-1/2 h-0.5 bg-slate-300 -z-0" />
 
-            {/* Year Buttons matching Google Drive folders: 2022, 2023, 2024, 2025, 2026 */}
-            <div className="relative z-10 flex items-center gap-1.5 xs:gap-2 sm:gap-4 bg-white px-2 sm:px-4 py-1 rounded-full overflow-x-auto no-scrollbar max-w-full">
-              {['2022', '2023', '2024', '2025', '2026'].map((year) => {
+            {/* Year Buttons for authentic user provided events: 2022, 2023, 2026 */}
+            <div className="relative z-10 flex items-center gap-2 sm:gap-4 bg-white px-3 sm:px-6 py-1 rounded-full overflow-x-auto no-scrollbar max-w-full">
+              {['2022', '2023', '2026'].map((year) => {
                 const isActive = activeYear === year
                 return (
                   <button
                     key={year}
                     onClick={() => setActiveYear(year)}
-                    className={`px-3 xs:px-4 sm:px-5 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-extrabold transition-all cursor-pointer shrink-0 ${
+                    className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-extrabold transition-all cursor-pointer shrink-0 ${
                       isActive
                         ? 'bg-black text-white shadow-lg scale-105 ring-2 ring-orange-500'
                         : 'bg-white text-slate-800 border border-slate-300 hover:border-orange-500 hover:text-orange-600'
                     }`}
                   >
-                    {year}
+                    {year === '2026' ? '2026 (Upcoming)' : year}
                   </button>
                 )
               })}

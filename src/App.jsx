@@ -17,6 +17,7 @@ import Footer from './components/Footer'
 import RequestInfoModal from './components/RequestInfoModal'
 import SearchModal from './components/SearchModal'
 import PoultryIndiaPopup from './components/PoultryIndiaPopup'
+import { POULTRY_CATEGORIES } from './data/poultryCategories'
 
 function App() {
   const [activePage, setActivePage] = useState('HOME')
@@ -66,9 +67,24 @@ function App() {
   const handleNavigate = (pageName, anchor, categoryData) => {
     setActivePage(pageName)
     if (categoryData) {
-      if (categoryData.category) setSelectedCategory(categoryData.category)
-      setSelectedSubcategory(categoryData.subcategory || null)
-      if (categoryData.productId) setSelectedProductId(categoryData.productId)
+      if (categoryData.category) {
+        setSelectedCategory(categoryData.category)
+        const catObj = POULTRY_CATEGORIES.find(
+          (c) =>
+            c.name.toLowerCase() === categoryData.category.toLowerCase() ||
+            c.label?.toLowerCase() === categoryData.category.toLowerCase() ||
+            c.id === categoryData.category.toLowerCase()
+        )
+        const initialSub = categoryData.subcategory !== undefined
+          ? categoryData.subcategory
+          : (catObj?.subcategories ? catObj.subcategories[0].name : null)
+        const initialProd = categoryData.productId || (catObj?.subcategories ? catObj.subcategories[0].products?.[0]?.id : catObj?.products?.[0]?.id)
+        setSelectedSubcategory(initialSub)
+        setSelectedProductId(initialProd || null)
+      } else {
+        if (categoryData.subcategory !== undefined) setSelectedSubcategory(categoryData.subcategory)
+        if (categoryData.productId !== undefined) setSelectedProductId(categoryData.productId)
+      }
     }
     if (pageName === 'OUR CORE') {
       window.location.hash = '#our-core'
@@ -153,6 +169,7 @@ function App() {
         ) : activePage === 'ENQUIRY' || activePage === 'ENQUIRE NOW' || activePage === 'ENQUIRE' ? (
           /* Dedicated ENQUIRE NOW Page View */
           <EnquiryPage
+            initialProduct={selectedProductId}
             onBackToHome={() => handleNavigate('HOME')}
           />
         ) : (
@@ -175,7 +192,11 @@ function App() {
             <WhyChooseUs />
 
             {/* 5. A Glance At Our Products Section */}
-            <GlanceProducts onRequestInfo={() => handleNavigate('ENQUIRY')} />
+            <GlanceProducts
+              onRequestInfo={(prodName) =>
+                handleNavigate('ENQUIRY', null, { productId: prodName })
+              }
+            />
 
             {/* 6. BLOGS Section */}
             <BlogSection />

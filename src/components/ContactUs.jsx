@@ -248,11 +248,12 @@ export default function ContactUs({ onBackToHome }) {
 
                     <div>
                       <label className="block text-[11px] font-black tracking-wider uppercase text-black mb-1.5">
-                        COMPANY NAME
+                        COMPANY NAME *
                       </label>
                       <input
                         type="text"
                         name="companyName"
+                        required
                         value={formData.companyName}
                         onChange={handleChange}
                         placeholder="Company Name"
@@ -309,18 +310,17 @@ export default function ContactUs({ onBackToHome }) {
                     />
                   </div>
 
-                  {/* MASSAGE (Row 4 matching exact mockup) */}
+                  {/* MASSAGE (Row 4 - Optional / not compulsory as requested) */}
                   <div>
                     <label className="block text-[11px] font-black tracking-wider uppercase text-black mb-1.5">
-                      MASSAGE *
+                      MASSAGE
                     </label>
                     <textarea
                       name="message"
                       rows={4}
-                      required
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Massage"
+                      placeholder="Massage (Optional)"
                       className="w-full px-3.5 py-2.5 rounded-lg bg-white border border-slate-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[#c84010] text-sm font-medium shadow-2xs transition-all resize-none min-h-[120px]"
                     />
                   </div>

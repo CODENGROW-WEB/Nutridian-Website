@@ -1,14 +1,14 @@
 export default function CategoryMarquee({ onSelectCategory }) {
   const categories = [
-    'Anticoccidials',
     'Non Antibiotic Growth Promoters',
+    'Anticoccidials',
     "AGP's (Antibiotic Growth Promoters)",
-    'Liver Tonic & Immunomodulator',
     'Anti Mycoplasma',
     'Organic Acids & Acidifier',
     'Ovary Stimulant',
     'Vitamins',
     'Water Soluble Vitamins',
+    'Liver Tonic & Immunomodulator',
     'Mould Terminators & Toxin Binders',
     'Feed Emulsifier',
     'Fly Control',

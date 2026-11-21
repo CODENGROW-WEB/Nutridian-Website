@@ -150,9 +150,10 @@ export default function Navbar({ activePage = 'HOME', onNavigate, onOpenRequestM
 
           {/* Logo Section - Nutridian & KCPL exact given logo image */}
           <div className="relative flex items-center">
+            {/* Signature white semicircle arc protruding upward into the striped bar above the Nutridian 'N' logo */}
             <div
-              className={`absolute left-0.5 sm:left-1 md:left-1.5 w-11 xs:w-14 sm:w-16 md:w-18 bg-white rounded-t-full pointer-events-none z-20 ${
-                isScrolled ? '-top-5 h-5' : '-top-5 sm:-top-7 h-5 sm:h-6'
+              className={`absolute left-0.5 sm:left-1 w-12 xs:w-14 sm:w-16 md:w-18 bg-white rounded-t-full pointer-events-none z-20 transition-all ${
+                isScrolled ? '-top-7 sm:-top-8 h-8 sm:h-9' : '-top-8 sm:-top-10 md:-top-11 h-9 sm:h-11 md:h-12'
               }`}
             />
 

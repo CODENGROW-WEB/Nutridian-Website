@@ -198,48 +198,33 @@ export default function PoultryProducts({
   const shareLinks = [
     {
       name: 'Facebook',
-      icon: '/share_icons/facebook.png',
+      icon: '/logo_facebook.png',
       url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`
     },
     {
-      name: 'Twitter',
-      icon: '/share_icons/twitter.png',
-      url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(activeProduct?.name || 'Nutridian Poultry Solution')}&url=${encodeURIComponent(currentUrl)}`
-    },
-    {
-      name: 'Pinterest',
-      icon: '/share_icons/pinterest.png',
-      url: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(currentUrl)}&description=${encodeURIComponent(activeProduct?.name || '')}`
-    },
-    {
-      name: 'Instagram',
-      icon: '/share_icons/instagram.png',
-      url: 'https://instagram.com'
-    },
-    {
-      name: 'Skype',
-      icon: '/share_icons/skype.png',
-      url: `https://web.skype.com/share?url=${encodeURIComponent(currentUrl)}`
-    },
-    {
       name: 'LinkedIn',
-      icon: '/share_icons/linkedin.png',
+      icon: '/logo_linkedin.png',
       url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`
+    },
+    {
+      name: 'WhatsApp',
+      icon: '/logo_whatsapp.png',
+      url: `https://api.whatsapp.com/send?text=${encodeURIComponent((activeProduct?.name || 'Nutridian') + ' - ' + currentUrl)}`
     }
   ]
 
   return (
     <section id="poultry-products-page" className="w-full bg-white overflow-hidden min-h-[90vh]">
       
-      {/* 1. Top Banner Header: Exact match to user's uploaded custom hexagon chevron background */}
-      <div className="relative w-full bg-white overflow-hidden shadow-xs">
-        <div className="relative w-full min-h-[160px] xs:min-h-[190px] sm:min-h-[240px] md:min-h-[290px] lg:min-h-[330px] flex flex-col items-center justify-center pt-6 pb-10 xs:pt-8 xs:pb-14 sm:pt-12 sm:pb-20 md:pt-14 md:pb-24 px-3 sm:px-4 overflow-hidden">
+      {/* 1. Top Banner Header: Hexagon Chevron Background - Applied with natural aspect ratio and proper height */}
+      <div className="relative w-full bg-[#f68b1f] overflow-hidden shadow-xs">
+        <div className="relative w-full min-h-[260px] xs:min-h-[300px] sm:min-h-[360px] md:min-h-[420px] lg:min-h-[480px] flex flex-col items-center justify-center pt-8 pb-14 sm:pt-14 sm:pb-24 md:pt-16 md:pb-28 px-4 overflow-hidden">
           
           {/* Authentic Chevron Banner Graphic with Hexagon Constellation Network */}
           <img
             src="/products/product_banner_custom_bg_hd.png"
             alt="Product Category Banner Background"
-            className="absolute inset-0 w-full h-full object-fill pointer-events-none select-none z-0"
+            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none z-0"
           />
 
           {/* ANTICOCCIDIALS / Category Title */}
@@ -417,11 +402,6 @@ export default function PoultryProducts({
             {/* RIGHT COLUMN: Product Technical Specifications matching exact mockup */}
             <div className="lg:col-span-7 space-y-4">
 
-              {/* Top Title: E.g. COXICHECK - MN */}
-              <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight font-sans">
-                {activeProduct.title || activeProduct.name}
-              </h2>
-
               {/* Brand Logo Banner & Subtitle: Enlarged Brand Logo Image */}
               {activeProduct.logoImage ? (
                 <div className="my-2">
@@ -473,26 +453,6 @@ export default function PoultryProducts({
                 </div>
               )}
 
-              {/* Rating: 4.0 ★★★★☆ ⌄ */}
-              <div className="flex items-center gap-2 pt-1 pb-2">
-                <span className="font-extrabold text-sm text-slate-900">
-                  {activeProduct.rating ? activeProduct.rating.toFixed(1) : '4.0'}
-                </span>
-                <div className="flex text-amber-500">
-                  {[...Array(4)].map((_, i) => (
-                    <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                  <svg className="w-4 h-4 text-slate-300 fill-current" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                </div>
-                <svg className="w-3.5 h-3.5 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                </svg>
-              </div>
-
               {/* Horizontal dividing line */}
               <div className="border-b border-slate-300" />
 
@@ -536,7 +496,9 @@ export default function PoultryProducts({
               {/* Usage */}
               {activeProduct.usage && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
-                  <strong className="text-slate-900 font-bold block">Usage : Poultry :</strong>
+                  {!/^(usage|usages|poultry prescription)/i.test(activeProduct.usage.trim()) && (
+                    <strong className="text-slate-900 font-bold block">Usage :</strong>
+                  )}
                   <p className="text-slate-700 whitespace-pre-line">{activeProduct.usage}</p>
                 </div>
               )}
