@@ -12,7 +12,7 @@ import ComplianceCertifications from './components/ComplianceCertifications'
 import WhyChooseUs from './components/WhyChooseUs'
 import GlanceProducts from './components/GlanceProducts'
 import BlogSection from './components/BlogSection'
-import AviromSpotlight from './components/AviromSpotlight'
+import AdvertisementCarousel from './components/AdvertisementCarousel'
 import Footer from './components/Footer'
 import RequestInfoModal from './components/RequestInfoModal'
 import SearchModal from './components/SearchModal'
@@ -205,8 +205,8 @@ function App() {
             {/* 6. BLOGS Section */}
             <BlogSection />
 
-            {/* 7. AVIROM PLUS Product Spotlight Banner */}
-            <AviromSpotlight onRequestInfo={() => handleNavigate('ENQUIRY')} />
+            {/* 7. Full-width Continuous Moving Advertisement Carousel */}
+            <AdvertisementCarousel />
           </>
         )}
       </main>

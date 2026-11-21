@@ -1,36 +1,6 @@
 import { useState, useEffect } from 'react'
 import { POULTRY_CATEGORIES } from '../data/poultryCategories'
-
-const AD_BANNERS = [
-  {
-    id: 'avirom-plus',
-    title: 'Avirom Plus - Digestive Health Booster',
-    image: '/ads/ad_avirom_plus.jpg?v=2',
-    category: 'Non Antibiotic Growth Promoters',
-    productId: 'avirom-plus'
-  },
-  {
-    id: 'butyron',
-    title: 'Butyron - Digestive Health Enhancer',
-    image: '/ads/ad_butyron.jpg?v=2',
-    category: 'Organic Acids & Acidifier',
-    productId: null
-  },
-  {
-    id: 'god-n',
-    title: 'GOD-N - Most Reliable Non Antibiotic Growth Promoter',
-    image: '/ads/ad_god_n.jpg?v=2',
-    category: 'Non Antibiotic Growth Promoters',
-    productId: 'god-n'
-  },
-  {
-    id: 'nutriquinol',
-    title: 'Nutriquinol - 3-in-One Versatile Non Antibiotic Growth Promoter',
-    image: '/ads/ad_nutriquinol.jpg?v=2',
-    category: 'Non Antibiotic Growth Promoters',
-    productId: 'nutriquinol-60'
-  }
-]
+import AdvertisementCarousel from './AdvertisementCarousel'
 
 export default function PoultryProducts({
   category = 'Anticoccidials',
@@ -49,10 +19,6 @@ export default function PoultryProducts({
   const [isReviewsOpen, setIsReviewsOpen] = useState(false)
   const [reviewSubmitted, setReviewSubmitted] = useState(false)
   const [newReview, setNewReview] = useState({ name: '', rating: 5, comment: '' })
-
-  // Advertisement moving carousel state (pure automatic continuous loop)
-  const [currentAdIndex, setCurrentAdIndex] = useState(0)
-  const [isAdTransitioning, setIsAdTransitioning] = useState(true)
 
   // Sync props
   useEffect(() => {
@@ -89,23 +55,6 @@ export default function PoultryProducts({
       document.body.style.overflow = ''
     }
   }, [isLightboxOpen])
-
-  // Automatic moving carousel (transitions smoothly every 3.5 seconds, continuously loops, zero click needed)
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIsAdTransitioning(true)
-      setCurrentAdIndex((prev) => prev + 1)
-    }, 3500)
-
-    return () => clearInterval(timer)
-  }, [])
-
-  const handleAdTransitionEnd = () => {
-    if (currentAdIndex >= AD_BANNERS.length) {
-      setIsAdTransitioning(false)
-      setCurrentAdIndex(0)
-    }
-  }
 
   // Resolve active category object
   const currentCategory = POULTRY_CATEGORIES.find(
@@ -711,23 +660,7 @@ export default function PoultryProducts({
       </div>
 
       {/* 4. Bottom ADVERTISEMENT: Full-width Corner-to-Corner Automatic Moving Carousel (Pure Banner Images Only) */}
-      <div className="w-full relative overflow-hidden bg-white border-t border-slate-200">
-        <div
-          onTransitionEnd={handleAdTransitionEnd}
-          className={`flex w-full ${isAdTransitioning ? 'transition-transform duration-1000 ease-in-out' : ''}`}
-          style={{ transform: `translateX(-${currentAdIndex * 100}%)` }}
-        >
-          {[...AD_BANNERS, AD_BANNERS[0]].map((ad, idx) => (
-            <div key={`${ad.id}-${idx}`} className="w-full shrink-0 flex items-center justify-center">
-              <img
-                src={ad.image}
-                alt={ad.title}
-                className="w-full h-auto object-cover select-none block"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
+      <AdvertisementCarousel />
 
       {/* 5. Interactive Full-Resolution Lightbox Zoom Modal (for 300-DPI technical brochures) */}
       {isLightboxOpen && (
