@@ -519,8 +519,8 @@ export default function PoultryProducts({
                 </div>
               )}
 
-              {/* Bottom Regulatory Compliance Box matching exact mockup (Right aligned) */}
-              <div className="pt-4 flex justify-end w-full">
+              {/* Bottom Regulatory Compliance Box (Left aligned directly above share section) */}
+              <div className="pt-4 flex justify-start w-full">
                 <div className="border border-slate-900 p-2.5 text-left text-[11px] font-bold text-slate-900 leading-tight bg-white shadow-2xs max-w-[220px]">
                   <p>Animal Feed Supplement</p>
                   <p>Not For Human &amp; Medicinal</p>
