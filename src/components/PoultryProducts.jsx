@@ -5,28 +5,28 @@ const AD_BANNERS = [
   {
     id: 'avirom-plus',
     title: 'Avirom Plus - Digestive Health Booster',
-    image: '/ads/ad_avirom_plus.jpg',
+    image: '/ads/ad_avirom_plus.jpg?v=2',
     category: 'Non Antibiotic Growth Promoters',
     productId: 'avirom-plus'
   },
   {
     id: 'butyron',
     title: 'Butyron - Digestive Health Enhancer',
-    image: '/ads/ad_butyron.jpg',
+    image: '/ads/ad_butyron.jpg?v=2',
     category: 'Organic Acids & Acidifier',
     productId: null
   },
   {
     id: 'god-n',
     title: 'GOD-N - Most Reliable Non Antibiotic Growth Promoter',
-    image: '/ads/ad_god_n.jpg',
+    image: '/ads/ad_god_n.jpg?v=2',
     category: 'Non Antibiotic Growth Promoters',
     productId: 'god-n'
   },
   {
     id: 'nutriquinol',
     title: 'Nutriquinol - 3-in-One Versatile Non Antibiotic Growth Promoter',
-    image: '/ads/ad_nutriquinol.jpg',
+    image: '/ads/ad_nutriquinol.jpg?v=2',
     category: 'Non Antibiotic Growth Promoters',
     productId: 'nutriquinol-60'
   }
