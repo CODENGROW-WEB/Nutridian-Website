@@ -180,8 +180,12 @@ function App() {
             
             {/* 2. Infinite Category Marquee Strip */}
             <CategoryMarquee
-              onSelectCategory={(catName) =>
-                handleNavigate('POULTRY PRODUCT', null, { category: catName })
+              onSelectCategory={(catName, subcatName, prodId) =>
+                handleNavigate('POULTRY PRODUCT', null, {
+                  category: catName,
+                  subcategory: subcatName,
+                  productId: prodId
+                })
               }
             />
 

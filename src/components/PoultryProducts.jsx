@@ -57,7 +57,7 @@ export default function PoultryProducts({
   // Sync props
   useEffect(() => {
     if (category) setActiveCatName(category)
-    if (subcategory) setActiveSubcatName(subcategory)
+    setActiveSubcatName(subcategory || null)
     if (productId) setSelectedProdId(productId)
   }, [category, subcategory, productId])
 
