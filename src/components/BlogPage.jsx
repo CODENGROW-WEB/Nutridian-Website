@@ -1,9 +1,6 @@
-import { useState } from 'react'
 import SectionHeading from './SectionHeading'
 
 export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
-  const [selectedCert, setSelectedCert] = useState(null)
-
   return (
     <section id="blog-page" className="w-full bg-white overflow-hidden min-h-[85vh]">
       
@@ -265,27 +262,17 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
             ].map((cert, idx) => (
               <div
                 key={idx}
-                onClick={() => setSelectedCert(cert)}
-                className="bg-white border-2 border-slate-300 rounded-xl p-2 sm:p-2.5 shadow-xs hover:shadow-xl hover:border-orange-500 hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group overflow-hidden cursor-pointer"
-                title="Click to view full certificate in high-resolution"
+                className="bg-white border-2 border-slate-200 rounded-xl p-2 sm:p-2.5 shadow-2xs flex flex-col items-center justify-center overflow-hidden"
               >
                 <div className="relative w-full overflow-hidden rounded-lg bg-slate-50 flex items-center justify-center">
                   <img
                     src={cert.img}
                     alt={cert.name}
-                    className="w-full h-auto object-contain select-none group-hover:scale-110 transition-transform duration-300 ease-out"
+                    className="w-full h-auto object-contain select-none"
                   />
-                  {/* Hover Zoom Icon */}
-                  <div className="absolute inset-0 bg-slate-900/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="p-2 rounded-full bg-white text-orange-600 shadow-md">
-                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
-                      </svg>
-                    </span>
-                  </div>
                 </div>
                 <div className="mt-2 text-center w-full px-1">
-                  <p className="text-[11px] sm:text-xs font-bold text-slate-800 truncate group-hover:text-orange-600 transition-colors">
+                  <p className="text-[11px] sm:text-xs font-bold text-slate-800 truncate">
                     {cert.name}
                   </p>
                 </div>
@@ -305,45 +292,6 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
         </div>
 
       </div>
-
-      {/* Interactive Certificate Lightbox Modal (Click to Open High-Res) */}
-      {selectedCert && (
-        <div
-          className="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
-          onClick={() => setSelectedCert(null)}
-        >
-          <div
-            className="relative max-w-2xl w-full bg-white rounded-2xl p-4 sm:p-6 shadow-2xl flex flex-col items-center max-h-[92vh] overflow-y-auto"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedCert(null)}
-              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 flex items-center justify-center font-bold text-xl transition-colors cursor-pointer"
-              aria-label="Close"
-            >
-              &times;
-            </button>
-            
-            {/* Title */}
-            <h3 className="text-lg sm:text-xl font-black text-slate-900 mb-0.5 text-center pr-8">
-              {selectedCert.name}
-            </h3>
-            <p className="text-xs text-slate-600 mb-4 text-center max-w-md">
-              {selectedCert.subtitle}
-            </p>
-
-            {/* High-Res Certificate Image */}
-            <div className="w-full flex justify-center bg-slate-50 p-2 sm:p-4 rounded-xl border border-slate-200 overflow-hidden">
-              <img
-                src={selectedCert.img}
-                alt={selectedCert.name}
-                className="max-h-[68vh] w-auto object-contain drop-shadow-lg select-none"
-              />
-            </div>
-          </div>
-        </div>
-      )}
     </section>
   )
 }
