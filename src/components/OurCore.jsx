@@ -242,27 +242,30 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
 
           </div>
 
-          {/* Bottom Quote Banner - Spanning full page width container */}
-          <div className="mt-16 w-full rounded-2xl bg-gradient-to-r from-orange-600 via-amber-600 to-orange-700 p-8 sm:p-12 shadow-xl text-white flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-10 border border-orange-500/50">
-            {/* Giant White Quote Icon */}
-            <div className="text-white shrink-0 opacity-90 leading-none font-serif text-6xl sm:text-8xl -mt-2 sm:-mt-4 select-none">
-              &ldquo;&ldquo;
-            </div>
-
-            {/* Quote Text & Author */}
-            <div className="space-y-2 text-center sm:text-left flex-1">
-              <h4 className="text-xl sm:text-2xl md:text-3xl font-extrabold leading-snug tracking-wide">
-                Customer service should not be a department. It should be the entire company.
-              </h4>
-              <p className="text-base sm:text-lg font-bold opacity-90 pt-1">
-                &mdash; Tony Hsieh
-              </p>
-            </div>
-          </div>
-
         </div>
 
       </div>
+
+      {/* Bottom Quote Banner - Spanning 100% full width touching both sides */}
+      <div className="w-full bg-gradient-to-r from-orange-600 via-amber-600 to-orange-700 py-10 sm:py-14 px-4 sm:px-8 md:px-12 shadow-xl text-white border-y border-orange-500/50">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-10">
+          {/* Giant White Quote Icon */}
+          <div className="text-white shrink-0 opacity-90 leading-none font-serif text-6xl sm:text-8xl -mt-2 sm:-mt-4 select-none">
+            &ldquo;&ldquo;
+          </div>
+
+          {/* Quote Text & Author */}
+          <div className="space-y-2 text-center sm:text-left flex-1">
+            <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug tracking-wide">
+              Customer service should not be a department. It should be the entire company.
+            </h4>
+            <p className="text-base sm:text-lg md:text-xl font-bold opacity-90 pt-1">
+              &mdash; Tony Hsieh
+            </p>
+          </div>
+        </div>
+      </div>
+
     </section>
   )
 }
