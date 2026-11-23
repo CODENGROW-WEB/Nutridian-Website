@@ -428,6 +428,14 @@ export default function PoultryProducts({
                 </div>
               )}
 
+              {/* Benefits */}
+              {activeProduct.benefits && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Benefits :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.benefits}</p>
+                </div>
+              )}
+
               {/* Spectrum */}
               {activeProduct.spectrum && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
@@ -483,6 +491,14 @@ export default function PoultryProducts({
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
                   <strong className="text-slate-900 font-bold block">Storage :</strong>
                   <p className="text-slate-700 whitespace-pre-line">{activeProduct.storage}</p>
+                </div>
+              )}
+
+              {/* Target Species */}
+              {activeProduct.targetSpecies && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Target Species :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.targetSpecies}</p>
                 </div>
               )}
 

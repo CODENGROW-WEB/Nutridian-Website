@@ -21,18 +21,15 @@ export const POULTRY_CATEGORIES = [
           '/products/nutriquinol_60_page3.jpg',
           '/products/nutriquinol_60_page4.jpg'
         ],
-        composition: 'Chlorohydroxyquinoline (Halquinol) 60% w/w\n(Blend of 5,7-dichloro-8 hydroxyquinoline 57-74%, 5-monochloro 8 hydroxyquinoline 23-40% & 7-monochloro 8 hydroxyquinoline 0-4%)',
-        advantage: 'Nutriquinol is a versatile non-antibiotic growth promoter active against Gram+, Gram- bacteria, fungi and protozoa. It strongly potentiates the effect of anti-coccidial drugs in poultry, prevents and controls non-specific diarrhea, improves FCR & weight gain, and controls wet dropping in poultry thereby eliminating fly breeding. No resistance development reported and zero day withdrawal period.',
-        modeOfAction: 'Nutriquinol 60% combines with prosthetic metallic group of respiratory enzymes in the cytoplasmic membrane of bacteria, depriving respiration, limiting availability of ATP/glucose, and destroying pathogens. It also nonspecifically regulates the tone & motility of intestinal smooth muscles, slowing gut transit for superior nutrient absorption.',
-        indication: 'Proven non-AGP growth enhancer, prevention & control of wet droppings, non-specific diarrhea, necrotic enteritis, and suppression of enteric pathogens (E. coli, Salmonella, Clostridium perfringens).',
-        usage: 'Poultry: 100-200 gm/ton of feed continuously. Swine Weaner & Grower: 200 gm/ton of feed. Swine Finisher: 260 gm/ton of feed. Aqua: 0.1% in feed.',
-        withdrawalPeriod: 'Nil (0 days). Zero day withdrawal period.'
+        composition: 'Chlorohydroxyquinoline................60% w/w',
+        benefits: '•  Proven non antibiotic growth promoter\n•  Active against Gram+, Gram- bacteria and Fungi\n•  Nutriquinol potentiates the effect of anti coccidial drugs in poultry\n•  Prevents & control all types of non specific diarrhea\n•  No resistance development reported so far\n•  No residues during withdrawal period\n•  Control wet dropping in poultry and thereby fly breeding in poultry',
+        usage: '•  Cattle & Buffalo: 200 gm/ton of feed\n•  Sheep & Goat: 200 gm/ton of feed\n•  Broiler & Layer: 100 gm/ton of feed\n•  Pig : Weaner & Grower : 200 gm/ton of feed\n•  Finisher : 260 gm/ton of feed\n•  Fish : 0.1% in water/feed\n•  Or as recommended by a veterinarian'
       },
       {
         id: 'nutriquinol-advance-12',
         name: 'Nutriquinol Advance 12%',
         title: 'NUTRIQUINOL ADVANCE 12%',
-        subTitle: '3-in-One Versatile Non AGP & Antidiarrheal',
+        subTitle: '3-in-one Versatile Non AGP & Antidiarrheal',
         rating: 4.7,
         image: '/products/nutriquinol_12_pack.png',
         logoImage: '/products/nutriquinol_12_logo.png',
@@ -43,18 +40,32 @@ export const POULTRY_CATEGORIES = [
           '/products/nutriquinol_12_page3.jpg',
           '/products/nutriquinol_12_page4.jpg'
         ],
-        composition: 'Chlorohydroxyquinoline (Halquinol) 12% w/w fortified with specialized potentiator for better results...q.s.\n(Blend of 5,7-dichloro-8 hydroxyquinoline 57-74%, 5-monochloro 8 hydroxyquinoline 23-40% & 7-monochloro 8 hydroxyquinoline 0-4%)',
-        advantage: 'Prevents & controls all types of non-specific diarrhea & wet droppings. Proven non-antibiotic growth promoter active against Gram-positive, Gram-negative bacteria & fungi. Strongly potentiates anticoccidial drugs, improves FCR, daily weight gain, and egg production. Eliminates fly breeding. No resistance development and zero residues during withdrawal period.',
-        modeOfAction: 'Nutriquinol Advance 12% combines with prosthetic metallic group of respiratory enzymes in bacterial cytoplasmic membrane, depriving respiration, limiting ATP/glucose availability, and destroying pathogens. It also nonspecifically regulates tone & motility of intestinal smooth muscles, allowing prolonged nutrient absorption.',
-        indication: 'Non-antibiotic growth promotion, antidiarrheal therapy, control of wet droppings, crop mycosis, and enteric pathogen suppression in commercial poultry.',
-        usage: 'Poultry: 500 gm/ton of feed. For treatment: 1 kg/ton of feed for a week. Swine: 1 kg/ton of feed. Or as recommended by veterinarian.',
-        withdrawalPeriod: 'Nil (0 days). No residues during withdrawal period.'
+        composition: 'Chlorohydroxyquinoline..12%\nFortified with specialized potentiator for better results...q.s.',
+        benefits: '•	Prevents & control all types of non specific diarrhea & wet dropping\n•	Proven non antibiotic growth promoter\n•	Active against gram positive, gram negative bacteria & fungi\n•	Nutriquinol potentiates the effect of anti coccidial drugs in Poultry\n•	No resistance development reported so far\n•	No residues during withdrawal period\n•	Control wet dropping in poultry and thereby fly breeding and controls fly population\n•	Improves FCR, weight gain and egg production in poultry',
+        usage: 'Poultry : 500 gm/ton of feed\nFor treatment - 1 kg/ton of feed for a week\nOr as recommended by a veterinarian'
+      },
+      {
+        id: 'roxadian-20',
+        name: 'Roxadian',
+        title: 'ROXADIAN',
+        subTitle: 'Roxarsone 20%',
+        rating: 4.6,
+        image: '/products/roxadian_20_pack.png',
+        logoImage: '/products/roxadian_20_logo.png',
+        gallery: [
+          '/products/roxadian_20_pack.png',
+          '/products/roxadian_20_page1.jpg',
+          '/products/roxadian_20_page2.jpg'
+        ],
+        composition: 'Each Kg Contains :\nRoxarsone.............200 gm\n\nRoxaDian 20% is an ideal non- antibiotic growth promoter. It contains 3-Nitro-4-hydroxy phenyl arsonic acid, also known as Roxarsone.\nIt is a non-specific chemical and selectively germicidal, i.e. stimulates the growth of beneficial microbes and inhibits the growth of harmful one.',
+        benefits: '●	Helps to improve growth, performance and livability\n●	Potentiates the action of Coccidostats when used in combination\n●	Improve pigmentation in birds\n●	No chances of development of resistance\n●	Improve egg production in poultry',
+        usage: 'Poultry/Swine : 250 gm/ton of feed OR as per recommendation of Nutritionist OR Poultry Consultant'
       },
       {
         id: 'avirom-plus',
         name: 'Avirom Plus',
         title: 'AVIROM PLUS',
-        subTitle: 'Micro-Encapsulated Gut Modulator & Immunity Catalyst',
+        subTitle: 'Enramycin 8% Granules',
         rating: 4.9,
         image: '/products/avirom_plus_25kg.png?v=20261123',
         logoImage: '/products/avirom_plus_logo.png',
@@ -68,21 +79,21 @@ export const POULTRY_CATEGORIES = [
           '/products/Avirom Folder 2026 05.jpg',
           '/products/Avirom Folder 2026 06.jpg'
         ],
-        composition: 'Sodium Butyrate 30%, Essential Plant Oils (Cinnamon, Thymol, Oregano) on protected slow-release matrix.',
-        advantage: 'Promotes intestinal villi elongation and epithelial integrity. Enhances digestive enzyme secretion, optimizes feed conversion, and builds natural flock immunity against enteric challenges.',
-        indication: 'Optimizing gut health, villus development, and weight gain across all poultry stages.',
-        usage: 'Poultry: 250 - 500 gm/ton of feed continuously.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Sodium Butyrate....30%\nEssential Oils (Cinnamon, Thymol, Oregano)....10%, Excipient Kieselgurh',
+        indication: '• Natural Growth Promoter • Treatment against Dysbacteriosis',
+        usage: 'Poultry : upto 500 gm/ton of feed\nFor determined phases contact with the technical department.',
+        targetSpecies: 'Premixture for all species.'
       },
       {
         id: 'god-n',
-        name: 'God-N',
-        title: 'GOD-N',
-        subTitle: 'Glucose Oxidase Bio-Catalyst Digestive Enzyme',
+        name: 'God N',
+        title: 'GOD N',
+        subTitle: 'Glucose Oxidase',
         rating: 4.8,
         image: '/products/god_n_5000_25kg.png?v=20261123',
         logoImage: '/products/god_n_logo.png',
         gallery: [
+          '/products/god_n_5000_25kg.png?v=20261123',
           '/products/god_n_5000_25kg.png?v=20261123',
           '/products/God-N Folder 01.jpg',
           '/products/God-N Folder 02.jpg',
@@ -90,30 +101,9 @@ export const POULTRY_CATEGORIES = [
           '/products/God-N Folder 04.jpg',
           '/products/God-N.png'
         ],
-        composition: 'Glucose Oxidase enzymatic activity - 2000 U/gm.',
-        advantage: 'Reduces infection pressure in the gastrointestinal tract, controls pathogen population, generates hydrogen peroxide in-situ, adjusts intestinal pH, and markedly enhances digestion & nutrient absorption.',
-        indication: 'Gut acidification, pathogen control, and enzymatic feed conversion boost.',
-        usage: 'Feed: 100-200 gm/ton of finished feed. Drinking water: 30-60 gm/1000 liters of water.',
-        withdrawalPeriod: 'Nil (0 days).'
-      },
-      {
-        id: 'roxadian-20',
-        name: 'Roxadian 20%',
-        title: 'ROXADIAN 20%',
-        subTitle: 'Roxarsone 20% Feed Additive Premix',
-        rating: 4.6,
-        image: '/products/roxadian_20_pack.png',
-        logoImage: '/products/roxadian_20_logo.png',
-        gallery: [
-          '/products/roxadian_20_pack.png',
-          '/products/roxadian_20_page1.jpg',
-          '/products/roxadian_20_page2.jpg'
-        ],
-        composition: 'Each Kg Contains :\nRoxarsone............200 gm (3-Nitro-4-hydroxy phenyl arsonic acid in stabilized carrier)',
-        advantage: 'RoxaDian 20% is an ideal non-antibiotic growth promoter with selective germicidal action that stimulates beneficial gut microflora while suppressing harmful pathogens. Helps improve growth, performance, livability, and egg production. Strongly potentiates coccidiostats in combination programs with zero resistance development and enhances flock pigmentation.',
-        indication: 'Non-antibiotic growth promotion, improved feed efficiency, enhanced carcass/shank pigmentation, and coccidiosis control synergy in commercial poultry and swine.',
-        usage: 'Poultry / Swine: 250 gm/ton of feed OR as per recommendation of Nutritionist or Poultry Consultant.',
-        withdrawalPeriod: 'Poultry: 5 days prior to slaughter.'
+        composition: 'Glucose Oxidase activity - 2000 U/gm',
+        indication: '●  Reduces infection pressure in GIT, controls pathogen population and can replace antibiotics\n●  GOD-N destroyes chemical structure of mycotoxins in feed so reduces toxicity and improves immunity.\n●  It has antibacterial and Antifungal effect in Gut\n●  GOD-N improves intestinal microecological environment\n●  GOD-N helps to adjust intestinal pH, enhances digestion & absorption of feed',
+        usage: 'For replacing AGP in animal feed : 100-200 gm/ton feed\nFor mycotoxin treatment together with toxin binders : 80-150 gm/ton feed\nFor daily usage as prevention in drinking water on farm : 30-60 gm/1000 lit. of drinking water\nFor disease treatment together with antibiotics on farm : 100-150 gm/1000 lit. of drinking water for 5-7 days'
       },
       {
         id: 'cuoxine',
