@@ -428,6 +428,14 @@ export default function PoultryProducts({
                 </div>
               )}
 
+              {/* Spectrum */}
+              {activeProduct.spectrum && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Spectrum :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.spectrum}</p>
+                </div>
+              )}
+
               {/* Mode of Action (if available) */}
               {activeProduct.modeOfAction && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
@@ -451,6 +459,30 @@ export default function PoultryProducts({
                     <strong className="text-slate-900 font-bold block">Usage :</strong>
                   )}
                   <p className="text-slate-700 whitespace-pre-line">{activeProduct.usage}</p>
+                </div>
+              )}
+
+              {/* Directions for Use */}
+              {activeProduct.directionsForUse && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Directions for Use :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.directionsForUse}</p>
+                </div>
+              )}
+
+              {/* Mixing Directions */}
+              {activeProduct.mixingDirections && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Mixing Directions :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.mixingDirections}</p>
+                </div>
+              )}
+
+              {/* Storage */}
+              {activeProduct.storage && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Storage :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.storage}</p>
                 </div>
               )}
 

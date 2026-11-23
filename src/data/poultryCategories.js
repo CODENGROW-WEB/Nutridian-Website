@@ -197,6 +197,24 @@ export const POULTRY_CATEGORIES = [
         description: 'Potent synthetic coccidiostats providing rapid knockdown of destructive Eimeria species during high-challenge periods and clean-up programs.',
         products: [
           {
+            id: 'nutridol-25',
+            name: 'Nutridol 25%',
+            title: 'NUTRIDOL 25%',
+            subTitle: 'Highly Effective in the Prevention of Coccidiosis',
+            rating: 4.7,
+            image: '/products/nutridol_25_pack.png',
+            logoImage: '/products/nutridol_25_logo.png',
+            gallery: [
+              '/products/nutridol_25_pack.png',
+              '/products/nutridol_25_leaflet_hd.jpg'
+            ],
+            composition: '250 gm/kg Clopidol NutriDol 25% is highly effective coccidiostat product. It consist of 3,5-dichloro-2,6-dimethyl-4-pyridinol (clopidol), a pyridine derivative.',
+            advantage: 'NutriDol 25% is broad-spectrum coccidiostat used in the prevention & treatment of coccidiosis caused by Eimeria tenella, E. necatrix, E. maxima, E. acervulina, E. mitis, E. praecox and E. brunetti.\n\nNutriDol 25% can be utilized effectively in shuttle or rotation programs with other anticoccidials, to enhance feed efficiency and body weight gain.',
+            usage: 'Poultry : 0.5-1.0 kg/ton of finished feed (equivalent to 150 - 250 ppm clopidol). Amount(s) to be administered and administration route : NutriDol 25% @ dose of 0.5 - 1 kg to be mixed with other ingredients before feeding in order to have an optimal homogeneity and to avoid segregation. Mixing and conveying equipment should be properly cleaned to prevent carry-over.',
+            directionsForUse: 'DO NOT USE in birds which are producing eggs or egg products for human consumption.',
+            withdrawalPeriod: 'BROILER CHICKENS : 0 day\nEGGS : DO NOT FEED to birds which are producing eggs or egg products for human consumption.'
+          },
+          {
             id: 'robidian-10',
             name: 'ROBIDIAN 10%',
             title: 'ROBIDIAN 10%',
@@ -205,80 +223,66 @@ export const POULTRY_CATEGORIES = [
             image: '/products/robidian_10_pack.png',
             logoImage: '/products/robidian_10_logo.png',
             gallery: [
-          '/products/robidian_10_pack.png',
-          '/products/robidian_leaflet.jpg'
+              '/products/robidian_10_pack.png',
+              '/products/robidian_leaflet.jpg'
             ],
-            composition: 'Robidian 10% contains 100 gm of Active Robenidine HCL in 1 Kg Premix.',
-            advantage: 'Anticoccidial of choice for clean-up programs. Zero cross-resistance with ionophores. Rapid parasitic inhibition halts coccidia reproduction during the first 24 hours.',
-            indication: 'Prevention & treatment of coccidiosis in Broilers & Turkeys caused by E. mitis, E. brunetti, E. tenella, E. acervulina, E. maxima, E. necatrix & E. praecox.',
+            composition: 'Robidian 10% contains 100 gm of Active Robenidine HCL in 1 Kg Premix',
+            spectrum: 'Robidian 10% is an anticoccidal of choice for cleanup program. Highly effective on E. mitis, E. brunette, E. tenella, E. acervulina, E. maxima, E. necatrix & E. praecox',
+            indication: 'Prevention & treatment of coccidiosis in Broilers & Turkeys caused by E. mitis, E. brunette, E. tenella, E. acervulina, E. maxima, E. necatrix & E. praecox',
             usage: '330-500 gm/ton of feed or as recommended by Veterinary consultant.',
-            withdrawalPeriod: 'Poultry meat : 5 days.'
+            withdrawalPeriod: 'Poultry meat : 5 days'
           },
           {
             id: 'nutriquinate',
             name: 'Nutriquinate',
             title: 'NUTRIQUINATE',
-            subTitle: '60 gm/kg Decoquinate',
+            subTitle: '60 gm/kg decoquinate',
             rating: 4.5,
             image: '/products/nutriquinate_pack.png',
             logoImage: '/products/nutriquinate_logo.png',
             gallery: [
-          '/products/nutriquinate_pack.png',
-          '/products/nutriquinate_leaflet.jpg'
+              '/products/nutriquinate_pack.png',
+              '/products/nutriquinate_leaflet.jpg'
             ],
             composition: '60 gm/kg decoquinate',
-            advantage: 'Nutriquinate is a quinolone coccidiostat used in the prevention and control of coccidiosis caused by Eimeria tenella, E. acervulina, E. maxima, E. necatrix, E. brunetti, E. mivati and Toxoplasma species. Nutriquinate can be utilized effectively in shuttle or rotation programs with other anticoccidials to enhance feed efficiency and rate of gain.',
-            usage: '0.5 kg/ton of finished feed (equivalent to 30 ppm decoquinate).',
-            withdrawalPeriod: 'Poultry, Cattle and Sheep Meat : Zero (0) day'
+            advantage: 'Nutriquinate is a quinolone cocdidiostat at used in the prevention and control of coccidiosis caused by Eimeria tenella, E. acervulina, E. maxima, E. necatrix, E. brunetti, E.mivati and Toxoplasma species. Nutriquinate can be utilized effectively in shuttle or rotation programs with other anticoccidials to enhance feed efficiency and rate of gain.',
+            indication: 'For the prevention and treatment of coccidiosis in broilers, sheep and cattle caused by Eimeria and Toxoplasma species.',
+            usage: 'Poultry : 0.5 kg/ton of finished feed (equivalent to 30 ppm decoquinate).',
+            withdrawalPeriod: 'Poultry : 0.5 kg/ton of finished feed (equivalent to 30ppm decoquinate)'
           },
           {
             id: 'nilcox-25',
-            name: 'Nilcox 25%',
-            title: 'NILCOX 25%',
+            name: 'Nilcox',
+            title: 'NILCOX',
             subTitle: 'Type A Medicated Article with Microtracer',
             rating: 4.6,
             image: '/products/nilcox_25_pack.png',
             logoImage: '/products/nilcox_25_logo.png',
             gallery: [
-          '/products/nilcox_25_pack.png',
-          '/products/nilcox_leaflet.jpg'
+              '/products/nilcox_25_pack.png',
+              '/products/nilcox_leaflet.jpg'
             ],
             composition: 'Nicarbazin....... 25%',
-            usage: 'Usages:\nNicarbazine 25% - 500 gm/ton of feed (125 PPM)\n\nDIRECTIONS FOR USE:\nUse nilcox medicated feed as the only ration from the time chicks are placed on litter until past the time when coccidiosis is ordinarily a hazard.\n\nMIXING DIRECTIONS:\n500 gm of Nilcox 25% should be thoroughly and evenly mixed in the feed in accordance with current good manufacturing practice for feed.\n\nStorage : Store in cool, dry place away from direct sunlight'
-          },
-          {
-            id: 'nutridol-25',
-            name: 'Nutridol 25%',
-            title: 'NUTRIDOL 25%',
-            subTitle: 'Clopidol 25% Highly Effective in Prevention of Coccidiosis',
-            rating: 4.7,
-            image: '/products/nutridol_25_pack.png',
-            logoImage: '/products/nutridol_25_logo.png',
-            gallery: [
-          '/products/nutridol_25_pack.png',
-          '/products/nutridol_25_leaflet_hd.jpg'
-            ],
-            composition: '250 gm/kg Clopidol NutriDol 25% is highly effective coccidiostat product. It consist of 3,5-dichloro-2,6-dimethyl-4-pyridinol (clopidol), a pyridone-derivative.',
-            advantage: 'NutriDol 25% broad-spectrum coccidiostat used in the prevention & treatment of coccidiosis caused by Eimeria tenella, E. necatrix, E. maxima, E. acervulina, E. mitis, E. praecox and E. brunetti.\n\nNutriDol 25% can be utilized effectively in shuttle or rotation programs with other anticoccidials, to enhance feed efficiency and body weight gain.',
-            usage: 'Usage:\nPoultry : 0.5-1.0 kg/ton of finished feed (equivalent to 150 - 250 ppm clopidol).\n\nAmount(s) to be administered and administration route : NutriDol 25% @ dose of 0.5 - 1 kg to be mixed with other ingredients before feeding in order to have an optimal homogeneity and to avoid segregation. Mixing and conveying equipment should be properly cleaned to prevent carry-over.\n\nDirections for Use:\nDO NOT USE in birds which are producing eggs or egg products for human consumption.'
+            usage: 'Nicarbazine 25% - 500 gm/ton of feed (125 PPM)',
+            directionsForUse: 'Use nilcox medicated feed as the only ration from the time chicks are placed on litter until past the time when coccidiosis is ordinarily a hazard.',
+            mixingDirections: '500 gm of Nilcox 25% should be thoroughly and evenly mixed in the feed in accordance with current good manufacturing practice for feed.',
+            storage: 'Store in cool, dry place away from direct sunlight'
           },
           {
             id: 'vetocox',
             name: 'Vetocox',
             title: 'VETOCOX',
-            subTitle: 'Diclazuril 0.5% Revolutionary Clean-Up Anticoccidial',
+            subTitle: 'Revolutionary CLEAN UP Anticoccidial',
             rating: 4.8,
             image: '/products/vetocox_pack.png',
             logoImage: '/products/vetocox_logo.png',
             gallery: [
-          '/products/vetocox_pack.png',
-          '/products/vetocox_leaflet.jpg'
+              '/products/vetocox_pack.png',
+              '/products/vetocox_leaflet.jpg'
             ],
-            composition: 'Diclazuril 0.5% (5 gm/kg).',
-            advantage: 'Highly potent molecule with a unique chemical structure. Active against stages of parasite found at end of cycle. Reduces oocyst shedding, effective against second generation schizonts of Eimeria, and inhibits oocyst sporulation.',
-            indication: 'Emergency clean-up and rotation therapy in coccidiosis-challenge farms.',
-            usage: '200 gm/ton of finished feed (1 ppm of active Diclazuril).',
-            withdrawalPeriod: 'Poultry: 0 days.'
+            composition: 'Diclazuril 0.5%',
+            usage: '200 gm/ton of feed (1 ppm of Diclox)',
+            mixingDirections: '500 gm of Nilcox 25% should be thoroughly and evenly mixed in the feed in accordance with current good manufacturing practice for feed.'
           }
         ]
       },
