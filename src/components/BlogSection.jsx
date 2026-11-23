@@ -7,7 +7,7 @@ export default function BlogSection({ onNavigate }) {
       id: 1,
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
-      excerpt: "for quality-driven additives & supplements such as Non AGP's, Coccidiostats, Organic Acids, Mycoplasma preventive solutions, Immunomodulators, Vitamins, Productivity- Fertility Enhancers and imported technologically driven products like alternative energy sources to reduce feed costing",
+      excerpt: "for quality-driven additives & supplements such as Non AGP's, Coccidiostats, Organic Acids, Mycoplasma preventive solutions, Immunomodulators,......",
       image: '/blog/blog_1.jpg?v=20261123',
       alt: 'Nutridian Leadership Profile',
       views: 0
