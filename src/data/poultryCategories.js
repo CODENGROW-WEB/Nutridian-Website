@@ -347,19 +347,19 @@ export const POULTRY_CATEGORIES = [
             id: 'amprodian-k',
             name: 'Amprodian K',
             title: 'AMPRODIAN K',
-            subTitle: 'Amprolium 20% + Vitamin K3 Oral Soluble Powder I.P.',
+            subTitle: 'ORAL POWDER I.P.',
             rating: 4.9,
             image: '/products/amprodian_k_pack.png',
             logoImage: '/products/amprodian_k_logo.png',
             gallery: [
-          '/products/amprodian_k_pack.png',
-          '/products/amprodian_leaflet.jpg'
+              '/products/amprodian_k_pack.png',
+              '/products/amprodian_leaflet.jpg'
             ],
-            composition: 'Each 100 gm contains: Amprolium 20 gm, Vitamin K3 250 mg.',
-            advantage: 'Highly effective against acute coccidiosis. Vitamin K3 checks intestinal hemorrhage and prevents blood loss. Instant water solubility ensures rapid bird uptake even during reduced feed intake.',
-            indication: 'Emergency management of clinical coccidiosis in chicks, growers, broilers, layers, and breeders.',
-            usage: '500 gm/ton of feed or 1 gm/1 liter of drinking water for 5-7 consecutive days.',
-            withdrawalPeriod: 'Chicken: 28 days. Egg: 7 days.'
+            composition: 'Each 100 gm contains :\nAmprolium...............20 gm    \nVitamin K...............250 mg',
+            benefits: '• Amprodian as dietary aid is highly effective against coccidiosis\n• Vitamin K3 checks intestinal hemorrhage\n• As dietary aid is effective against all species of Eimeria which  causes coccidiosis',
+            indication: 'Amprodian Soluble Powder is used for management of coccidiosis in\n• Replacement Chicks, Layers & Breeders\n• Broilers & Turkeys',
+            administration: '500 gm/ton of feed or 1 gm/1 ltr. of drinking water',
+            withdrawalPeriod: '• Chicken : 28 days   \n• Egg : 7 days\n\n(NOT FOR HUMAN  MEDICINAL USE FOR ANIMAL FEED SUPPLEMENT)'
           }
         ]
       }

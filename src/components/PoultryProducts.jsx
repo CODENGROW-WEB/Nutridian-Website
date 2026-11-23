@@ -486,6 +486,16 @@ export default function PoultryProducts({
                 </div>
               )}
 
+              {/* Administration */}
+              {activeProduct.administration && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  {!/^(administration)/i.test(activeProduct.administration.trim()) && (
+                    <strong className="text-slate-900 font-bold block">Administration :</strong>
+                  )}
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.administration}</p>
+                </div>
+              )}
+
               {/* Dosage */}
               {activeProduct.dosage && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
