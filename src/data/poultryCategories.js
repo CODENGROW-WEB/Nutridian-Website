@@ -535,7 +535,7 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'tyloplus-25',
-        name: 'TylOplus 25%',
+        name: 'Tyloplus 25%',
         title: 'TYLOPLUS 25%',
         subTitle: 'A Revolutionary 3rd Generation Macrolide Antibiotic',
         rating: 4.9,
@@ -545,18 +545,16 @@ export const POULTRY_CATEGORIES = [
           '/products/tyloplus_25_cover_hd.jpg',
           '/products/tyloplus_25_details_hd.jpg'
         ],
-        composition: 'Each Gram of TylOplus 25% contains 250 mg of Tylvalosin Tartrate.',
-        modeOfAction: 'Tyl O Plus interferes with protein synthesis by reversibly binding with the 50s bacterial ribosomal subunit & effectively ceasing the peptide chain elongation.',
-        advantage: 'The unbeatable solution for prevention as well as treatment of Respiratory Diseases and Enteric Infections. Rapid absorption & quick distribution, excellent bioavailability, lower MIC (0.015 - 0.03 µg/ml) accumulating in high target tissue concentrations compared to other macrolides like Tylosin. Improves non-specific immunity via macrophage activation and exhibits anti-inflammatory properties.',
-        indication: 'Highly recommended for prevention & treatment of Respiratory infections like Mycoplasma (CRD/CCRD), Enteric infections like Necrotic Enteritis, and microorganisms sensitive to Tylvalosin (e.g. ORT). Excellent growth promoter improving livability & FCR in broilers.',
-        usage: 'Through feed for 7 days: Prevention: 80-200 Gm/Ton of feed (20-50 ppm); Treatment: 200-400 Gm/Ton of feed (50-100 ppm). Through Water for 3 days: Prevention: 80-100 Gm/200 lit of water (20-25 mg/kg); Treatment: 80-100 Gm/200 lit of water (20-25 mg/kg) OR As directed by the Veterinarian.',
-        withdrawalPeriod: 'Broiler chickens : 1 day. Eggs : Nil.'
+        composition: 'Each Gram of Tyl O plus 25% contains 250 mg of Tylvalosin Tartrate',
+        indication: 'Tyl O plus 25% (250 mg/g) is indicated for prevention and treatment of Mycoplasmosis (Mycoplasma gallisepticum, M. synoviae and other Mycoplasma species), and for diseases associated with Clostridium perfringens (enteritis resulting in wet litter syndrome and cholangiohepatitis) in chickens. Tyl O plus 25% also has activity against Ornithobacterium Rhinotracheale (ORT) of poultry.',
+        usage: 'Dosage and administration in Poultry :\nThrough water : Tylvalosin tartrate at the rate 20-25 mg per kg body weight for 2-3 days every month Or 3-5 days during stress period.\n\nWeek a month plan for feed :\n•	 Prevention : 200 Grams/ ton of feed (50 ppm)\n•	 Treatment : 400 Grams/ ton of feed (100 ppm)',
+        withdrawalPeriod: 'Meat - 3 days.'
       },
       {
         id: 'nutrimulin-80',
-        name: 'Nutrimulin 80%*',
-        title: 'NUTRIMULIN 80%*',
-        subTitle: 'Tiamulin Hydrogen Fumarate 80%',
+        name: 'Nutrimulin 80%',
+        title: 'NUTRIMULIN 80%',
+        subTitle: 'A Revolutionary 3rd Generation Macrolide Antibiotic',
         rating: 4.8,
         image: '/products/nutrimulin_80_pack.png',
         logoImage: '/products/nutrimulin_80_logo_hd.png',
@@ -564,17 +562,17 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrimulin_80_pack.png',
           '/products/nutrimulin_80_leaflet_hd.jpg'
         ],
-        composition: 'Each gram contains: Tiamulin Hydrogen Fumarate 800 mg.',
-        advantage: 'Helps in preventing CRD caused by M. gallisepticum, M. synoviae and complicated by other secondary bacterial infections. Active against Gram +ve bacteria, obligate anaerobes & organisms resistant to macrolide antibiotics. Penetrates target tissues effectively, maintains high concentration, and reduces morbidity & mortality in CRD.',
-        indication: 'Prevention and treatment of Chronic Respiratory Disease (CRD) and Infectious Synovitis in broilers, layers, and breeders.',
-        usage: 'Prevention: 15-20 mg / kg body weight. Treatment: 30-40 mg / kg body weight. Mixing: Make a premix with 5-10 kg of feed or blend with vitamins/mineral before adding to the final blend.',
-        withdrawalPeriod: 'Eggs: 0 days. Broilers: 3 days.'
+        composition: 'Each gram contains : Tiamulin Hydrogen Fumarate .................... 800 mg',
+        benefits: '•  Nutrimulin 80% helps in preventing CRD caused by M. gallisepticum, M. synoviae and complicated by other secondary bacterial infections.\n•  Nutrimulin 80% is active against Gram \'+\' ve bacteria, obligate anaerobes & organisms resistant to macrolide antibiotics.\n•  Nutrimulin 80% penetrates target tissues effectively & maintains high concentration.\n•  Reduces morbidity & mortality in CRD.',
+        usage: '•  Prevention : 15-20 mg / kg body weight\n•  Treatment : 30-40 mg / kg body weight\n•  Mixing : Make a premix with 5-10 kg of feed or blend with vitamins/mineral before adding to the final blend.',
+        contraindications: 'Do not use Nutrimulin 80% with high concentration of ionophoric anti-coccidial molecules especially with Salinomycin, Narasin and Monensin.',
+        withdrawalPeriod: 'Eggs - 0 day, Broilers - 3 days'
       },
       {
         id: 'nutrimulin-10',
         name: 'Nutrimulin 10%',
         title: 'NUTRIMULIN 10%',
-        subTitle: 'Tiamulin Hydrogen Fumarate 10%',
+        subTitle: 'A Revolutionary 3rd Generation Macrolide Antibiotic',
         rating: 4.7,
         image: '/products/nutrimulin_10_pack.png',
         logoImage: '/products/nutrimulin_10_logo_hd.png',
@@ -582,17 +580,18 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrimulin_10_pack.png',
           '/products/nutrimulin_10_leaflet_hd.jpg'
         ],
-        composition: 'Each gram contains: Tiamulin Hydrogen Fumarate 100 mg.',
-        advantage: 'Helps in preventing CRD caused by M. gallisepticum, M. synoviae and complicated by other secondary bacterial infections. Active against Gram +ve bacteria, obligate anaerobes & organisms resistant to macrolide antibiotics. Uniform blending ensures reliable target tissue saturation and reduced CRD mortality.',
-        indication: 'Prophylaxis and treatment of Mycoplasmal infections, CRD complex, and air sacculitis.',
-        usage: 'Prevention: 15-20 mg / kg body weight. Treatment: 30-40 mg / kg body weight. Mixing: Make a premix with 5-10 kg of feed or blend with vitamins/mineral before adding to the final blend.',
-        withdrawalPeriod: 'Eggs: 0 days. Broilers: 3 days.'
+        composition: 'Each gram contains : Tiamulin Hydrogen Fumarate .................... 100 mg',
+        benefits: '•  Nutrimulin 10% helps in preventing CRD caused by M. gallisepticum, M. synoviae and complicated by other secondary bacterial infections\n•  Nutrimulin 10% is active against Gram +ve bacteria, obligate anaerobes & organisms resistant to macrolide antibiotics\n•  Nutrimulin 10% penetrates target tissues effectively & maintains high concentration\n•  Reduces morbidity & mortality in CRD',
+        usage: '•  Prevention : 15-30 mg / kg body weight\n•  Treatment : 30-40 mg / kg body weight\n•  Using : Make a premix with 5-10 kg of feed or blend with vitamin/mineral before adding to the final blend.',
+        contraindications: 'Do not use Nutrimulin 10% with high concentration of ionophore anti-coccidial mixtures especially with Salinomycin, Narasin and Monensin.',
+        caution: 'Avoid direct contact with human skin. Keep out from reach of children.',
+        withdrawalPeriod: 'Eggs - 0 day Broilers - 3 days'
       },
       {
         id: 'tylodian-p',
-        name: 'TyloDian-P',
-        title: 'TYLODIAN-P',
-        subTitle: 'Tylosin Phosphate 10% Feed Premix',
+        name: 'Tylodian P',
+        title: 'TYLODIAN P',
+        subTitle: 'Tylosin Phosphate',
         rating: 4.8,
         image: '/products/tylodian_p_pack.png',
         logoImage: '/products/tylodian_p_logo.png',
@@ -600,12 +599,9 @@ export const POULTRY_CATEGORIES = [
           '/products/tylodian_p_pack.png',
           '/products/TyloDian-P.jpg'
         ],
-        composition: 'Each Kg Contains: Tylosin Phosphate 10%.',
-        advantage: 'Excellent solution for CRD. Increases egg production, hatchability, and FCR. Ensures flock uniformity. Small granular form helps in uniform mixing in feed. Quickly accumulates at the site of infection, preventing production losses, increasing weight gain, and improving feed efficiency.',
-        indication: 'Control and prevention of Chronic Respiratory Disease (CRD) in broilers, layers, and replacement flocks.',
-        usage: 'Through feed: Broilers: 200 gm/ton of feed; Breeders & Layers: 500 gm/ton of feed.',
-        presentation: '25 Kg Bag',
-        withdrawalPeriod: 'Poultry: Zero (0) days.'
+        composition: 'Each Kg Contains : Tylosin Phosphate 10%',
+        benefits: '•  Excellent Solution of CRD.\n•  Increases egg production, hatchability and FCR.\n•  Ensures uniformity of flock.\n•  Small granular form helps in uniform mixing in feed.\n•  Quickly accumulates at the site of infection.\n•  Helps to prevent production losses.\n•  Increases weight gain.\n•  Improves feed efficiency.',
+        usage: 'Through feed\n•	Broilers : 200 gm/MT of feed\n•	Breeders/Layers : 500 gm/MT of feed.'
       }
     ]
   },

@@ -518,6 +518,22 @@ export default function PoultryProducts({
                 </div>
               )}
 
+              {/* Contraindication */}
+              {activeProduct.contraindications && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Contraindication :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.contraindications}</p>
+                </div>
+              )}
+
+              {/* Caution */}
+              {activeProduct.caution && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Caution :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.caution}</p>
+                </div>
+              )}
+
               {/* Bottom Regulatory Compliance Box (Left aligned directly above share section) */}
               <div className="pt-4 flex justify-start w-full">
                 <div className="border border-slate-900 p-2.5 text-left text-[11px] font-bold text-slate-900 leading-tight bg-white shadow-2xs max-w-[220px]">
