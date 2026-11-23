@@ -1027,7 +1027,7 @@ export const POULTRY_CATEGORIES = [
         id: 'nutrikacin',
         name: 'Nutrikacin',
         title: 'NUTRIKACIN',
-        subTitle: 'Amikacin Sulphate Injection I.P. (Vet)',
+        subTitle: 'Amikacin Sulphate Injection I.P. (Vet) - Prevents Early Chicks Mortality',
         rating: 4.9,
         image: '/products/nutrikacin_pack.jpg',
         logoImage: '/products/nutrikacin_logo.png',
@@ -1035,12 +1035,10 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrikacin_pack.jpg',
           '/products/Nutrikacin Leaflet.jpg'
         ],
-        composition: 'Each ml contains: Amikacin Sulphate IP equivalent to Amikacin 250 mg, Methyl Paraben IP (preservative) 0.08% w/v, Propyl Paraben IP (preservative) 0.02% w/v, Water for Injections IP q.s.',
-        advantage: 'Potent bactericidal semi-synthetic aminoglycoside antibiotic. Refractory to aminoglycoside-inactivating bacterial enzymes, providing superior clinical efficacy against gentamicin- and kanamycin-resistant Gram-negative septicemic infections.',
-        indication: 'Severe colibacillosis, early chick mortality, acute bacterial septicemia, Pseudomonas, Klebsiella, and Proteus infections.',
-        usage: 'Day-old chicks: 0.1 - 0.2 ml subcutaneously; Poultry / Livestock: 5 - 10 mg/kg body weight by IM or IV route as directed by Veterinarian.',
-        withdrawalPeriod: 'Meat: 28 days (Livestock) / 7 days (Poultry); Milk: 7 days.',
-        presentation: '100 ml Vial'
+        composition: 'Each ml contains : Amikacin Sulphate IP...........250 mg',
+        indication: '● Cattle, Horse & Camel :\nRepeat breeding Respiratory tract & Umblical infections caused by E. Coli & Salmonella Mastitis, Metritis & systemic infections Enteritis.\n\n● Pig, Sheep, Goat, Calf & Dog :\nRespiratory & Urogenital Tract infections Secondary bacterial infections associated with viral disease like Canine distemper, Haemorrhagic gastroentritis, Proteus infections. Post surgical care, Calf-scours\n\n● Poultry :\nChronic respiratory disease (CRD) Bronchitis, E. Coli, Salmonella infections & prevention of early chick mortality.',
+        administration: 'Administration & dosage :\nFor susceptible infections :\n• Cattle, Sheep, Goat, Pig and Dog : 5-12 mg/kg body weight IM for 3-5 days.\n• Horses : 4.4 - 6.6 mg / kg body weight IM or IV bid - tid, if severe infection.\n• Poultry : 20 mg I kg b.wt. by SC route.',
+        presentation: '100 ml injection'
       },
       {
         id: 'tyloplus-injectable',
@@ -1054,11 +1052,9 @@ export const POULTRY_CATEGORIES = [
           '/products/tyloplus_inj_pack.jpg',
           '/products/Tyloplus_100 ml Leaflet.jpg'
         ],
-        composition: 'Each ml contains: Tylosin Tartrate / Base equivalent to Tylosin 200 mg (20% w/v).',
-        advantage: 'Rapid-acting injectable macrolide antibiotic with high tissue affinity for pulmonary tissues. Achieves immediate therapeutic serum and lung parenchymal levels, eradicating severe Mycoplasma and secondary bacterial respiratory pathogens.',
-        indication: 'Acute Chronic Respiratory Disease (CRD), Mycoplasma gallisepticum, Mycoplasma synoviae, Infectious Sinusitis, and Pneumo-enteritis.',
-        usage: 'Poultry: 0.1 - 0.2 ml per kg body weight (10-20 mg/kg) by deep intramuscular (IM) route; Livestock: 1 ml per 20 kg body weight.',
-        withdrawalPeriod: 'Poultry meat: 4 days.',
+        composition: 'Each ml contains : \nTylosin IP (Vet) ..... 200 mg \nWater for Injection & Propylene Glycol IP ..... q.s. (In equal Volume)',
+        dosage: 'As directed by the Veterinarian Practitioner.',
+        withdrawalPeriod: '• Meat : 28 days \n• Milk : 7 days\nMulti Dose Vial\n\n(NOT FOR HUMAN USE. \nFOR ANIMAL TREATMENT ONLY )',
         presentation: '100 ml Vial'
       }
     ]
