@@ -683,8 +683,8 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'immu-ova-360',
-        name: 'Immu-OVA360',
-        title: 'IMMU-OVA360',
+        name: 'ImmuOva 360',
+        title: 'IMMUOVA 360',
         subTitle: 'Ovary Stimulant for Layers and Breeders',
         rating: 4.9,
         image: '/products/immu_ova_360_pack.png',
@@ -696,17 +696,15 @@ export const POULTRY_CATEGORIES = [
           '/products/Immu-OVA360 03.jpg',
           '/products/Immu-OVA360 04.jpg'
         ],
-        composition: 'Each kg contains: Lauric acid 30%, Protein hydrolysate 10%, Growth promoter 10%, with a powerful blend of ovary-stimulating phytobiotics, antioxidants and minerals.',
-        advantage: 'Maintains hormonal cycle rhythm, stimulates & strengthens the ovary, mitigates stress, and improves egg production. Improves maturity in pullets, reduces fluctuations in production, and prevents steep declines after 40 weeks of age.',
-        indication: 'Ovarian stimulation, hormonal cycle stabilization, lay drop prevention, and peak production persistence in layers and breeders.',
-        usage: 'First 5 days: 1-2 kg per ton feed; Thereafter: 1 kg regularly per ton feed; For Treatment: 1-2 kg per ton feed for 7 days.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Each kg contains :\nLauric acid ..................30%\nProtein hydrolysate ....10%\nGrowth promoter ........10%',
+        benefits: '●	Maintain hormonal cycle rhythm\n●	Stimulates & strengthens ovary\n●	Mitigates stress & improve production\n●	To improve maturity in pullets\n●	Helps to reduces fluctuations in production & for non layer treatment\n●	Helps to reduces steep decline in production after 45 wks',
+        usage: 'First 3 days, 1-2 kg per ton feed\nThereafter 1 kg regularly per ton feed\nFor Treatment : 1-2 kg per ton feed for 7 days'
       },
       {
         id: 'amorich-o',
-        name: 'AMORICH O',
+        name: 'Amorich O',
         title: 'AMORICH O',
-        subTitle: 'Research Formulation on Ovarian Dysfunction (AlphaFacts, Belgium)',
+        subTitle: 'Research Formulation on Ovarian Dysfunction',
         rating: 4.9,
         image: '/products/amorich_o_pack.png',
         logoImage: '/products/Amorich O.png',
@@ -715,11 +713,9 @@ export const POULTRY_CATEGORIES = [
           '/products/AmorichO Leaflet 01.jpg',
           '/products/AmorichO Leaflet 02.jpg'
         ],
-        composition: 'Unique blend of Phytobiotics, patented yeast, seaweed extracts, Threonine, Valine, Cysteine, Betaine, Potassium, Sodium, Calcium, dietary Electrolytes, and biologically active micro-trace minerals (Boron, Manganese, Organic Selenium).',
-        advantage: 'Developed in collaboration with AlphaFacts, Belgium for stimulation of ovarian functionality and maintaining ovarian health to optimize peak egg production. Stimulates ovarian development, prolongs peak lay persistence, overcomes early lay fatigue in high-producing birds, and improves hatchability and day-old chick quality.',
-        indication: 'Ovarian dysfunction, egg quality and lay drops, early lay fatigue, broken eggs, and breeder fertility optimization.',
-        usage: 'Continuous: 1 kg / Ton of feed (Broiler Breeder / Commercial Layer / Duck); During Peak Period / production drops: 1 kg/ton of feed.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'AMORICH O is a perfect blend of Phytobiotics extracted from Capparis spinosa, Terminalia arjuna, Cichorium intybus, Solanum nigrum, Tamarix gallica, Achillea millefolium along with Yeast complex and vital ovarian health minerals like organic Chromium, Zinc, Manganese, Cobalt and Selenium.',
+        benefits: '•  Stimulates ovarian development to achieve maturity\n•  Helps to attend peak egg production at proper age and helps to maintain it for long\n•  Improves egg quality and egg mass\n•  Improves immunity and overall health of birds\n•  Helps to regain egg production after drop may be due to any disease condition or toxicity\n•  In Breeders helps to improve hatchability',
+        usage: '•  Ovary Stimulation :\n•  Layer: From 15 week till peak production - 750 g/ton of feed\n•  Breeder: From 18 week till peak production - 1 kg/ton of feed\n•  Thereafter: week a month Program\n\n•  Ovarian Dysfunction (due to Mycotoxin / Chemical / Pesticide toxicity, Any Essential Nutrient Deficiency, Any disease condition affecting Egg Production, or Egg Production drop due to any unknown reason) :\n•  Layer: 1-2 kg/ton of feed for 8-10 days\n•  Breeder: 1.5-2 kg/ton of feed for 8-10 days\n•  Thereafter: week a month Program'
       }
     ]
   },
