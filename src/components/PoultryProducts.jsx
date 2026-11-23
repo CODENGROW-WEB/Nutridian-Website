@@ -471,7 +471,7 @@ export default function PoultryProducts({
               {/* Usage */}
               {activeProduct.usage && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
-                  {!/^(usage|usages|poultry prescription)/i.test(activeProduct.usage.trim()) && (
+                  {!/^(usage|usages|poultry prescription|inclusion rate)/i.test(activeProduct.usage.trim()) && (
                     <strong className="text-slate-900 font-bold block">Usage :</strong>
                   )}
                   <p className="text-slate-700 whitespace-pre-line">{activeProduct.usage}</p>

@@ -857,11 +857,9 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrilivol_forte_pack.png',
           '/products/Nutrilivol forte - NEW.jpg'
         ],
-        composition: 'Choline Chloride, DL Methionine, Liver Extract, L-Lysine, Yeast Extract, Manganese, Vitamin B1, Zinc, Vitamin B12, Niacinamide, D-Panthenol, Inositol, fortified with Allicin & Natural complex polysaccharides.',
-        advantage: 'Allicin & Natural complex polysaccharides boost immunity, improve appetite, ensure gut health, flavour feed, and reduce ammonia odour. Protects liver from toxic effects of mycotoxins, treats hepatic disorders, corrects fatty liver condition, and relieves post-antibiotic stress.',
-        indication: 'Hepatic disorders, anorexia, fatty liver syndrome, mycotoxicosis, and post-antibiotic recovery.',
-        usage: 'Broiler Pre-starter / Starter / Layer chicks: 500 gm/ton of feed; Broiler Finisher / Layer: 250 gm/ton; Breeders: 500 gm/ton of feed (or 1 kg/ton as recommended by Nutritionist).',
-        withdrawalPeriod: 'Nil (0 days).',
+        composition: '•\tCholine Chloride\n•\tDL Methionine\n•\tLiver Extract\n•\tL-Lysine\n•\tYeast Extract\n•\tManganese\n•\tVitamin B1\n•\tZinc\n•\tVitamin B12\n•\tNiacinamide\n•\tD-Panthenol\n•\tInositol\n•\tFortified with Allicin & Natural complex polysaccharides',
+        benefits: '•\tAllicin & Natural complex polysaccharides boosts immunity, improves appetite, ensures gut health, flavours feed, helps to reduce ammonia odour.\n•\tAllicin has antibacterial & antiviral properties. It helps to reduce abdominal fat.\n•\tProtect liver from toxic effects.\n•\tTreats anorexia and hepatic disorders.\n•\tHelps to control fatty liver condition.\n•\tImmuno-modulatory effects & prevents stress on post-antibiotic therapy.',
+        usage: 'Inclusion Rate :\nBroiler Prestarter / Starter / Layer chicks :\n500 gm/ton of feed\nBroiler Finisher / Layer : 250 gm/ton of feed\nBreeders : 500 gm/ton of feed throughout or as recommended by Poultry Nutritionist\n\n(Animal Feed Supplement\nNot For Human & Medicinal Use\nFor Animal Use Only)',
         presentation: '25 KG X 1 Bag'
       },
       {
@@ -877,11 +875,9 @@ export const POULTRY_CATEGORIES = [
           '/products/Curmint 01.jpg',
           '/products/Curmint 02.jpg'
         ],
-        composition: 'Bio-Active Curcumin, Menthol, Turmerones, fortified with Polyphenols, Antioxidants & Fatty Acids.',
-        advantage: 'Acts as an antiseptic & anti-inflammatory in gut. Improves FCR and daily weight gain, reduces abdominal & subcutaneous fat, enhances carcass color & meat quality. In breeders/layers: improves egg production, chick quality, flock uniformity, and male vigor.',
-        indication: 'Gut inflammation, dysbacteriosis, sub-optimal flock uniformity, high abdominal fat, and stress in breeding males.',
-        usage: '0.5 kg / ton of feed in all stages of chickens (Layers, Broilers, and Breeders) or as directed by Poultry Nutritionist.',
-        withdrawalPeriod: 'Nil (0 days).',
+        composition: 'Curmint Contains :\n• Bio-Active Curcumin\n• Menthol    • Turmerones\n• Fortified with Polyphenols,\n• Antioxidants & Fatty Acids.',
+        benefits: 'Broilers :\n•\tAntiseptic & Anti-inflammatory in Gut\n•\tImprovement in FCR & Daily Weight Gain\n•\tActs as an Immunity Optimizer\n•\tHelps to reduce mortality\n•\tImparts attractive yellow colour to feed\n•\tHelps to reduce abdominal & subcutaneous fat\n•\tImproves Meat Quality\n\nBreeder / Layers :\n•\tHelps to improve Egg Production & Chick Quality\n•\tImprove Flock Uniformity\n•\tActs as an Immunity Optimizer\n•\tHelps to reduce stress in males',
+        usage: '0.5 Kg / ton of feed in all stages of Chickens\n(Layers/ Broilers and Breeders)\nOr as directed by Poultry Nutritionist\n\n(Animal Feed Supplement\nNot For Human & Medicinal Use\nFor Animal Use Only)',
         presentation: '25 KG X 1 Bag'
       }
     ]
