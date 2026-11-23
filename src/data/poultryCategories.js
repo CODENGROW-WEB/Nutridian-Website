@@ -290,15 +290,15 @@ export const POULTRY_CATEGORIES = [
             image: '/products/monendian_200_pack.png',
             logoImage: '/products/monendian_200_logo.png',
             gallery: [
-          '/products/monendian_200_pack.png',
-          '/products/monendian_leaflet.jpg'
+              '/products/monendian_200_pack.png',
+              '/products/monendian_leaflet.jpg'
             ],
-            composition: '200 gm/kg Monensin Sodium.',
+            composition: '200 gm/kg Monensin Sodium',
             advantage: 'MonenDian 200 is a proven ionophore for the prevention and control of coccidiosis caused by Eimeria species. MonenDian 200 can be utilized effectively in shuttle or rotation programs with other coccidiostats.',
             modeOfAction: 'MonenDian 200 contains monensin, a polyether ionophore that alters the pH and sodium-potassium balance resulting in cell death.',
             indication: 'For the prevention of coccidiosis in broilers caused by Eimeria species.',
-            usage: '450 - 550 gm/ton of finished feed or as recommended by Nutritionist.',
-            withdrawalPeriod: 'Meat : Zero (0) day.'
+            usage: '450 - 550 gm/ton of finished feed or as recommended by Nutritionist',
+            withdrawalPeriod: 'Meat : Zero (0) day\n\n(Animal Feed Supplement Not For Human & Medicinal Use For Animal Use Only)'
           },
           {
             id: 'nutristat-12',
@@ -309,32 +309,30 @@ export const POULTRY_CATEGORIES = [
             image: '/products/nutristat_12_pack.png',
             logoImage: '/products/nutristat_12_logo.png',
             gallery: [
-          '/products/nutristat_12_pack.png',
-          '/products/nutristat_leaflet.jpg'
+              '/products/nutristat_12_pack.png',
+              '/products/nutristat_leaflet.jpg'
             ],
-            composition: '120 gm/kg Salinomycin Sodium + 880 gm/kg Calcium Carbonate.',
-            advantage: 'NutriSTAT 12% is a flexible, monovalent ionophore which can be utilized effectively in all seasons as a whole of life product or in shuttle or rotation programs with other anticoccidials. Salinomycin has been widely used over a long period of time with negligible resistance issues.',
-            indication: 'For the prevention of broilers caused by E. tenella, E. necatrix, E. acervulina, E. maxima, E. brunetti, E. mivati.',
-            usage: 'Poultry : 500 gm/ton of finished feed or as recommended by Nutritionist.',
-            withdrawalPeriod: 'Meat: Zero (0) day. Do not feed to horses, turkeys or birds which are producing eggs or egg products for human consumption. Animals and birds should not receive products containing Tiamulin, during or for at least seven days before or after treatment.'
+            composition: '120 gm/kg Salinomycin Sodium + 880 gm/kg Calcium Carbonate',
+            advantage: 'NutriSTAT 12% is a flexible, monovalent ionophore which can be utilized effectively in all seasons as a whole-life product or in shuttle or rotation programs with other anticoccidials. Salinomycin has been widely used over a long period of time with negligible resistance issues.',
+            indication: 'For the prevention of broilers caused by E. tenelle, E. necatrix, E. acervulina, E. maxima, E. brunetti, E. mivati.',
+            usage: 'Poultry : 500 gm/ton of finished feed or as recommended by Nutritionist',
+            withdrawalPeriod: 'Meat : Zero (0) day\nDo not feed to horses, turkeys or birds which are producing eggs or egg products for human consumption. Animals and birds should not receive products containing Tiamulin, during or for at least seven day before or after treatment.\n\n(Animal Feed Supplement Not For Human & Medicinal Use For Animal Use Only)'
           },
           {
             id: 'maduradian-1',
             name: 'Maduradian 1%',
             title: 'MADURADIAN 1%',
-            subTitle: 'Maduramicin Ammonium 1% Micro-Pellets',
+            subTitle: 'Protect Your Performance',
             rating: 4.7,
             image: '/products/maduradian_1_pack.png',
             logoImage: '/products/maduradian_1_logo.png',
             gallery: [
-          '/products/maduradian_1_pack.png',
-          '/products/maduradian_leaflet.jpg'
+              '/products/maduradian_1_pack.png',
+              '/products/maduradian_leaflet.jpg'
             ],
-            composition: '10 gm/kg Maduramicin Ammonium (1%).',
-            advantage: 'Maduradian 1% is a highly effective monovalent, monoglycoside polyether ionophore anticoccidial. It exerts both anticoccidial and antibacterial effects. Induces an anticoccidial effect on the asexual forms of Eimeria by interfering with the passage of ions across the cell membrane. Also provides indirect protection against necrotic enteritis by preventing clinical coccidiosis from acting as a predisposing factor.',
-            indication: 'Low inclusion rate anticoccidial for broilers with high potency broad-spectrum control.',
-            usage: '500 gm/ton of feed (5 ppm) or as decided by Nutritionist.',
-            withdrawalPeriod: 'Meat : 5 days.'
+            benefits: '• High Potency Active\n• Broad Spectrum Control\n• High Compatibility\n• Increased Growth Rate\n• Improved Feed Efficiency\n• Reduced Mortality',
+            usage: '500 gm/ton of feed (5ppm) or as directed by Nutritionists',
+            withdrawalPeriod: 'Meat : 5 days\n\n(Animal Feed Supplement Not For Human & Medicinal Use For Animal Use Only)'
           }
         ]
       },
