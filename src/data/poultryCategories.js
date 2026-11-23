@@ -728,8 +728,8 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'vitafast-vit-e-50',
-        name: 'Vitafast Vitamin E 50%',
-        title: 'VITAFAST VITAMIN-E 50% POWDER',
+        name: 'VITAFAST VIT E 50%',
+        title: 'VITAFAST VIT E 50%',
         subTitle: 'Pure Stabilized Vitamin E 50% Premix Powder',
         rating: 4.8,
         image: '/products/vitafast_e50_1kg_pack.jpg',
@@ -739,16 +739,13 @@ export const POULTRY_CATEGORIES = [
           '/products/vitafast_e50_5kg_pack.jpg',
           '/products/vitafast_e50_leaflet.jpg'
         ],
-        composition: 'Each 1 kg contains: Vitamin E...50%, Excipient (Ad)...100%.',
-        advantage: 'Pure stabilized Vitamin E powder. Chemically stable under standard ambient room temperature conditions. Potent cellular antioxidant preventing encephalomalacia, crazy chick disease, muscular dystrophy, and fertility loss in breeding cockerels.',
-        indication: 'Cellular protection, immunity boost, muscular health, and prevention of encephalomalacia and exudative diathesis.',
-        usage: '100 - 200 gm/ton of finished feed.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Each 1 kg contains :\nVitamin E..........................50%\nExcipient (Ad).................100%',
+        chemicalStability: 'The product is chemically stable under standard ambient conditions (room temperature)'
       },
       {
         id: 'vitafast-vit-e-se-biotin',
-        name: 'Vitafast Vit-E, Se, Biotin',
-        title: 'VITAFAST VITAMIN E, SELENIUM & BIOTIN',
+        name: 'Vitafast VIT E, Selenium, Biotin',
+        title: 'VITAFAST VIT E, SELENIUM, BIOTIN',
         subTitle: 'The Next Generation Immunity Booster',
         rating: 4.9,
         image: '/products/vitafast_se_biotin_pack.jpg',
@@ -757,17 +754,16 @@ export const POULTRY_CATEGORIES = [
           '/products/vitafast_se_biotin_pack.jpg',
           '/products/vitafast_se_biotin_leaflet.jpg'
         ],
-        composition: 'Each 1 kg contains: Vitamin E 50%, Selenium 400 ppm, Biotin 200 mg.',
-        advantage: 'Vitamin E enhances humoral and cell-mediated immunity and scavenges free radicals. Biotin is an essential coenzyme in carbohydrate, fat and protein metabolism preventing poor growth, dermatitis, broken feathering, and beak deformities. Selenium enhances primary immune response and destroys damaging peroxides.',
-        indication: 'Post-vaccination stress, immunity enhancement, feathering and footpad skin integrity, and oxidative damage protection.',
-        usage: 'Layer & Broiler: Mix 50-100 gm/ton of feed. Breeder: Mix 100-200 gm/ton of feed.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Each 1 kg contains :\nVitamin E...........................50%\nSelenium....................400 ppm\nBiotin............................200 mg',
+        chemicalStability: 'The product is chemically stable under standard ambient conditions (room temperature)',
+        benefits: '•	Vitamin E enhances specific humoral and cell mediated immune response as well as native resistance to disease by immuno-stimulatory effect\n•	Vitamin E works as free radical scavenger\n•	Biotin is an essential coenzyme in carbohydrate, fat and protein metabolism\n•	Biotin deficiency leads to improper growth and FCR, disturbed and broken feathering, dermatitis and leg and beak deformities\n•	Selenium enhances primary immune response\n•	Vitamin E and Se play a role in protecting against oxidative damages\n•	Selenium destroys peroxides formed before they can damage the cell',
+        usage: '• Layer/Broiler : Mix 50-100 gm/ton of feed.\n• Breeder : Mix 100-200 gm/ton of feed.'
       },
       {
         id: 'vitafast-chrom-c',
         name: 'Vitafast Chrom C',
-        title: 'VITAFAST CHROM-C',
-        subTitle: 'Coated Vitamin C with Bioactive Chromium',
+        title: 'VITAFAST CHROM C',
+        subTitle: 'The Next Generation Immunity Booster',
         rating: 4.8,
         image: '/products/vitafast_chrom_c_1kg_pack.png',
         logoImage: '/products/vitafast_chrom_c_logo.png',
@@ -776,11 +772,10 @@ export const POULTRY_CATEGORIES = [
           '/products/vitafast_chrom_c_5kg_pack.png',
           '/products/vitafast_chrom_leaflet.jpg'
         ],
-        composition: 'Each kg contents: Vitamin C (coated)....94%, Bio active Chromium....2%, Excipients (ad)....100%.',
-        advantage: 'Water soluble coated Vitamin C with bioactive chromium. Builds resistance against diseases, overcomes heat stress, improves fertility in breeders, promotes higher weight gain in broilers, and boosts egg production in layers.',
-        indication: 'Heat stress, disease resistance, breeder fertility, broiler growth promotion, and egg production enhancement.',
-        usage: 'Poultry: 10 g to 15 g in 15 ltr. of drinking water for 1000 birds. Poultry feed additive: 100 g to 200 g per ton of feed. Aquaculture: 200 g to 500 g per ton of feed.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Each kg contents :\nVitamin C (coated).........94%\nBio active Chromium........2%\nExcipients (ad)............100 %',
+        indication: 'To build up resistance against diseases\nTo overcome stress\nImproves fertility in breeders\nHigher weight gain in broilers\nAs a growth promoter in all species\nAs nutritional requirement in aquaculture\nBoosts egg production in layers',
+        dosage: '• Poultry : 10 gm to 15 gm in 15 ltr. of drinking water for 1000 birds\n• Poultry feed Additive : 100 gm to 200 gm/ton of feed\n• Aquaculture : 200 gm to 500 gm/ton of feed',
+        usage: '• Layer/Broiler : Mix 50-100 gm/ton of feed.\n• Breeder : Mix 100-200 gm/ton of feed.'
       }
     ]
   },
@@ -791,6 +786,39 @@ export const POULTRY_CATEGORIES = [
     number: 8,
     description: 'Instant-dissolving vitamin and electrolyte blends for rapid stress relief during heat stress, debeaking, handling, and post-vaccination periods.',
     products: [
+      {
+        id: 'vitafast-vit-e-se-liquid',
+        name: 'VITAFAST VIT E&SE',
+        title: 'VITAFAST VIT E&SE',
+        subTitle: 'Ovary Stimulant for Layers and Breeders',
+        rating: 4.8,
+        image: '/products/vitafast_e_se_pack.png',
+        logoImage: '/products/vitafast_e_se_logo.png',
+        gallery: [
+          '/products/vitafast_e_se_pack.png',
+          '/products/Vitafast E & Se.jpg'
+        ],
+        composition: 'Each ml contains:\nVitamin E ………………. 100 mg\nSelenium ………………. 0.5 mg\nExcipients ………………. q.s.',
+        indication: '•	To improve vaccine titers (Pre & Post vaccination)\n•	To improve fertility & hatchability\n•	As an immunomodulatory – speeds up recovery and reduces mortality',
+        benefits: '•	Easily water soluble\n•	Does not choke nipples\n•	Highly Bio available Organic Selenium & Palmitate salt of Vit. E',
+        usage: '•	Chicks stage - 3-5 ml/ 100 chicks\n•	Broilers - 5-10 ml/ 100 birds\n•	Layers - 5-10 ml/ 100 birds (7-10 days in a month)\n•	Breeders - 10-15 ml/ 100 birds (7-10 days every month)\nor as directed by the poultry consultant.'
+      },
+      {
+        id: 'vitafast-vit-ad3e-c',
+        name: 'Vitafast VIT A, D3&E With VIT C',
+        title: 'VITAFAST VIT A, D3&E WITH VIT C',
+        subTitle: 'Water Miscible Vitamin Feed Supplement',
+        rating: 4.8,
+        image: '/products/vitafast_ad3e_c_pack.png',
+        logoImage: '/products/vitafast_ad3e_c_logo.png',
+        gallery: [
+          '/products/vitafast_ad3e_c_pack.png',
+          '/products/Vitafast Vit A D3 & E.jpg'
+        ],
+        composition: 'Each ml contains :\n•  Vitamin A ..................... 50000 IU\n•  Vitamin D3 ................... 5000 IU\n•  Vitamin E ..................... 30 IU\n•  Vitamin C ..................... 100 mg\n•  Carbohydrate nutritive organic base ..................... q.s.',
+        usage: 'Water miscible poultry feed supplement liquid oral.',
+        dosage: 'Feeding direction through drinking water:\n•	4 to 5 ml / 100 chicks for 5 to 7 days\n•	5 ml / 100 Broilers / Layers for 5 to 7 days or as directed by nutritionist'
+      },
       {
         id: 'vitafast-a',
         name: 'Vitafast A',
@@ -803,49 +831,9 @@ export const POULTRY_CATEGORIES = [
           '/products/vitafast_a_pack.png',
           '/products/Vitafast A Leaflet.jpg'
         ],
-        composition: 'Nutritional value per ml: Vitamin A 1,00,000 I.U. (as Vitamin A Palmitate).',
-        advantage: 'Highly concentrated water-miscible Vitamin A for rapid absorption. Maintains mucosal epithelial integrity in respiratory and digestive tracts, providing barrier defence against viral and bacterial pathogens.',
-        indication: 'Vitamin A deficiency, epithelial mucosal repair, post-vaccination support, and vision health.',
-        usage: 'Broilers / Layers: 5 - 10 ml per 100 birds daily in drinking water; Breeders: 10 - 20 ml per 100 birds daily.',
-        withdrawalPeriod: 'Nil (0 days).',
-        presentation: '1 LTR X 12 Jars'
-      },
-      {
-        id: 'vitafast-vit-ad3e-c',
-        name: 'Vitafast Vit. A, D3 & E Fortified With Vitamin C',
-        title: 'VITAFAST Vit. A, D3 & E',
-        subTitle: 'Fortified with Vitamin C - Water Miscible Vitamin Feed Supplement',
-        rating: 4.8,
-        image: '/products/vitafast_ad3e_c_pack.png',
-        logoImage: '/products/vitafast_ad3e_c_logo.png',
-        gallery: [
-          '/products/vitafast_ad3e_c_pack.png',
-          '/products/Vitafast Vit A D3 & E.jpg'
-        ],
-        composition: 'Each ml contains: Vitamin A 50,000 IU, Vitamin D3 5,000 IU, Vitamin E 30 IU, Vitamin C 100 mg, Carbohydrate nutritive organic base q.s.',
-        advantage: 'Instant water-soluble stress buster. Combines essential fat-soluble vitamins with Vitamin C to relieve heat stress, improve calcium uptake, enhance eggshell thickness, and boost immune titers.',
-        indication: 'Heat stress, shifting & debeaking stress, drops in egg production, skeletal weakness.',
-        usage: 'Broilers: 2 - 5 ml per 100 birds; Layers: 5 ml per 100 birds; Breeders: 10 ml per 100 birds daily in drinking water.',
-        withdrawalPeriod: 'Nil (0 days).',
-        presentation: '1 LTR X 12 Jars'
-      },
-      {
-        id: 'vitafast-vit-e-se-liquid',
-        name: 'Vitafast Vit. E & Se Liquid',
-        title: 'VITAFAST Vit. E & Se',
-        subTitle: 'Water Miscible Vitamin E and Selenium',
-        rating: 4.8,
-        image: '/products/vitafast_e_se_pack.png',
-        logoImage: '/products/vitafast_e_se_logo.png',
-        gallery: [
-          '/products/vitafast_e_se_pack.png',
-          '/products/Vitafast E & Se.jpg'
-        ],
-        composition: 'Each ml contains: Vitamin E 100 mg, Selenium 0.5 mg, Excipients q.s.',
-        advantage: 'Potent synergistic antioxidant formulation. Protects cell membrane lipids against oxidative degradation, boosts immune response, prevents encephalomalacia, and maximizes breeder fertility & hatchability.',
-        indication: 'Encephalomalacia (Crazy Chick Disease), exudative diathesis, muscular dystrophy, fertility & hatchability drop.',
-        usage: 'Broilers: 2 - 5 ml per 100 birds; Layers: 5 ml per 100 birds; Breeders: 10 ml per 100 birds daily in drinking water.',
-        withdrawalPeriod: 'Nil (0 days).',
+        composition: 'Nutritional value per ml :\n•	Vitamin A ........ 1,00,000 I.U. (As Vitamin A Palmitate)',
+        indication: '•	Prevention & treatment of Vitamin A deficiency\n•	In Breeder – for better Hatchability & production\n•	For maintaining integrity of mucous membranes\n•	For prevention of ataxia & normal bone growth',
+        usage: '•	Chicks: 2-5 ml daily per 100 birds\n•	Growers: 5-10 ml daily per 100 birds\n•	Layers: 5-10 ml daily per 100 birds\n•	Breeder: 10-15 ml/ 100 birds (7-10 days every month)\n•	To be given at least for 7 days in a month in drinking water or as directed by the poultry consultant.',
         presentation: '1 LTR X 12 Jars'
       }
     ]

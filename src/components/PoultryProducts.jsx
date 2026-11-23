@@ -420,6 +420,14 @@ export default function PoultryProducts({
                 </div>
               )}
 
+              {/* Chemical Stability */}
+              {activeProduct.chemicalStability && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Chemical Stability :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.chemicalStability}</p>
+                </div>
+              )}
+
               {/* Advantage */}
               {activeProduct.advantage && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
@@ -467,6 +475,14 @@ export default function PoultryProducts({
                     <strong className="text-slate-900 font-bold block">Usage :</strong>
                   )}
                   <p className="text-slate-700 whitespace-pre-line">{activeProduct.usage}</p>
+                </div>
+              )}
+
+              {/* Dosage */}
+              {activeProduct.dosage && (
+                <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
+                  <strong className="text-slate-900 font-bold block">Dosage :</strong>
+                  <p className="text-slate-700 whitespace-pre-line">{activeProduct.dosage}</p>
                 </div>
               )}
 
