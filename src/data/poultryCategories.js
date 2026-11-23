@@ -967,10 +967,10 @@ export const POULTRY_CATEGORIES = [
           '/products/cyrodian_2_pack.png',
           '/products/CyroDian Leaflet.jpg'
         ],
-        composition: 'Cyromazine (Feed Grade) 2%, Inert Ingredient 98%.',
-        advantage: 'Feed supplement specifically engineered to control flies in and around poultry farms. Interferes with the molting process of fly larvae, thereby breaking the fly lifecycle in manure without affecting beneficial predators or bird performance.',
-        indication: 'Control and eradication of nuisance flies (Musca domestica) and maggots in poultry farm manure and litter.',
-        usage: 'Mix Cyrodian 2% @ 250 gm/ton of layer feed continuously for 4-6 weeks or until the fly population is under control; repeat the usage when the fly population re-establishes.',
+        composition: 'Cyromazine (Feed Grade)...2%\nInert Ingredient..................98%',
+        features: '• Cyrodian 2% is a feed supplement to control files in and around poultry farms.\n• Cyrodian 2% interferes with molting process of fly larvae thereby breaking the fly life-cycle.',
+        dosage: '• Mix Cyrodian 2% @250 gm/ton of layer feed the laying birds are to be fed with the  Cyrodian 2% mixed feed continuously for 4-6 weeks or until the fly population is under control, repeat the usage when the fly copulation re-establishes.',
+        precautions: '• Avoid direct contact with eyes & skin\n• Keep out of children’s reach\n• Wash hands after use\n• Avoid breathing the dust\n• Do no contaminated the water supply',
         withdrawalPeriod: 'Poultry meat: 3 days.',
         presentation: '25 KG X 1 Bag'
       }
