@@ -8,6 +8,8 @@ export default function BlogSection() {
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
       excerpt: "Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. In this blog, we share five expert-backed tips on how......",
+      image: '/blog/blog_1.jpg?v=20261123',
+      alt: 'Nutridian Leadership Profile',
       views: 0,
       content: `Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. Achieving optimum yield requires a science-backed nutrition strategy.
 
@@ -23,6 +25,8 @@ Key Proven Steps to Elevate Milk Production:
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
       excerpt: "Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. In this blog, we share five expert-backed tips on how......",
+      image: '/blog/blog_2.jpg?v=20261123',
+      alt: 'Poultry Broiler Health and Performance',
       views: 0,
       content: `Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. Achieving optimum yield requires a science-backed nutrition strategy.
 
@@ -38,6 +42,8 @@ Key Proven Steps to Elevate Milk Production:
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
       excerpt: "Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. In this blog, we share five expert-backed tips on how......",
+      image: '/blog/blog_3.jpg?v=20261123',
+      alt: 'Commercial Poultry Farm Flocks',
       views: 0,
       content: `Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. Achieving optimum yield requires a science-backed nutrition strategy.
 
@@ -65,9 +71,13 @@ Key Proven Steps to Elevate Milk Production:
               className="bg-white border border-slate-300 shadow-xs hover:shadow-md transition-shadow duration-300 flex flex-col justify-between group"
             >
               
-              {/* Top Image Box (Solid dark container matching reference mockup) */}
-              <div className="w-full bg-black aspect-[4/3.4] overflow-hidden flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-neutral-950" />
+              {/* Top Image Box */}
+              <div className="w-full aspect-[4/3] bg-slate-100 overflow-hidden flex items-center justify-center relative">
+                <img
+                  src={b.image}
+                  alt={b.alt || b.title}
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 block"
+                />
               </div>
 
               {/* Card Body Content */}
