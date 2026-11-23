@@ -6,8 +6,8 @@ export default function GlanceProducts({ onRequestInfo }) {
       id: 'god_n',
       name: 'GOD-N',
       logo: '/products/god_n_logo.png',
-      image: '/products/God-N 5000.png',
-      alt: 'GOD-N Feed Additive Bag',
+      image: '/products/god_n_5000_25kg.png?v=20261123',
+      alt: 'GOD-N 5000 Feed Additive 25kg Bag',
       kcplBadge: true
     },
     {
@@ -15,16 +15,16 @@ export default function GlanceProducts({ onRequestInfo }) {
       name: 'Nutriquinol Powder',
       logo: '/products/nutriquinol_60_logo.png',
       isPowder: true,
-      image: '/products/nutriquinol_60_pack.jpg',
-      alt: 'Nutriquinol Powder Bag',
+      image: '/products/nutriquinol_powder_25kg.png?v=20261123',
+      alt: 'Nutriquinol Powder 25kg Bag',
       kcplBadge: true
     },
     {
       id: 'avirom_plus',
       name: 'AVIROM PLUS',
       logo: '/products/avirom_plus_logo.png',
-      image: '/products/AviromPlus.png',
-      alt: 'Avirom Plus Bag',
+      image: '/products/avirom_plus_25kg.png?v=20261123',
+      alt: 'Avirom Plus Premixture 25kg Bag',
       kcplBadge: true
     }
   ]
