@@ -612,9 +612,9 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'valecid-sr',
-        name: 'VALECID SR',
+        name: 'Valecid SR',
         title: 'VALECID SR',
-        subTitle: 'Feed & Gut Acidifier with Difference - Specific Release Technology',
+        subTitle: 'With Power of Forgotten Acid and Specific Release Technology',
         rating: 4.9,
         image: '/products/valecid_sr_drum_pack.png',
         logoImage: '/products/Valecid SR.png',
@@ -626,15 +626,13 @@ export const POULTRY_CATEGORIES = [
           '/products/Valecid SR Leaflet 03.jpg',
           '/products/Valecid SR Leaflet 04.jpg'
         ],
-        composition: 'Combination of Organic Acids, Inorganic Acids, Essential Oils and Phytochemicals: Formic acid, Valeric acid*, Essential oil, Acetic acid, Citric acid, Polyphenols, Propionic acid, Lauric acid, Curcumin, Butyric acid*, Phosphoric acid, Menthol (*Esterified).',
-        advantage: 'With Power of Forgotten Acid and Specific Release Technology. Protects entire gut (crop to ceca) from variety of pathogens. Slow-release esterification ensures targeted delivery throughout the gastrointestinal tract, promoting gut villi development and lactobacilli growth.',
-        indication: 'To control necrotic enteritis and other economically important bacterial infections; to improve intestinal defense and maintain gut integrity; to maintain feed hygiene and reduce pathogen intake through feed; to acidify gut for better nutrient digestion; to promote growth of probiotics especially lactobacilli; to reduce enterocytes villi inflammations.',
-        usage: 'Broiler Prestarter & Layer Chick: 1 kg/ton of feed; Broiler Starter, Finisher & Layer: 500 gm/ton of feed; Breeder: 500 gm to 1 kg/ton of feed; Challenging situations: 1 kg/ton of feed for 10 days; Only Acidifier: 2 kg/ton of feed.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Combination of Organic Acids, Inorganic Acids, Essential Oils and Phytochemicals protects entire gut (crop to ceca) from variety of pathogens\nFormic acid\t    Valeric acid*\t             Essential oil\nAcetic acid\t              Citric acid\t             Polyphenols\nPropionic acid\t     Lauric acid \t             Curcumin\nButyric acid* \t    Phosphoric acid    \t    Menthol\t             *Esterified',
+        indication: '•\tTo control necrotic enteritis and other economically important bacterial infections\n•\tTo improves intestinal defense and maintaining gut integrity\n•\tTo maintains feed hygiene and to reduce pathogen intake through feed \n•\tTo acidify gut for better nutrient digestion\n•\tTo promote growth of probiotics especially lactobacilli\n•\tTo reduces enterocytes villi inflammations',
+        usage: '•\tBroiler Prestarter and Layer Chick : 1 kg/ton of feed\n•\tBroiler starter, Finisher and Layer : 500 gm/ton of feed\n•\tBreeder : 500 gm to 1 kg/ton of feed\n•\tChallenging situations : 1 kg/ ton of feed for 10 day\n•\tOnly Acidifier : 2 kg/ton of feed\n\n(Animal Feed Supplement \nNot For Human & Medicinal Use \nFor Animal Use Only)'
       },
       {
         id: 'provalerin',
-        name: 'ProValerin',
+        name: 'Provalerin',
         title: 'PROVALERIN',
         subTitle: 'The Mono-Acid Choice for Clostridia',
         rating: 4.8,
@@ -645,16 +643,15 @@ export const POULTRY_CATEGORIES = [
           '/products/ProValerin 01.jpg',
           '/products/ProValerin 02.jpg'
         ],
-        composition: 'Valeric Acid......25%.',
-        advantage: 'The Mono-Acid Choice for Clostridia. Reduces incidence of Necrotic Enteritis and NE lesion score (less severe gut damage). Improves Villus height to Crypt depth Ratio (gut morphology), improves FCR & body weight, promotes energy harvest in the Gut, and delivers intestinotrophic & gut barrier stabilizing effects against subclinical NE.',
-        indication: 'Control and prevention of Clostridial infections, Necrotic Enteritis, and impaired gut morphology in broilers.',
-        usage: 'Prevention: 1 kg/ton of feed (positive effect on body weight gains). Treatment: 1.5 kg/ton of feed (reduces NE lesion score).',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Valeric Acid......25%',
+        benefits: '•\tReduces incidence of Necrotic Enteritis\n•\tReduces NE lesion score – less severe gut damage\n•\tImproves Villus height to Crypt depth Ratio – Gut morphology\n•\tImproves FCR & body weight\n•\tImproves broiler gut health & performance\n•\tProvalerin promotes energy harvest in the Gut\n•\tIntestinotrophic & gut barrier stabilizing effects result in protection against subclinical NE',
+        dosage: '●  Prevention : 1 Kg/ton of feed –  Positive effect on body weight gains\n●  Treatment : 1.5 kg/ton of feed –  Reduces NE lesion score',
+        contraindications: 'Do not use Nutrimulin 80% with high concentration of ionophoric anti-coccidial molecules especially with Salinomycin, Narasin and Monensin.\n\n(Animal Feed Supplement \nNot For Human & Medicinal Use \nFor Animal Use Only)'
       },
       {
         id: 'gutocid-plus',
-        name: 'Gutocid+',
-        title: 'GUTOCID+',
+        name: 'Gutocid +',
+        title: 'GUTOCID +',
         subTitle: 'Blend of Organic Acids & Phytochemicals',
         rating: 4.8,
         image: '/products/gutocid_plus_pack.png',
@@ -664,11 +661,9 @@ export const POULTRY_CATEGORIES = [
           '/products/GutOcid Leaflet 01.jpg',
           '/products/GutOcid Leaflet 02.jpg'
         ],
-        composition: 'Blend of Organic Acids & Phytochemicals: Formic Acid, Acetic acid, Propionic acid, Butyric acid, Valeric acid, Citric acid, Lauric acid, Lactic acid, Phosphoric acid, Curcumin, Menthol, polyphenols.',
-        advantage: 'Synergistic blend of multi-organic acids and active phytochemicals. Improves Gut Health & prevents enteric infections, improves feed hygiene, acidifies the gut for optimal nutrient digestion, and significantly improves flock performance.',
-        indication: 'Gut health management, enteric infection prevention, feed hygiene enhancement, and nutrient absorption optimization.',
-        usage: '1 kg/ton of feed. Challenging situations: up to 2 kg/ton of feed.',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Formic Acid\t   Acetic acid\t   Propionic acid\t      Butyric acid\nValeric acid\t   Citric acid\t   Lauric acid\t      Lactic acid\nPhosphoric acid\t   Curcumin \t   Menthol \t                polyphenols',
+        indication: '•\tTo improves Gut Health & prevents enteric infections\n•\tTo improves feed hygiene\n•\tTo acidify gut for better nutrient digestion\n•\tTo improves performance',
+        usage: '• 1 kg/ton of feed\n• Challenging situations - upto 2 kg\n\n(Animal Feed Supplement \nNot For Human & Medicinal Use \nFor Animal Use Only)'
       }
     ]
   },
