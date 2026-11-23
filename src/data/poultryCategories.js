@@ -942,11 +942,8 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrilisorb_pack.png',
           '/products/Nutrilisorb.jpg'
         ],
-        composition: 'Combination of Hydrolyzed Lysophospholipids (Lysosphingolipids & Lysoglycerophospholipids) with q.s.',
-        advantage: 'Enhances emulsification and absorption of fats and nutrients from the gut. Improves bioavailability of feed additives and enzymatic digestion of feed. Maximizes nutritional extraction from high-density rations, improves FCR, immunity, livability, and boosts egg production and egg size.',
-        indication: 'Energy optimization, dietary fat digestion, nutrient bioavailability, FCR enhancement, and egg size improvement.',
-        usage: '500 gm / ton of feed or as recommended by Poultry Nutritionist.',
-        withdrawalPeriod: 'Nil (0 days).',
+        composition: 'The combination of Hydrolized Lysophospholipids with q.s.\nLysophospholipids are small bioactive lipid molecules characterized by a single carbon chain and a polar head group. Two subgroups can be distinguished : molecules containing the sphingoid base backbone (Lysosphingolipids) and molecules containing the glycerol backbone (Lysoglycerophospholipids).',
+        benefits: '•  Enhances emulsification of fats and nutrients\n•  Enhances absorption of nutrients from the gut\n•  Improves bio-availability of feed additives\n•  Enhances the enzymatic digestion of the feed in poultry\n•  Helps in the extraction of maximum nutritional value from high-density poultry rations',
         presentation: '25 KG X 1 Bag'
       }
     ]
