@@ -9,7 +9,7 @@ export default function ComplianceCertifications() {
           {/* Authentic Broken Egg Banner Graphic */}
           <div className="relative w-full group transition-transform duration-300 hover:scale-[1.01]">
             <img
-              src="/compliance_banner_fssai.png"
+              src="/compliance_banner_fssai.png?v=20261123_noline"
               alt="Compliance & Certifications Banner - cGMP, ISO 22000, ISO 9001, FAMI-QS, FSSAI, HALAL"
               className="w-full h-auto select-none pointer-events-none drop-shadow-md block mx-auto"
             />
