@@ -1079,9 +1079,9 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'nutrinex',
-        name: 'NutriNex',
+        name: 'Nutrinex',
         title: 'NUTRINEX',
-        subTitle: 'Synergy of Biocide Potassium Monopersulphate Triple Salt with Activator',
+        subTitle: 'Prevents Early Chicks Mortality',
         rating: 4.9,
         image: '/products/nutrinex_1kg_pack.png',
         logoImage: '/products/nutrinex_logo.png',
@@ -1090,11 +1090,9 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrinex_500gm_pack.png',
           '/products/Nutrinex Leaflet.jpg'
         ],
-        composition: 'Potassium Monopersulphate compound 49.8% w/w (Triple Salt: Potassium Monopersulphate, Potassium Hydrogen Sulphate, Potassium Sulphate) + Sodium Chloride 1.5%, Buffers, Organic Acids, Surfactants, and Activator q.s.',
-        advantage: 'Synergy of biocide potassium monopersulphate compound with activator. A powerful integrated chemical system of 6 biocidal activities combining peroxygen compounds, surfactants, organic acids, and inorganic buffers. High-level virucidal, bactericidal, and fungicidal action with zero microbial resistance development.',
-        indication: 'Aerial misting in presence of birds, continuous drinking water sanitation, terminal farm shed disinfection, hatchery sterilization, and biosecurity vehicle/foot dips.',
-        usage: 'Aerial Disinfection: 5 gm/liter water @ 1 lit/100 sq.ft. Water Sanitation: 1 gm/10 liters water. Terminal Shed Disinfection: 5 gm/liter @ 1 lit/25 sq.ft. Wheel / Foot dip: 10 gm/liter water.',
-        withdrawalPeriod: 'Nil (0 days).',
+        composition: 'Potassium Monopersulphate compound 49.8% w/w containing : Triple Salts Potassium Monopersulphate, Potassium Hydrogen Sulphate, Potassium Sulphate Sodium Chloride 1.5%, Buffers, Descalars Agent, Stabilizers, Detergents.',
+        benefits: '•\tSynergy of integrated chemical system of 6 biocides activity\n•\tBlend of per oxygen compounds, surfactants, organic acids acid and inorganic buffer with stabilizer\n•\tCan be used as sanitizer, disinfectant and for removal of biofilms in watering systems\n•\tEffectively useful in breeder farms, hatcheries, commercial farms, chicken processing plants, dairy plants, hoof cleaning of cattle and washing of all equipment\n•\tHighly effective against bacteria viruses and fungi with no evidence of resistance',
+        dosage: '•\tAerial disinfection : 5gm / lit. water @ 1 lit. / 100 sq.ft. carpet area\n•\tWater sanitation : Routine water sanitation : 1 gm /10 lit. of water\n•\tWater sanitation during disease outbreak (in presence of birds) : 1gm / lit. of water for 5-7 days\n•\tOther usage : Egg cleaning & disinfection : 10 gm / lit. of water\n•\tFoot and wheel dip : 10 gm / lit. water\n•\tTerminal disinfection : 5 gm / litre water @ 1 litre / 25 sq.ft. carpet area\n•\tEquipment disinfection : 1:100 @ 10 g / lit. of water\n•\tSurface disinfection : 1:100 @ 10 g / lit. of water\n\n(ANIMAL FEED SUPPLEMENT\nNOT FOR HUMAN USE,\nFOR USE IN ANIMALS ONLY)',
         presentation: '500 gm & 1 kg Jar'
       }
     ]
