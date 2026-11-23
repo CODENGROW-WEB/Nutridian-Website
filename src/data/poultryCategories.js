@@ -375,9 +375,9 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'chlornex-15-25',
-        name: 'Chlornex 15% / 25%',
-        title: 'CHLORNEX 15% / 25%',
-        subTitle: 'Chlortetracycline HCL Granular Feed Additive',
+        name: 'Chlornex 15%',
+        title: 'CHLORNEX 15%',
+        subTitle: 'Chlortetracycline HCL',
         rating: 4.8,
         image: '/products/chlornex_15_pack.png',
         logoImage: '/products/chlornex_25_logo.png',
@@ -385,17 +385,17 @@ export const POULTRY_CATEGORIES = [
           '/products/chlornex_15_pack.png',
           '/products/chlornex_leaflet.jpg'
         ],
-        composition: 'ChlorNEX contains 150 gm of Chlortetracycline HCL in 1 Kg Granular Premix (also available in 250 gm).',
-        advantage: 'Truly broad spectrum antimicrobial activity, effective against Gram +ve, Gram -ve bacteria & protozoa. Granular form is free flowing for easy handling and homogenous blending, dust-free to prevent operator exposure, improves FCR and weight gain, and reduces early chick mortality.',
-        indication: 'Prevention & treatment of CRD along with TyloDian, systemic infections like enteritis, respiratory & reproductive tract infections. In layers & breeders improves general health & egg production.',
-        usage: 'Prevention: 1.0 kg/tonne of finished feed (equivalent to 150 ppm CTC). Treatment: 1.0 - 2.0 kg/tonne of finished feed (150 - 300 ppm CTC) for 7-14 days.',
-        withdrawalPeriod: 'Poultry Meat: 7 days. Eggs: NIL.'
+        composition: 'ChlorNEX contains 150 gm of Active Chlortetracycline HCL in 1 Kg Granular Premix',
+        spectrum: "ChlorNEX 15% is truly broad spectrum antimicrobial. Effective on Gram '+', Gram '-' bacteria & protozoa.",
+        benefits: '●	Granular ChlorNEX 15% is free flowing so easy to handle & homogenous in mixing.\n●	Due to Granulation, ChlorNEX 15% is more stable & reduces losses by dusting\n●	ChlorNEX improves FCR, Weight gain & is suitable growth promoter for Poultry\n●	Very effective in Prevention & treatment of CRD along with Tyl O Plus\n●	As a treatment in systemic infections like enteric, respiratory & reproductive\n●	ChlorNEX 15% reduces early chick mortality\n●	In layers/breeders improves general health & egg production',
+        usage: 'Veterinary Prescription Required. For Animal Use Only.\n\nPoultry :\nPrevention : Feed continuously at the rate of 1.0 Kg/ton of finished feed (equivalent to 150 ppm)\nTreatment : Feed continuously for up to 14 days at the rate of 1.0 - 2.0 Kg/ton of finished feed (equivalent to 150-300 ppm)',
+        withdrawalPeriod: 'Poultry Meat : Seven (7) day\nEggs : NIL\nContraindications : None'
       },
       {
         id: 'nutrimycin-80',
         name: 'Nutrimycin 80',
         title: 'NUTRIMYCIN 80',
-        subTitle: 'Bambermycin / Moenomycin / Flavophospholipol - 80 mg/gm',
+        subTitle: 'Bambermycin/ Moenomycin/ Flavophospholipol - 80mg/gm',
         rating: 4.9,
         image: '/products/nutrimycin_80_pack.png',
         logoImage: '/products/nutrimycin_80_logo.png',
@@ -404,11 +404,10 @@ export const POULTRY_CATEGORIES = [
           '/products/nutrimycin_leaf1.jpg',
           '/products/nutrimycin_leaf2.jpg'
         ],
-        composition: 'Bambermycin / Moenomycin / Flavophospholipol - 80 mg/gm (80 g/kg).',
-        advantage: 'Does not produce bacterial resistance, in fact reduces antibiotic resistance. Gut acting without systemic absorption, eliminating tissue residue concerns. Maintains healthy gastrointestinal equilibrium by suppressing pathogenic colonization while sparing beneficial Lactobacilli and Bifidobacteria. Reduces pathogen shedding in litter.',
-        indication: 'For improving body weight gain, feed utilization and FCR; improvement of flock performance; and reducing bacterial infections in coastal areas due to wet litter.',
-        usage: 'Broilers: 50-100 gm/ton of feed (4-8 ppm). Layers: 50-75 gm/ton (4-6 ppm). Breeders: 50-75 gm/ton (4-6 ppm). Shrimp: 100-250 gm/ton (8-20 ppm).',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Bambermycin/ Moenomycin/ Flavophospholipol - 80mg/gm',
+        benefits: '•  Avoids generating bacterial resistance and helps minimize antibiotic resistance.\n•  Reserved strictly for in-feed agricultural use to enhance growth and performance in livestock, rather than human applications.\n•  Operates locally in the gut without systemic absorption, leaving no residual buildup.\n•  Supports a balanced digestive microflora by lowering pathogen levels while preserving helpful bacteria such as Lactobacilli and Bifidobacteria.\n•  Assists young birds in establishing healthy intestinal microflora early on.\n•  Lowers pathogen shedding in litter, helping decrease disease transmission.',
+        indication: '•  Enhances weight gain, feed utilization, and overall feed conversion ratio (FCR).\n•  Boosts flock performance.\n•  Decreases footpad issues in coastal or damp litter conditions.',
+        usage: '•  Broilers: 50 - 100 gm (4-8 ppm)\n•  Layer: 50 - 75 gm (4-6 ppm)\n•  Breeder: 50 - 75 gm (4-6 ppm)\n•  Shrimp: 100 - 250 gm (8-20 ppm)'
       },
       {
         id: 'enrex',
@@ -422,17 +421,15 @@ export const POULTRY_CATEGORIES = [
           '/products/enrex_pack.png',
           '/products/enrex_leaflet.jpg'
         ],
-        composition: 'Each 1 kg of EnRex contains 80 gm of Enramycin HCL (8%).',
-        advantage: 'Strong action against Gram-positive bacteria (Clostridium perfringens). Improves flock intestinal health, resulting in better feed efficiency and growth performance at very low inclusion levels. Reduces wet droppings with zero tissue residue and no cross-resistance.',
-        indication: 'Necrotic enteritis control, wet litter prevention, and FCR optimization.',
-        usage: 'Poultry: 63 to 125 grams per ton of feed (5-10 ppm). Pigs: 63 to 250 grams per ton of feed (5-20 ppm).',
-        withdrawalPeriod: 'Nil (0 days).'
+        composition: 'Each 1 kg of EnRex contains 80 gm of Enramycin HCl a polypeptide, which has a strong action against Gram positive bacteria (Clostridium perfringens). It improves weight gain and feed conversion',
+        benefits: '•  Improves flock intestinal health, resulting in better feed efficiency\n•  Improves growth performance at very low inclusion levels\n•  Improves weight gain and feed conversion\n•  Reduces wet droppings in poultry\n•  No cross resistance between Enramycin HCl and other available antibiotics\n•  No detectable residues in tissues\n•  No side effect',
+        usage: '•  Poultry : 63 to 125 grams per ton of feed (5-10 ppm)\n•  Pigs : 63 to 250 grams per ton of feed (5-20 ppm)\n•  For even dispersion in the feed, mix the required amount of EnRex in small quantity of feed before mixing in the final feed.'
       },
       {
         id: 'aviladian-100',
         name: 'AvilaDian 100',
         title: 'AVILADIAN 100',
-        subTitle: 'Avilamycin 100 gm/kg Performance Enhancer',
+        subTitle: 'Avilamycin 100 gm/kg',
         rating: 4.8,
         image: '/products/aviladian_100_pack.png',
         logoImage: '/products/aviladian_100_logo.png',
@@ -440,35 +437,31 @@ export const POULTRY_CATEGORIES = [
           '/products/aviladian_100_pack.png',
           '/products/aviladian_leaflet.jpg'
         ],
-        composition: '100 g/kg Avilamycin.',
-        advantage: 'Suppresses pathogenic intestinal flora while promoting beneficial microflora. Consistently delivers increased rate of weight gain and improved feed efficiency in broiler chickens.',
-        indication: 'For the prevention and control of Necrotic enteritis in broiler chickens caused by Clostridium perfringens, and for increased rate of weight gain and feed efficiency.',
-        usage: 'Increased weight gain & feed efficiency: 50-100 g per ton of finished feed (5-10 ppm). Aid in prevention of necrotic enteritis: 100-150 g per ton of finished feed (10-15 ppm).',
-        withdrawalPeriod: 'Meat: Zero (0) days. Eggs: DO NOT USE in birds producing eggs for human consumption.'
+        composition: '100 gm/kg Avilamycin',
+        indication: '•  For the prevention and control of Necrotic Enteritis in broiler chickens caused by Clostridium perfringens.\n•  For increased rate of weight gain and improved feed efficiency in broiler chickens.',
+        usage: '•  Increased weight grain and Improved Feed Efficiency: Mix 50-100 gm/ton of finished feed (5-10 ppm avilamycin)\n•  Aid in the Prevention of Necrotic Enteritis: Mix 100-150 gm/ton of finished feed (10-15 ppm avilamycin)\n•  As directed by Poultry Nutritionist or Veterinarian.',
+        withdrawalPeriod: '•  Meat : Zero (0) day\n•  Eggs : DO NOT USE in birds which are producing or may in the future produce eggs or egg products for human consumption.'
       },
       {
         id: 'lincodian-11',
         name: 'Lincodian 11%',
         title: 'LINCODIAN 11%',
-        subTitle: 'Feed Additive (Lincomycin HCL B.P. Vet 11% w/w)',
+        subTitle: 'Antimicrobial Performance Enhancer',
         rating: 4.8,
         image: '/products/lincodian_11_leaflet.jpg',
         logoImage: '/products/lincodian_11_logo.png',
         gallery: [
           '/products/lincodian_11_leaflet.jpg'
         ],
-        composition: 'Lincomycin HCL B.P. Vet 11% w/w.',
-        advantage: 'Lincodian 11% premix is an ideal AGP. Suppresses the growth of harmful gut bacteria. Promotes efficient feed utilization for better returns. Highly active against respiratory infections, necrotic enteritis, anaerobic bacteria etc. Improves FCR, weight gain in broilers and egg production in layers.',
-        indication: 'Necrotic enteritis, respiratory infections, anaerobic bacterial dysbiosis, and growth promotion in poultry.',
-        usage: '40 gm/ton of feed is to be uniformly mixed in the feed OR As suggested by Poultry Consultant.',
-        presentation: '25 Kg Bag',
-        withdrawalPeriod: 'Poultry: 3 days.'
+        composition: '•  Lincomycin Hydrochloride...0.88%\n•  Neomycin Sulphate...............5%',
+        benefits: '•  Maintains gut integrity & Improves respiratory health\n•  Enhances growth & FCR',
+        usage: '•  Broilers : 250 gm/ton of feed continuously\n•  Layers : 250 gm/ton of feed as week a month program\n•  Breeders : 250 gm/ton of feed as week a month program\n•  During risk periods/suspected conditions : As preventive double the dosage to be used for 1-2 weeks in feed OR as suggested by Poultry Consultant.'
       },
       {
         id: 'lincodian-n',
         name: 'Lincodian N',
         title: 'LINCODIAN N',
-        subTitle: 'Lincomycin Hydrochloride 0.88% + Neomycin Sulphate 5%',
+        subTitle: 'Feed Additive',
         rating: 4.8,
         image: '/products/lincodian_n_pack.png',
         logoImage: '/products/lincodian_n_logo.png',
@@ -476,11 +469,26 @@ export const POULTRY_CATEGORIES = [
           '/products/lincodian_n_pack.png',
           '/products/Lincodian N.jpg'
         ],
-        composition: 'Lincomycin Hydrochloride 0.88%, Neomycin Sulphate 5%.',
-        advantage: 'Antimicrobial performance enhancer with synergistic broad-spectrum dual action. Maintains gut integrity, improves respiratory health, and enhances growth and FCR.',
-        indication: 'Enteric and respiratory bacterial prophylaxis, necrotic enteritis management, and growth promotion in poultry.',
-        usage: 'Broilers: 250 gm/ton of feed continuously. Layers/Breeders: 250 gm/ton of feed as week-a-month program. During risk periods/suspected conditions: Double dosage for 1-2 weeks in feed.',
-        withdrawalPeriod: 'Poultry: 3 days.'
+        composition: 'Lincomycin HCL B.P. Vet 11% w/w',
+        benefits: 'Lincodian 11% premix is an ideal AGP.\nSuppresses the growth of harmful gut bacteria.\nPromotes efficient feed utilization for better returns.\nHighly active against respiratory infections, necrotic enteritis, anaerobic bacteria etc.\nImproves FCR, weight gain in broilers and egg production in layers.',
+        usage: '40 gm/ton of feed is to be uniformly mixed in the feed OR As suggested by Poultry Consultant'
+      },
+      {
+        id: 'nutriotc-10',
+        name: 'NutriOTC',
+        title: 'NUTRIOTC',
+        subTitle: 'Oxytetracycline HCL',
+        rating: 4.6,
+        image: '/products/nutriotc_pack.png',
+        logoImage: '/products/nutriotc_10_logo.png',
+        gallery: [
+          '/products/nutriotc_pack.png',
+          '/products/nutriotc_leaflet.jpg'
+        ],
+        composition: 'Each Kg Contains :\nOxytetracycline HCL..200 gm\nExcipient..................q.s.',
+        indication: 'For the treatment of secondary bacterial infections following respiratory diseases in poultry and for pigs. Bacterial scours and pasteurella in calves and lambs.\nGastroenteritis in pigs caused by bacteria sensitive to oxytetracycline and for the use against other bacterial infections as prescribed by a veterinarian.',
+        usage: 'Species / Prevention and Treatment / Dosage / Interval and Frequency of Medication\n\nPoultry:\nWeight gain and improved feed efficiency: Mix 10-50 gm/ton of feed. Feed continuously\nInfectious synovitis and fowl cholera: Mix 100-200 gm/ton of feed. Feed continuously for 7-14 days\nAir sacculitis (air sac infection): Mix 500 gm/ton of feed. Feed for 5 days\n\nSwine:\nWeight gain and improved feed efficiency: Mix 10-50 gm/ton of feed. Feed continuously.',
+        withdrawalPeriod: 'Meat 7 days'
       },
       {
         id: 'fastgro',
@@ -494,17 +502,16 @@ export const POULTRY_CATEGORIES = [
           '/products/fastgro_pack.png',
           '/products/fastgro_leaflet.jpg'
         ],
-        composition: 'Nosiheptide 10 gm/kg + Quinocetone 100 gm/kg.',
-        advantage: 'Dual power for faster growth and bigger profits. Growth promotion and weight gain enhancement in poultry. Prevention and control of bacterial enteritis (e.g. necrotic enteritis caused by Clostridium) and management of digestive disorders from E. coli or Salmonella.',
-        indication: 'Growth promotion, FCR improvement, and enteritis control in poultry and intensive farming systems.',
-        usage: 'Broilers (Growth Promotion): 200-500 gm of Fastgro/ton of feed (providing 2-5 mg/kg Nosiheptide and 20-50 mg/kg Quinocetone). Turkeys: 100-300 gm/ton. Therapeutic (Enteritis): Up to 700 gm/ton for 5-7 days.',
-        withdrawalPeriod: 'Meat: 3-5 days before slaughter. Eggs: 0 day.'
+        composition: 'Nosiheptide.......10gm/kg\nQuinocetone....100gm/kg\nExcipient..........qs',
+        indication: '●	Growth promotion and weight gain enhancement in poultry.\n●	Prevention and control of bacterial enteritis (e.g., necrotic enteritis caused by Clostridium).\n●	Management of digestive disorders like diarrhea from E. coli or Salmonella.\n●	Improvement of overall flock health and productivity in intensive farming systems.',
+        usage: '● Mix thoroughly into complete poultry feed. Recommended inclusion rates:\n● Broilers (Growth Promotion): 200-500 gm of FastGrow Combo/ton of feed (providing 2-5 mg/kg Nosiheptide and 20-50 mg/kg Quinocetone).\n● Layers & Turkeys (Health Maintenance): 100-300 gm/ton of feed\n● Therapeutic Use (for Enteritis): Up to 750 gm/ton for 5-7 days, or as suggested by Nutritionist. Ensure uniform mixing to avoid under- or over-dosing.',
+        withdrawalPeriod: 'Meat : 3-5 days before slaughter\nEggs : 0 day'
       },
       {
         id: 'nosidian-10',
         name: 'Nosidian 10',
         title: 'NOSIDIAN 10',
-        subTitle: 'Nosiheptide 10 gm/kg Premix',
+        subTitle: '10 gm/kg nosiheptide',
         rating: 4.8,
         image: '/products/nosidian_10_pack.png',
         logoImage: '/products/nosidian_10_logo.png',
@@ -512,30 +519,10 @@ export const POULTRY_CATEGORIES = [
           '/products/nosidian_10_pack.png',
           '/products/nosidian_leaflet.jpg'
         ],
-        composition: '10 g/kg Nosiheptide.',
-        advantage: 'Highly effective against a wide range of gram-positive bacteria and select gram-negative bacteria. Highly effective in controlling necrotic enteritis caused by Clostridium perfringens. Consistently and reliably increases rate of weight gain and improves efficiency of feed utilization.',
-        modeOfAction: 'Contains nosiheptide, a thiopeptide antibiotic that inhibits protein synthesis of target bacteria. Non-toxic, not absorbed by the GIT, with limited cross resistance with other antibiotics.',
-        indication: 'Control of necrotic enteritis (caused by Clostridium perfringens Types A & C) and prevention in broilers and replacement layers.',
-        usage: 'Poultry Prevention: Prestarter/Starter: 200-250 gm/ton of feed (2-2.5 mg/kg nosiheptide). Grower/Finisher/Post-lay: 200 gm/ton of feed (2 mg/kg nosiheptide).',
-        withdrawalPeriod: '7 days.'
-      },
-      {
-        id: 'nutriotc-10',
-        name: 'NutriOTC 10%',
-        title: 'NUTRIOTC 10%',
-        subTitle: 'Oxytetracycline HCL 10% / 20% Feed Premix',
-        rating: 4.6,
-        image: '/products/nutriotc_pack.png',
-        logoImage: '/products/nutriotc_10_logo.png',
-        gallery: [
-          '/products/nutriotc_pack.png',
-          '/products/nutriotc_leaflet.jpg'
-        ],
-        composition: 'Each Kg Contains: Oxytetracycline HCL 200 gm, Excipient q.s. (also available in 100 gm/kg formulation).',
-        advantage: 'Broad-spectrum medicated feed additive (oxytetracycline HCL). Acts as bacteriostatic against gram-positive and gram-negative bacteria causing gastrointestinal and respiratory infections.',
-        indication: 'Treatment of secondary bacterial infections following respiratory diseases in poultry and pigs. Bacterial enteritis, pasteurella, infectious synovitis, and fowl cholera.',
-        usage: 'Weight gain and improved feed efficiency: 10-50 gm/ton of feed continuously. Infectious synovitis and fowl cholera: 100-200 gm/ton of feed for 7-14 days. Air sacculitis: 200 gm/ton of feed for 5 days.',
-        withdrawalPeriod: 'Poultry meat : 7 days.'
+        composition: '10 gm/kg nosiheptide',
+        indication: 'Poultry :\nFor the control of necrotic enteritis (caused by Clostridium perfringens Types A & C) and as an aid in the prevention of necrotic enteritis in broilers and replacement layers.',
+        usage: 'Poultry Prevention :\nPrestarter/Starter - 200-250 gms/ton of finished feed\nGrower/Finisher/Prelayer - 200 gms/ton of finished feed',
+        withdrawalPeriod: '7 days'
       }
     ]
   },
