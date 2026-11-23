@@ -6,6 +6,7 @@ import ContactUs from './components/ContactUs'
 import EnquiryPage from './components/EnquiryPage'
 import Events from './components/Events'
 import BlogPage from './components/BlogPage'
+import BlogDetail from './components/BlogDetail'
 import PoultryProducts from './components/PoultryProducts'
 import CategoryMarquee from './components/CategoryMarquee'
 import ComplianceCertifications from './components/ComplianceCertifications'
@@ -45,6 +46,8 @@ function App() {
         setActivePage('POULTRY PRODUCT')
       } else if (hash === '#events') {
         setActivePage('EVENTS')
+      } else if (hash === '#blog-detail' || hash === '#article' || hash === '#pharma-outlook') {
+        setActivePage('BLOG_DETAIL')
       } else if (hash === '#blog' || hash === '#blogs' || hash === '#our-foundations' || hash === '#foundations') {
         setActivePage('BLOG')
       } else if (hash === '#contact') {
@@ -92,6 +95,8 @@ function App() {
       window.location.hash = '#products'
     } else if (pageName === 'EVENTS') {
       window.location.hash = '#events'
+    } else if (pageName === 'BLOG_DETAIL' || pageName === 'ARTICLE') {
+      window.location.hash = '#blog-detail'
     } else if (pageName === 'BLOG' || pageName === 'OUR FOUNDATIONS' || pageName === 'FOUNDATIONS') {
       window.location.hash = '#our-foundations'
     } else if (pageName === 'CONTACT' || pageName === 'CONTACT US') {
@@ -155,6 +160,13 @@ function App() {
           <Events
             onBackToHome={() => handleNavigate('HOME')}
           />
+        ) : activePage === 'BLOG_DETAIL' || activePage === 'ARTICLE' ? (
+          /* Dedicated Pharma Outlook Feature Blog Detail Page */
+          <BlogDetail
+            onBackToHome={() => handleNavigate('HOME')}
+            onOpenRequestModal={() => handleNavigate('ENQUIRY')}
+            onNavigate={handleNavigate}
+          />
         ) : activePage === 'BLOG' || activePage === 'BLOGS' || activePage === 'OUR FOUNDATIONS' || activePage === 'FOUNDATIONS' || activePage === 'ABOUT US' || activePage === 'ABOUT' ? (
           /* Dedicated BLOG & OUR FOUNDATIONS Page View */
           <BlogPage
@@ -203,7 +215,7 @@ function App() {
             />
 
             {/* 6. BLOGS Section */}
-            <BlogSection />
+            <BlogSection onNavigate={handleNavigate} />
 
             {/* 7. Full-width Continuous Moving Advertisement Carousel */}
             <AdvertisementCarousel />
