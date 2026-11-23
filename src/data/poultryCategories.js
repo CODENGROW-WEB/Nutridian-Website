@@ -148,8 +148,8 @@ export const POULTRY_CATEGORIES = [
             image: '/products/coxicheck_mn_pack.png',
             logoImage: '/products/coxichek_logo.png',
             gallery: [
-          '/products/coxicheck_mn_pack.png',
-          '/products/Coxicheck MN 2026.jpg'
+              '/products/coxicheck_mn_pack.png',
+              '/products/Coxicheck MN 2026.jpg'
             ],
             brandRender: 'coxicheck_mn',
             composition: '7.5 gm/kg Maduramycin Ammonium and 80 gm/kg Nicarbazin +912.5 gm/kg Corn Cob Meal',
@@ -168,8 +168,8 @@ export const POULTRY_CATEGORIES = [
             image: '/products/ncarb_pack.png',
             logoImage: '/products/n_carb_logo.png',
             gallery: [
-          '/products/ncarb_pack.png',
-          '/products/Ncarb 2026.jpg'
+              '/products/ncarb_pack.png',
+              '/products/Ncarb 2026.jpg'
             ],
             brandRender: 'n_carb',
             composition: '80g/kg monensin + 80g/kg nicarbazin',
