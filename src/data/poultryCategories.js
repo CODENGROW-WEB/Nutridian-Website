@@ -801,7 +801,7 @@ export const POULTRY_CATEGORIES = [
         composition: 'Each ml contains:\nVitamin E ………………. 100 mg\nSelenium ………………. 0.5 mg\nExcipients ………………. q.s.',
         indication: '•	To improve vaccine titers (Pre & Post vaccination)\n•	To improve fertility & hatchability\n•	As an immunomodulatory – speeds up recovery and reduces mortality',
         benefits: '•	Easily water soluble\n•	Does not choke nipples\n•	Highly Bio available Organic Selenium & Palmitate salt of Vit. E',
-        usage: '•	Chicks stage - 3-5 ml/ 100 chicks\n•	Broilers - 5-10 ml/ 100 birds\n•	Layers - 5-10 ml/ 100 birds (7-10 days in a month)\n•	Breeders - 10-15 ml/ 100 birds (7-10 days every month)\nor as directed by the poultry consultant.'
+        usage: '•	Chicks stage - 3-5 ml/ 100 chicks\n•	Broilers - 5-10 ml/ 100 birds\n•	Layers - 5-10 ml/ 100 birds (7-10 days in a month)\n•	Breeders - 10-15 ml/ 100 birds (7-10 days every month)\nor as directed by the poultry consultant.\n\n(Animal Feed Supplement\nNot For Human & Medicinal Use\nFor Animal Use Only)'
       },
       {
         id: 'vitafast-vit-ad3e-c',
@@ -817,7 +817,7 @@ export const POULTRY_CATEGORIES = [
         ],
         composition: 'Each ml contains :\n•  Vitamin A ..................... 50000 IU\n•  Vitamin D3 ................... 5000 IU\n•  Vitamin E ..................... 30 IU\n•  Vitamin C ..................... 100 mg\n•  Carbohydrate nutritive organic base ..................... q.s.',
         usage: 'Water miscible poultry feed supplement liquid oral.',
-        dosage: 'Feeding direction through drinking water:\n•	4 to 5 ml / 100 chicks for 5 to 7 days\n•	5 ml / 100 Broilers / Layers for 5 to 7 days or as directed by nutritionist'
+        dosage: 'Feeding direction through drinking water:\n•	4 to 5 ml / 100 chicks for 5 to 7 days\n•	5 ml / 100 Broilers / Layers for 5 to 7 days or as directed by nutritionist\n\n(ANIMAL FEED SUPPLEMENT\nNOT FOR HUMAN USE\nFOR USE IN ANIMALS ONLY)'
       },
       {
         id: 'vitafast-a',
@@ -833,7 +833,7 @@ export const POULTRY_CATEGORIES = [
         ],
         composition: 'Nutritional value per ml :\n•	Vitamin A ........ 1,00,000 I.U. (As Vitamin A Palmitate)',
         indication: '•	Prevention & treatment of Vitamin A deficiency\n•	In Breeder – for better Hatchability & production\n•	For maintaining integrity of mucous membranes\n•	For prevention of ataxia & normal bone growth',
-        usage: '•	Chicks: 2-5 ml daily per 100 birds\n•	Growers: 5-10 ml daily per 100 birds\n•	Layers: 5-10 ml daily per 100 birds\n•	Breeder: 10-15 ml/ 100 birds (7-10 days every month)\n•	To be given at least for 7 days in a month in drinking water or as directed by the poultry consultant.',
+        usage: '•	Chicks: 2-5 ml daily per 100 birds\n•	Growers: 5-10 ml daily per 100 birds\n•	Layers: 5-10 ml daily per 100 birds\n•	Breeder: 10-15 ml/ 100 birds (7-10 days every month)\n•	To be given at least for 7 days in a month in drinking water or as directed by the poultry consultant.\n\n(ANIMAL FEED SUPPLEMENT\nNOT FOR HUMAN USE,\nFOR USE IN ANIMALS ONLY)',
         presentation: '1 LTR X 12 Jars'
       }
     ]
