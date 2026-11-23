@@ -481,7 +481,9 @@ export default function PoultryProducts({
               {/* Dosage */}
               {activeProduct.dosage && (
                 <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1 pt-1">
-                  <strong className="text-slate-900 font-bold block">Dosage :</strong>
+                  {!/^(dosage|dosages)/i.test(activeProduct.dosage.trim()) && (
+                    <strong className="text-slate-900 font-bold block">Dosage :</strong>
+                  )}
                   <p className="text-slate-700 whitespace-pre-line">{activeProduct.dosage}</p>
                 </div>
               )}

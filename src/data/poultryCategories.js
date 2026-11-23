@@ -891,8 +891,8 @@ export const POULTRY_CATEGORIES = [
     products: [
       {
         id: 'nutritox-mitb',
-        name: 'Nutritox MITB',
-        title: 'NUTRITOX MITB',
+        name: 'Nutritox',
+        title: 'NUTRITOX',
         subTitle: 'Ultimate Toxin Binder with Mold Inhibitor',
         rating: 4.9,
         image: '/products/nutritox_mitb_pack.png',
@@ -901,18 +901,15 @@ export const POULTRY_CATEGORIES = [
           '/products/nutritox_mitb_pack.png',
           '/products/Nutritox MITB Leaflet.jpg'
         ],
-        composition: 'Organic acids, HSCAS, Activated Carbon (3000 m2/gm surface area), Phytobiotics, Live yeast (MOS & beta-glucans), and specially modified clay (200 m2/gm).',
-        advantage: 'Contains live yeast liberating MOS and beta-glucans. Activated carbon with massive surface area (3000 m2/gm) adsorbs broad-spectrum polar and non-polar mycotoxins, bacterial endotoxins, and chemical toxins without binding vital nutrients or vitamins.',
-        indication: 'Aflatoxicosis, Ochratoxicosis, T-2 toxin, bacterial endotoxins, and fungal feed degradation.',
-        usage: 'Mycotoxin prevention programme: 1 - 1.5 kg/ton of feed. Mycotoxin treatment programme: 2 kg/ton of feed (when high degree of mould growth & toxicity is suspected).',
-        withdrawalPeriod: 'Nil (0 days).',
+        benefits: '•\tNutritox MITB contains Live yeast which on disintegration liberates MOS and b glucans Which potentiates action of toxin binder and helps to boost immunity\n•\tActivated Carbon - Activated carbon has high degree of porosity which greatly increases its surface area & the adsorption capacity\nSurface area of 1 gm material \nSpecialized clays  260 m2\nActivated Carbon  3000 m2\n•\tNutritox MITB does not allow Fungus to grow in feed, hence improves shelf life of finished feed\n•\tNutritox MITB provides optimal elimination of full range of Mycotoxins & helps to improve Gut Health & Immunity\n•\tNutritox MITB does not adsorb vital Nutrients and Vitamins from feed\n•\tNutritox MITB is effective on Bacterial Endotoxins & Chemical toxins\n•\tNutritox MITB protects Vital organs from the ill effects of Mycotoxins',
+        dosage: '•  Mycotoxin prevention programme : 1-1.5 kg/ton of feed\n•  Mycotoxin treatment programme : 2 Kg/ton of feed\n(When high degree of mould growth & toxicity is suspected)\n\n(Animal Feed Supplement\nNot For Human & Medicinal Use\nFor Animal Use Only)',
         presentation: '25 KG X 1 Bag'
       },
       {
         id: 'nutritox-advance',
         name: 'Nutritox Advance',
         title: 'NUTRITOX ADVANCE',
-        subTitle: 'Ultimate Toxin Binder with Mold Inhibitor',
+        subTitle: 'Blend of Ancient Knowledge With Modern Technology',
         rating: 4.8,
         image: '/products/nutritox_advance_pack.png',
         logoImage: '/products/nutritox_advance_logo.png',
@@ -920,11 +917,8 @@ export const POULTRY_CATEGORIES = [
           '/products/nutritox_advance_pack.png',
           '/products/Nutritox Advance.jpg'
         ],
-        composition: 'Organic acids, HSCAS, Specially Modified Clay & MOS with high degree of Toxin Binding Capacity, Phytobiotics, Live Yeast.',
-        advantage: 'Live yeast on disintegration liberates MOS and beta-glucans to potentiate toxin binding and boost immunity. Inhibits fungal growth in feed, improves finished feed shelf life, eliminates full range of mycotoxins, and protects vital organs without adsorbing feed vitamins.',
-        indication: 'Mycotoxin prevention, feed mold inhibition, liver protection, and bacterial endotoxin control.',
-        usage: 'Mycotoxin prevention programme: 1 kg/tonne of feed. Mycotoxin treatment programme: 1.5 - 2 kg/tonne of finished feed (when high mould growth & toxicity is suspected).',
-        withdrawalPeriod: 'Nil (0 days).',
+        benefits: '•  Nutritox Advance contains Live yeast which on disintegration liberates MOS and b glucans Which potentiates action of toxin binder and helps to boost immunity\n•  Nutritox Advance does not allow Fungus to grow in feed, hence improves shelf life of finished feed\n•  Nutritox Advance provides optimal elimination of full range of Mycotoxins & helps to improve Gut Health & Immunity\n•  Nutritox Advance does not adsorb vital Nutrients and Vitamins from feed\n•  Nutritox Advance is effective on Bacterial Endotoxins & Chemical toxins\n•  Nutritox Advance protects Vital organs from the ill effects of Mycotoxins',
+        dosage: '•  Mycotoxin prevention programme: 1 kg/ton of feed\n•  Mycotoxin treatment programme: 1.5-2 kg/ton of feed\n(When high degree of mould growth & toxicity is suspected)',
         presentation: '25 KG X 1 Bag'
       }
     ]
