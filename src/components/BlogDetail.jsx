@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import BlogSocialShare from './BlogSocialShare'
 
 export default function BlogDetail({ onBackToHome, onOpenRequestModal }) {
   const [activeTab, setActiveTab] = useState('article')
@@ -43,14 +44,23 @@ export default function BlogDetail({ onBackToHome, onOpenRequestModal }) {
             <h3 className="text-lg sm:text-xl md:text-2xl font-black italic text-slate-900 mt-1.5 tracking-tight">
               BOOSTING PRODUCTIVITY WITH COST EFFECTIVE INNOVATIVE SOLUTIONS
             </h3>
-            <div className="flex flex-wrap items-center gap-3 mt-4 text-xs font-semibold text-slate-500">
-              <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full font-bold">
-                Industry Spotlight
-              </span>
-              <span>&bull;</span>
-              <span>Pharma Outlook Special Report</span>
-              <span>&bull;</span>
-              <span>Animal Health &amp; Nutrition</span>
+            <div className="flex flex-wrap items-center justify-between gap-4 mt-4 pt-3 border-t border-slate-100">
+              <div className="flex flex-wrap items-center gap-2.5 text-xs font-semibold text-slate-500">
+                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full font-bold">
+                  Industry Spotlight
+                </span>
+                <span>&bull;</span>
+                <span>Pharma Outlook Special Report</span>
+                <span>&bull;</span>
+                <span>Animal Health &amp; Nutrition</span>
+              </div>
+
+              {/* Exact Share : Facebook, WhatsApp, LinkedIn */}
+              <BlogSocialShare
+                url="https://nutridian.netlify.app/#article"
+                title="Nutridian Animal Health: Boosting Productivity with Cost Effective Innovative Solutions"
+                size="md"
+              />
             </div>
           </div>
 
@@ -186,8 +196,21 @@ export default function BlogDetail({ onBackToHome, onOpenRequestModal }) {
             </div>
           )}
 
+          {/* Share Section at bottom of article */}
+          <div className="mt-10 p-5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h5 className="text-sm font-bold text-slate-900">Found this article informative?</h5>
+              <p className="text-xs text-slate-600 mt-0.5">Share it with your veterinary and poultry farming network.</p>
+            </div>
+            <BlogSocialShare
+              url="https://nutridian.netlify.app/#article"
+              title="Nutridian Animal Health: Boosting Productivity with Cost Effective Innovative Solutions"
+              size="md"
+            />
+          </div>
+
           {/* Bottom Navigation */}
-          <div className="mt-12 pt-6 border-t border-slate-200 flex items-center justify-between">
+          <div className="mt-8 pt-6 border-t border-slate-200 flex items-center justify-between">
             <button
               onClick={onBackToHome}
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-100 hover:bg-orange-50 text-slate-800 hover:text-orange-600 font-bold text-xs transition-colors cursor-pointer"

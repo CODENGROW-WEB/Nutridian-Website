@@ -1,4 +1,5 @@
 import SectionHeading from './SectionHeading'
+import BlogSocialShare from './BlogSocialShare'
 
 export default function BlogSection({ onNavigate }) {
 
@@ -111,22 +112,24 @@ export default function BlogSection({ onNavigate }) {
                   </p>
                 </div>
 
-                {/* Divider Line & Views Count (Exact matching reference image) */}
+                {/* Divider Line & Views Count + Share Icons */}
                 <div className="mt-4 pt-1">
                   <div className="w-full h-[1.5px] bg-slate-800 mb-2.5" />
-                  <div className="flex items-center justify-between text-xs text-slate-900 font-semibold">
-                    <div className="flex items-center gap-1.5">
+                  <div className="flex items-center justify-between text-xs text-slate-900 font-semibold gap-2 flex-wrap">
+                    <div className="flex items-center gap-1.5 shrink-0">
                       <svg className="w-4 h-4 text-slate-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                       </svg>
                       <span>{b.views}</span>
                     </div>
-                    {(b.clickable || b.id === 1) && (
-                      <span className="text-xs font-bold text-[#ea580c] group-hover:underline">
-                        Read Post &rarr;
-                      </span>
-                    )}
+
+                    {/* Exact Share : Facebook, WhatsApp, LinkedIn */}
+                    <BlogSocialShare
+                      url={`https://nutridian.netlify.app/#${b.id === 1 ? 'article' : 'blogs'}`}
+                      title={b.title}
+                      size="sm"
+                    />
                   </div>
                 </div>
               </div>
