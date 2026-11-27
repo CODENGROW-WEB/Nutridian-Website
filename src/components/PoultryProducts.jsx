@@ -69,10 +69,10 @@ export default function PoultryProducts({
   // Resolve active subcategory if applicable
   const currentSubcategory = hasSubcategories
     ? currentCategory.subcategories.find(
-        (s) =>
-          s.name.toLowerCase() === activeSubcatName.toLowerCase() ||
-          s.id === activeSubcatName.toLowerCase()
-      ) || currentCategory.subcategories[0]
+      (s) =>
+        s.name.toLowerCase() === activeSubcatName.toLowerCase() ||
+        s.id === activeSubcatName.toLowerCase()
+    ) || currentCategory.subcategories[0]
     : null
 
   // Collect products for current selection
@@ -122,7 +122,7 @@ export default function PoultryProducts({
   // Active gallery images - filter out logos and deduplicate
   const rawGallery = activeProduct?.gallery && activeProduct.gallery.length > 0
     ? activeProduct.gallery
-    : [activeProduct?.image || '/products/poultry_banner_bg.webp']
+    : [activeProduct?.image || '/products/poultry_banner_bg.png']
 
   const filteredGallery = Array.from(new Set(
     rawGallery.filter((img) => {
@@ -135,7 +135,7 @@ export default function PoultryProducts({
   ))
   const galleryImages = filteredGallery.length > 0
     ? filteredGallery
-    : [activeProduct?.image || '/products/poultry_banner_bg.webp']
+    : [activeProduct?.image || '/products/poultry_banner_bg.png']
 
   const thumbnailImages = activeProduct?.thumbnails && activeProduct.thumbnails.length > 0
     ? activeProduct.thumbnails
@@ -147,30 +147,30 @@ export default function PoultryProducts({
   const shareLinks = [
     {
       name: 'Facebook',
-      icon: '/logo_facebook.webp',
+      icon: '/logo_facebook.png',
       url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`
     },
     {
       name: 'LinkedIn',
-      icon: '/logo_linkedin.webp',
+      icon: '/logo_linkedin.png',
       url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`
     },
     {
       name: 'WhatsApp',
-      icon: '/logo_whatsapp.webp',
+      icon: '/logo_whatsapp.png',
       url: `https://api.whatsapp.com/send?text=${encodeURIComponent((activeProduct?.name || 'Nutridian') + ' - ' + currentUrl)}`
     }
   ]
 
   return (
     <section id="poultry-products-page" className="w-full bg-white overflow-hidden min-h-[90vh]">
-      
+
       {/* 1. Top Banner Header: Authentic Chevron V-Shape Banner matching exact uploaded shape */}
       <div className="relative w-full overflow-hidden bg-white">
         <div className="relative w-full">
           {/* Authentic Chevron Banner Graphic with Hexagon Constellation Network and downward V-shape */}
           <img
-            src="/products/product_banner_custom_bg_hd.webp?v=20261121"
+            src="/products/product_banner_custom_bg_hd.png?v=20261121"
             alt="Product Category Banner Background"
             className="w-full h-auto block select-none pointer-events-none"
           />
@@ -234,11 +234,10 @@ export default function PoultryProducts({
                 <button
                   key={sub.id}
                   onClick={() => handleSubcategorySwitch(sub)}
-                  className={`px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-extrabold transition-all shadow-xs cursor-pointer ${
-                    isSubActive
-                      ? 'bg-black text-white scale-105 shadow-md'
-                      : 'bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900'
-                  }`}
+                  className={`px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-extrabold transition-all shadow-xs cursor-pointer ${isSubActive
+                    ? 'bg-black text-white scale-105 shadow-md'
+                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900'
+                    }`}
                 >
                   {sub.name}
                 </button>
@@ -259,11 +258,10 @@ export default function PoultryProducts({
                 <button
                   key={p.id}
                   onClick={() => handleProductSelect(p)}
-                  className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
-                    isSelected
-                      ? 'bg-[#ea580c] text-white shadow-sm scale-105'
-                      : 'bg-white text-slate-800 hover:bg-orange-100 border border-orange-200'
-                  }`}
+                  className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${isSelected
+                    ? 'bg-[#ea580c] text-white shadow-sm scale-105'
+                    : 'bg-white text-slate-800 hover:bg-orange-100 border border-orange-200'
+                    }`}
                 >
                   {p.name}
                 </button>
@@ -278,7 +276,7 @@ export default function PoultryProducts({
 
             {/* LEFT COLUMN: Main Large Product Image + Gallery Thumbnails + Enquire Now Button */}
             <div className="lg:col-span-5 flex flex-col items-center">
-              
+
               {/* Main Large Product Frame - Arched dome top matching media_1794676540873_2642dc21.jpg */}
               <div
                 onClick={() => {
@@ -320,11 +318,10 @@ export default function PoultryProducts({
                         key={idx}
                         onClick={() => setActiveImageIndex(idx)}
                         aria-label={`View image ${idx + 1}`}
-                        className={`w-16 h-18 sm:w-20 sm:h-22 rounded-xl sm:rounded-2xl border-2 p-1 bg-white overflow-hidden cursor-pointer shadow-xs transition-all ${
-                          isActive
-                            ? 'border-[#ea580c] ring-2 ring-[#ea580c]/50 scale-105'
-                            : 'border-orange-300 hover:border-[#ea580c] opacity-80 hover:opacity-100 hover:scale-102'
-                        }`}
+                        className={`w-16 h-18 sm:w-20 sm:h-22 rounded-xl sm:rounded-2xl border-2 p-1 bg-white overflow-hidden cursor-pointer shadow-xs transition-all ${isActive
+                          ? 'border-[#ea580c] ring-2 ring-[#ea580c]/50 scale-105'
+                          : 'border-orange-300 hover:border-[#ea580c] opacity-80 hover:opacity-100 hover:scale-102'
+                          }`}
                       >
                         <img
                           src={thumbSrc}
@@ -592,7 +589,7 @@ export default function PoultryProducts({
 
               {/* SHARE & CLIENT REVIEWS (Exact match to mockup in Right Column) */}
               <div className="space-y-5 text-left">
-                
+
                 {/* SHARE Heading & 6 Social Icons */}
                 <div>
                   <div className="inline-block border-b-2 border-black pb-0.5 mb-2.5">
@@ -751,11 +748,10 @@ export default function PoultryProducts({
                 <button
                   key={cat.id}
                   onClick={() => handleCategorySwitch(cat)}
-                  className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
-                    isActive
-                      ? 'bg-black text-white shadow-sm ring-2 ring-orange-500'
-                      : 'bg-slate-100 text-slate-700 hover:bg-orange-50 hover:text-orange-600 border border-slate-200/80'
-                  }`}
+                  className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${isActive
+                    ? 'bg-black text-white shadow-sm ring-2 ring-orange-500'
+                    : 'bg-slate-100 text-slate-700 hover:bg-orange-50 hover:text-orange-600 border border-slate-200/80'
+                    }`}
                 >
                   <span className="opacity-60 mr-1">{cat.number}.</span>
                   <span>{cat.name}</span>
@@ -900,9 +896,8 @@ export default function PoultryProducts({
                   <button
                     key={idx}
                     onClick={() => setActiveImageIndex(idx)}
-                    className={`w-14 h-14 sm:w-16 sm:h-16 rounded-xl border-2 overflow-hidden bg-white/10 p-0.5 cursor-pointer transition-all ${
-                      isActive ? 'border-orange-500 scale-110 shadow-lg' : 'border-white/20 opacity-60 hover:opacity-100'
-                    }`}
+                    className={`w-14 h-14 sm:w-16 sm:h-16 rounded-xl border-2 overflow-hidden bg-white/10 p-0.5 cursor-pointer transition-all ${isActive ? 'border-orange-500 scale-110 shadow-lg' : 'border-white/20 opacity-60 hover:opacity-100'
+                      }`}
                   >
                     <img src={imgUrl} alt={`Page ${idx + 1}`} className="w-full h-full object-contain" />
                   </button>
