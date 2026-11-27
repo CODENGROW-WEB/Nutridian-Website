@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import SectionHeading from './SectionHeading'
 import AdvertisementCarousel from './AdvertisementCarousel'
 
 export default function BlogPage({ onBackToHome, onNavigate, onOpenRequestModal }) {
@@ -117,10 +116,7 @@ export default function BlogPage({ onBackToHome, onNavigate, onOpenRequestModal 
           </span>
         </div>
 
-        {/* 3. Section Heading */}
-        <SectionHeading title="LATEST ARTICLES" className="mb-10 sm:mb-12" />
-
-        {/* 4. The 3 Blog Cards (Exact Match to Homepage Cards) */}
+        {/* 3. The 3 Blog Cards (Exact Match to Homepage Cards) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-7 lg:gap-8 max-w-6xl mx-auto">
           {blogs.map((b) => (
             <article
