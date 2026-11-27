@@ -21,7 +21,7 @@ export default function WhyChooseUs() {
         {/* Central Dial Image with Integrated Arrow Labels - Generous scale */}
         <div className="w-full max-w-6xl 2xl:max-w-7xl mx-auto flex justify-center px-2 sm:px-4">
           <img
-            src="/why_choose_us_dial_large.png"
+            src="/why_choose_us_dial_large.webp"
             alt="Why Choose Us - Nutridian Animal Health Advantages"
             className="w-full h-auto max-w-5xl lg:max-w-6xl xl:max-w-7xl object-contain select-none drop-shadow-xs transform transition-transform duration-300 hover:scale-[1.01]"
           />

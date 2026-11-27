@@ -50,7 +50,7 @@ export default function Events({ onBackToHome }) {
         <div
           className="relative w-full min-h-[280px] sm:min-h-[360px] md:min-h-[420px] flex flex-col items-center justify-center text-center p-6 sm:p-10 bg-cover bg-center overflow-hidden"
           style={{
-            backgroundImage: "url('/events/our_events_collage_web.jpg')",
+            backgroundImage: "url('/events/our_events_collage_web.webp')",
           }}
         >
           {/* Dark semi-transparent overlay to make typography pop */}
@@ -59,7 +59,7 @@ export default function Events({ onBackToHome }) {
           {/* Authentic OUR EVENTS header image from Drive root */}
           <div className="relative z-10 max-w-xl mx-auto px-4 mb-4">
             <img
-              src="/events/our_events_header.png"
+              src="/events/our_events_header.webp"
               alt="OUR EVENTS"
               className="h-16 sm:h-24 md:h-28 w-auto object-contain mx-auto drop-shadow-[0_8px_20px_rgba(0,0,0,0.8)] filter brightness-110"
             />
@@ -254,7 +254,7 @@ export default function Events({ onBackToHome }) {
                         loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
                         onError={(e) => {
-                          e.target.src = '/events/our_events_collage_web.jpg'
+                          e.target.src = '/events/our_events_collage_web.webp'
                         }}
                       />
                       
@@ -292,7 +292,7 @@ export default function Events({ onBackToHome }) {
             className="group relative rounded-3xl overflow-hidden border-2 border-slate-300 shadow-xl cursor-pointer hover:border-orange-500 transition-all"
           >
             <img
-              src="/events/our_events_collage_web.jpg"
+              src="/events/our_events_collage_web.webp"
               alt="Nutridian Animal Health Events Collage"
               className="w-full h-auto object-cover group-hover:scale-[1.02] transition-transform duration-500"
             />
@@ -369,7 +369,7 @@ export default function Events({ onBackToHome }) {
               </div>
               <div className="overflow-auto p-2 sm:p-4 flex items-center justify-center bg-black">
                 <img
-                  src="/events/our_events_collage_web.jpg"
+                  src="/events/our_events_collage_web.webp"
                   alt="Nutridian Events Panorama"
                   className="w-full h-auto object-contain"
                 />

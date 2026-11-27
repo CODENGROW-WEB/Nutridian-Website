@@ -18,7 +18,7 @@ export default function Hero({ onRequestInfo }) {
             {/* The Authentic Hero Banner Graphic */}
             <div className="relative w-full aspect-[1024/534] overflow-visible">
               <img
-                src="/hero_bg_banner.jpg"
+                src="/hero_bg_banner.webp"
                 alt="Nutridian Animal Health - Leading Innovation Through Technology"
                 className="w-full h-full object-cover block select-none pointer-events-none"
               />
@@ -94,7 +94,7 @@ export default function Hero({ onRequestInfo }) {
           <div className="w-full flex justify-center pt-2 overflow-visible">
             <div className="relative w-full max-w-[280px] xs:max-w-[320px] sm:max-w-[340px] flex justify-center -mb-8 z-30">
               <img
-                src="/hero_mascot_seamless.png"
+                src="/hero_mascot_seamless.webp"
                 alt="Nutridian Animal Health Poultry Mascot"
                 className="w-full h-auto object-contain block select-none pointer-events-none"
               />

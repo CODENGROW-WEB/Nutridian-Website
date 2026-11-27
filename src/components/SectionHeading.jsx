@@ -29,7 +29,7 @@ export default function SectionHeading({
 
         {/* Left Segment: Concentric Arc Ripples + Rooster Emblem Badge + Start of Orange Pill */}
         <img
-          src="/heading_rooster_left_clean.png"
+          src="/heading_rooster_left_clean.webp"
           alt=""
           aria-hidden="true"
           className="h-full w-auto block object-contain select-none pointer-events-none shrink-0"
@@ -59,7 +59,7 @@ export default function SectionHeading({
 
         {/* Right Segment: Smooth Pill End Cap */}
         <img
-          src="/heading_pill_right_clean.png"
+          src="/heading_pill_right_clean.webp"
           alt=""
           aria-hidden="true"
           className="h-full w-auto block object-contain select-none pointer-events-none shrink-0"

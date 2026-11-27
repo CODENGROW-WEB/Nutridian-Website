@@ -2,12 +2,12 @@ export default function BlogDetail({ onBackToHome }) {
   const pages = [
     {
       id: 1,
-      src: '/blog/pharma_outlook_page1.jpg?v=20261123_perfect',
+      src: '/blog/pharma_outlook_page1.webp?v=20261123_perfect',
       title: 'Pharma Outlook Feature - Page 24'
     },
     {
       id: 2,
-      src: '/blog/pharma_outlook_page2.jpg?v=20261123_perfect',
+      src: '/blog/pharma_outlook_page2.webp?v=20261123_perfect',
       title: 'Pharma Outlook Feature - Page 25'
     }
   ]

@@ -12,35 +12,35 @@ export const EVENTS_DATA = {
             "subfolder": "day1",
             "gallery": [
               {
-                "src": "/events/2022/poultry_india/day1/photo_1.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_1.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 1"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_2.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_2.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 2"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_3.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_3.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 3"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_4.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_4.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 4"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_5.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_5.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 5"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_6.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_6.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 6"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_7.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_7.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 7"
               },
               {
-                "src": "/events/2022/poultry_india/day1/photo_8.jpg",
+                "src": "/events/2022/poultry_india/day1/photo_8.webp",
                 "caption": "Poultry India Expo 2022 - Day 1 Delegation & Pavilion 8"
               }
             ]
@@ -51,35 +51,35 @@ export const EVENTS_DATA = {
             "subfolder": "day2",
             "gallery": [
               {
-                "src": "/events/2022/poultry_india/day2/photo_1.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_1.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 1"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_2.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_2.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 2"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_3.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_3.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 3"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_4.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_4.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 4"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_5.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_5.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 5"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_6.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_6.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 6"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_7.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_7.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 7"
               },
               {
-                "src": "/events/2022/poultry_india/day2/photo_8.jpg",
+                "src": "/events/2022/poultry_india/day2/photo_8.webp",
                 "caption": "Poultry India Expo 2022 - Day 2 B2B Client Discussions 8"
               }
             ]
@@ -90,35 +90,35 @@ export const EVENTS_DATA = {
             "subfolder": "day3",
             "gallery": [
               {
-                "src": "/events/2022/poultry_india/day3/photo_1.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_1.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 1"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_2.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_2.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 2"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_3.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_3.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 3"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_4.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_4.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 4"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_5.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_5.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 5"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_6.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_6.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 6"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_7.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_7.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 7"
               },
               {
-                "src": "/events/2022/poultry_india/day3/photo_8.jpg",
+                "src": "/events/2022/poultry_india/day3/photo_8.webp",
                 "caption": "Poultry India Expo 2022 - Day 3 Grand Team & Valedictory 8"
               }
             ]
@@ -140,35 +140,35 @@ export const EVENTS_DATA = {
             "subfolder": "day1",
             "gallery": [
               {
-                "src": "/events/2023/poultry_india/day1/photo_1.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_1.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 1"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_2.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_2.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 2"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_3.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_3.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 3"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_4.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_4.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 4"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_5.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_5.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 5"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_6.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_6.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 6"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_7.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_7.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 7"
               },
               {
-                "src": "/events/2023/poultry_india/day1/photo_8.jpg",
+                "src": "/events/2023/poultry_india/day1/photo_8.webp",
                 "caption": "Poultry India Expo 2023 - Day 1 Pavilion Inauguration 8"
               }
             ]
@@ -179,35 +179,35 @@ export const EVENTS_DATA = {
             "subfolder": "day2",
             "gallery": [
               {
-                "src": "/events/2023/poultry_india/day2/photo_1.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_1.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 1"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_2.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_2.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 2"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_3.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_3.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 3"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_4.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_4.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 4"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_5.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_5.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 5"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_6.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_6.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 6"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_7.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_7.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 7"
               },
               {
-                "src": "/events/2023/poultry_india/day2/photo_8.jpg",
+                "src": "/events/2023/poultry_india/day2/photo_8.webp",
                 "caption": "Poultry India Expo 2023 - Day 2 Partner Consultation 8"
               }
             ]
@@ -218,35 +218,35 @@ export const EVENTS_DATA = {
             "subfolder": "day3",
             "gallery": [
               {
-                "src": "/events/2023/poultry_india/day3/photo_1.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_1.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 1"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_2.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_2.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 2"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_3.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_3.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 3"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_4.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_4.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 4"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_5.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_5.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 5"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_6.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_6.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 6"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_7.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_7.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 7"
               },
               {
-                "src": "/events/2023/poultry_india/day3/photo_8.jpg",
+                "src": "/events/2023/poultry_india/day3/photo_8.webp",
                 "caption": "Poultry India Expo 2023 - Day 3 Technical Leadership 8"
               }
             ]
@@ -264,35 +264,35 @@ export const EVENTS_DATA = {
             "subfolder": "overview",
             "gallery": [
               {
-                "src": "/events/2023/viv_asia/overview/photo_1.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_1.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 1"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_2.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_2.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 2"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_3.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_3.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 3"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_4.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_4.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 4"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_5.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_5.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 5"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_6.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_6.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 6"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_7.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_7.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 7"
               },
               {
-                "src": "/events/2023/viv_asia/overview/photo_8.jpg",
+                "src": "/events/2023/viv_asia/overview/photo_8.webp",
                 "caption": "VIV Asia 2023 Bangkok - Global Trade Delegation 8"
               }
             ]
@@ -315,7 +315,7 @@ export const EVENTS_DATA = {
             "subfolder": "expo_2026",
             "gallery": [
               {
-                "src": "/events/poultry_india_2026_popup.jpg",
+                "src": "/events/poultry_india_2026_popup.webp",
                 "caption": "Meet Us at Poultry India 2026 - Hall No. 4, Stall No. W29 - W34"
               }
             ]

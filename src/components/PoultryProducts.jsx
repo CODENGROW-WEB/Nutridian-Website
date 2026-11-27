@@ -122,7 +122,7 @@ export default function PoultryProducts({
   // Active gallery images - filter out logos and deduplicate
   const rawGallery = activeProduct?.gallery && activeProduct.gallery.length > 0
     ? activeProduct.gallery
-    : [activeProduct?.image || '/products/poultry_banner_bg.png']
+    : [activeProduct?.image || '/products/poultry_banner_bg.webp']
 
   const filteredGallery = Array.from(new Set(
     rawGallery.filter((img) => {
@@ -135,7 +135,7 @@ export default function PoultryProducts({
   ))
   const galleryImages = filteredGallery.length > 0
     ? filteredGallery
-    : [activeProduct?.image || '/products/poultry_banner_bg.png']
+    : [activeProduct?.image || '/products/poultry_banner_bg.webp']
 
   const thumbnailImages = activeProduct?.thumbnails && activeProduct.thumbnails.length > 0
     ? activeProduct.thumbnails
@@ -147,17 +147,17 @@ export default function PoultryProducts({
   const shareLinks = [
     {
       name: 'Facebook',
-      icon: '/logo_facebook.png',
+      icon: '/logo_facebook.webp',
       url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`
     },
     {
       name: 'LinkedIn',
-      icon: '/logo_linkedin.png',
+      icon: '/logo_linkedin.webp',
       url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`
     },
     {
       name: 'WhatsApp',
-      icon: '/logo_whatsapp.png',
+      icon: '/logo_whatsapp.webp',
       url: `https://api.whatsapp.com/send?text=${encodeURIComponent((activeProduct?.name || 'Nutridian') + ' - ' + currentUrl)}`
     }
   ]
@@ -170,7 +170,7 @@ export default function PoultryProducts({
         <div className="relative w-full">
           {/* Authentic Chevron Banner Graphic with Hexagon Constellation Network and downward V-shape */}
           <img
-            src="/products/product_banner_custom_bg_hd.png?v=20261121"
+            src="/products/product_banner_custom_bg_hd.webp?v=20261121"
             alt="Product Category Banner Background"
             className="w-full h-auto block select-none pointer-events-none"
           />

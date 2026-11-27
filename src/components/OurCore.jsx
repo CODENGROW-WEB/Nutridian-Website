@@ -31,7 +31,7 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
       {/* 1. Top Banner Header: OUR CORE (Full width edge-to-edge touching both sides) */}
       <div className="relative w-full overflow-hidden bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 border-b border-orange-200/60 shadow-xs">
         <img
-          src="/our_core_banner.png"
+          src="/our_core_banner.webp"
           alt="OUR CORE - Nutridian Animal Health"
           className="w-full h-auto object-cover object-center select-none block"
         />
@@ -64,7 +64,7 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
             <div className="relative group max-w-md w-full flex flex-col items-center justify-center">
               <div className="relative p-2 sm:p-4 flex items-center justify-center">
                 <img
-                  src="/chick_hatching_egg.png"
+                  src="/chick_hatching_egg.webp"
                   alt="Nutridian Hatching Chick Mascot"
                   className="w-full max-w-[340px] sm:max-w-[420px] lg:max-w-[460px] h-auto object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
                 />
@@ -154,7 +154,7 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
               <div className="md:col-span-5 lg:col-span-4 flex justify-center">
                 <div className="relative group">
                   <img
-                    src="/leader_umashankar_hd.png"
+                    src="/leader_umashankar_hd.webp"
                     alt="Mr. Umashankar Shah - Director"
                     className="w-64 sm:w-72 md:w-80 h-auto object-contain transform group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-xl"
                   />
@@ -198,7 +198,7 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
               <div className="md:col-span-5 lg:col-span-4 flex justify-center order-1 md:order-2">
                 <div className="relative group">
                   <img
-                    src="/leader_mona_hd.png"
+                    src="/leader_mona_hd.webp"
                     alt="Mrs. Mona Deepak Shah - Managing Director"
                     className="w-64 sm:w-72 md:w-80 h-auto object-contain transform group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-xl"
                   />
@@ -212,7 +212,7 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
               <div className="md:col-span-5 lg:col-span-4 flex justify-center">
                 <div className="relative group">
                   <img
-                    src="/leader_pravinkumar_hd.png"
+                    src="/leader_pravinkumar_hd.webp"
                     alt="Dr. Pravinkumar Handekar - CEO"
                     className="w-64 sm:w-72 md:w-80 h-auto object-contain transform group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-xl"
                   />

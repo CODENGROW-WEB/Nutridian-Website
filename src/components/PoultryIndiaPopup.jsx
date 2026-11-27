@@ -58,7 +58,7 @@ export default function PoultryIndiaPopup({ isOpen, onClose }) {
 
         {/* Pure Image Only */}
         <img
-          src="/events/poultry_india_2026_popup.jpg"
+          src="/events/poultry_india_2026_popup.webp"
           alt="Meet Us at Poultry India 2026 - Nutridian Animal Health"
           className="w-full h-auto max-h-[90vh] object-contain rounded-2xl sm:rounded-3xl select-none"
         />

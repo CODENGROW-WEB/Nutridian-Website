@@ -36,7 +36,7 @@ export default function ContactUs({ onBackToHome }) {
       {/* Top Header Banner - Full width edge-to-edge touching both sides */}
       <div className="relative w-full overflow-hidden bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 border-b border-orange-200/60 shadow-xs">
         <img
-          src="/contact_us_banner.png"
+          src="/contact_us_banner.webp"
           alt="CONTACT US - Nutridian Animal Health"
           className="w-full h-auto object-cover object-center select-none block"
         />

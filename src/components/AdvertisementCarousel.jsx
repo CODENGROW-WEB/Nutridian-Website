@@ -4,29 +4,29 @@ export const AD_BANNERS = [
   {
     id: 'avirom-plus',
     title: 'Avirom Plus - Digestive Health Booster',
-    image: '/ads/ad_avirom_plus.png?v=20261122_uhd',
-    fallbackJpg: '/ads/ad_avirom_plus.jpg?v=20261122_uhd',
+    image: '/ads/ad_avirom_plus.webp?v=20261122_uhd',
+    fallbackJpg: '/ads/ad_avirom_plus.webp?v=20261122_uhd',
     category: 'Non Antibiotic Growth Promoters'
   },
   {
     id: 'butyron',
     title: 'Butyron - Digestive Health Enhancer',
-    image: '/ads/ad_butyron.png?v=20261122_uhd',
-    fallbackJpg: '/ads/ad_butyron.jpg?v=20261122_uhd',
+    image: '/ads/ad_butyron.webp?v=20261122_uhd',
+    fallbackJpg: '/ads/ad_butyron.webp?v=20261122_uhd',
     category: 'Organic Acids & Acidifier'
   },
   {
     id: 'god-n',
     title: 'GOD-N - Most Reliable Non Antibiotic Growth Promoter',
-    image: '/ads/ad_god_n.png?v=20261122_uhd',
-    fallbackJpg: '/ads/ad_god_n.jpg?v=20261122_uhd',
+    image: '/ads/ad_god_n.webp?v=20261122_uhd',
+    fallbackJpg: '/ads/ad_god_n.webp?v=20261122_uhd',
     category: 'Non Antibiotic Growth Promoters'
   },
   {
     id: 'nutriquinol',
     title: 'Nutriquinol - 3-in-One Versatile Non Antibiotic Growth Promoter',
-    image: '/ads/ad_nutriquinol.png?v=20261122_uhd',
-    fallbackJpg: '/ads/ad_nutriquinol.jpg?v=20261122_uhd',
+    image: '/ads/ad_nutriquinol.webp?v=20261122_uhd',
+    fallbackJpg: '/ads/ad_nutriquinol.webp?v=20261122_uhd',
     category: 'Non Antibiotic Growth Promoters'
   }
 ]

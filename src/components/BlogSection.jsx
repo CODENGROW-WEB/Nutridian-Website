@@ -8,7 +8,7 @@ export default function BlogSection() {
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
       excerpt: "for quality-driven additives & supplements such as Non AGP's, Coccidiostats, Organic Acids, Mycoplasma preventive solutions, Immunomodulators,......",
-      image: '/blog/blog_1.jpg?v=20261123',
+      image: '/blog/blog_1.webp?v=20261123',
       alt: 'Nutridian Leadership Profile',
       views: 0
     },
@@ -17,7 +17,7 @@ export default function BlogSection() {
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
       excerpt: "Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. In this blog, we share five expert-backed tips on how......",
-      image: '/blog/blog_2.jpg?v=20261123',
+      image: '/blog/blog_2.webp?v=20261123',
       alt: 'Poultry Broiler Health and Performance',
       views: 0
     },
@@ -26,7 +26,7 @@ export default function BlogSection() {
       date: 'April 11, 2026',
       title: '5 Proven Ways to Increase Milk Yield and Quality',
       excerpt: "Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. In this blog, we share five expert-backed tips on how......",
-      image: '/blog/blog_3.jpg?v=20261123',
+      image: '/blog/blog_3.webp?v=20261123',
       alt: 'Commercial Poultry Farm Flocks',
       views: 0
     }

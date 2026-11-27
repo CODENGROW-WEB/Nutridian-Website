@@ -10,7 +10,7 @@ export default function AviromSpotlight({ onRequestInfo }) {
       >
         {/* Authentic High-Resolution AVIROM PLUS Banner Image Graphic */}
         <img
-          src="/avirom_plus_banner.png"
+          src="/avirom_plus_banner.webp"
           alt="AVIROM PLUS Digestive Health Booster by igusol - Nutridian Animal Health"
           className="w-full h-auto object-cover object-center block select-none"
         />

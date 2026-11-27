@@ -5,7 +5,7 @@ export default function Footer({ onOpenRequestModal, onNavigate }) {
       {/* Signature Total Site Traffic Counter Bar */}
       <div className="w-full bg-white py-4 px-4 sm:px-6 border-b border-slate-200/80 flex items-center justify-center">
         <img
-          src="/total_site_traffic.png"
+          src="/total_site_traffic.webp"
           alt="Total Site Traffic - Nutridian Animal Health"
           className="h-16 sm:h-20 md:h-24 w-auto object-contain select-none block"
         />
@@ -20,7 +20,7 @@ export default function Footer({ onOpenRequestModal, onNavigate }) {
             {/* Nutridian & KCPL Logo as shown in reference */}
             <div className="flex items-center">
               <img
-                src="/nutridian_kcpl_logo.png"
+                src="/nutridian_kcpl_logo.webp"
                 alt="Nutridian Animal Health & KCPL Manufacturer & Exporter Since 1971"
                 className="h-11 sm:h-12 w-auto object-contain cursor-pointer"
                 onClick={() => onNavigate && onNavigate('HOME')}

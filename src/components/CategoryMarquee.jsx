@@ -27,7 +27,7 @@ export default function CategoryMarquee({ onSelectCategory }) {
                 className="relative overflow-hidden flex-none pl-6 sm:pl-8 pr-10 sm:pr-12 py-3 sm:py-3.5 rounded-full text-white font-lato font-bold text-sm sm:text-base md:text-lg border-2 border-orange-400/60 shadow-[0_6px_18px_rgba(228,81,33,0.35)] hover:scale-105 hover:shadow-[0_8px_24px_rgba(228,81,33,0.5)] transition-all duration-200 cursor-pointer flex items-center justify-center min-w-[220px] sm:min-w-[260px] group/pill select-none bg-[#e45121]"
                 style={{
                   fontFamily: "'Lato', sans-serif",
-                  backgroundImage: "url('/marquee_pill_bg.png?v=20261123')",
+                  backgroundImage: "url('/marquee_pill_bg.webp?v=20261123')",
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'right center',
                   backgroundSize: 'auto 100%'

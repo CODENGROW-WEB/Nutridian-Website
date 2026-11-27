@@ -141,7 +141,7 @@ export default function Navbar({ activePage = 'HOME', onNavigate, onOpenRequestM
       {/* 1. Signature Striped Lines Image Bar just upon the navbar */}
       <div
         className="w-full h-8 sm:h-9 bg-repeat-x bg-[length:auto_100%] relative"
-        style={{ backgroundImage: "url('/navbar_stripe.png')" }}
+        style={{ backgroundImage: "url('/navbar_stripe.webp')" }}
       />
 
       {/* 2. Main White Navigation Header Container */}
@@ -167,7 +167,7 @@ export default function Navbar({ activePage = 'HOME', onNavigate, onOpenRequestM
               aria-label="Nutridian Animal Health & KCPL Home"
             >
               <img
-                src="/nutridian_kcpl_logo.png"
+                src="/nutridian_kcpl_logo.webp"
                 alt="Nutridian Animal Health - KCPL Manufacturer & Exporter Since 1971"
                 className="h-9 xs:h-11 sm:h-13 md:h-15 lg:h-16 w-auto object-contain max-w-[190px] xs:max-w-[240px] sm:max-w-[320px] md:max-w-none"
               />

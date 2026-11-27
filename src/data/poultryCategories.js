@@ -12,14 +12,14 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIQUINOL 60%',
         subTitle: '3-in-One Versatile Non Antibiotic Growth Promoter',
         rating: 4.8,
-        image: '/products/nutriquinol_powder_25kg.png?v=20261123',
-        logoImage: '/products/nutriquinol_60_logo.png',
+        image: '/products/nutriquinol_powder_25kg.webp?v=20261123',
+        logoImage: '/products/nutriquinol_60_logo.webp',
         gallery: [
-          '/products/nutriquinol_powder_25kg.png?v=20261123',
-          '/products/nutriquinol_60_page1.jpg',
-          '/products/nutriquinol_60_page2.jpg',
-          '/products/nutriquinol_60_page3.jpg',
-          '/products/nutriquinol_60_page4.jpg'
+          '/products/nutriquinol_powder_25kg.webp?v=20261123',
+          '/products/nutriquinol_60_page1.webp',
+          '/products/nutriquinol_60_page2.webp',
+          '/products/nutriquinol_60_page3.webp',
+          '/products/nutriquinol_60_page4.webp'
         ],
         composition: 'Chlorohydroxyquinoline................60% w/w',
         benefits: '•  Proven non antibiotic growth promoter\n•  Active against Gram+, Gram- bacteria and Fungi\n•  Nutriquinol potentiates the effect of anti coccidial drugs in poultry\n•  Prevents & control all types of non specific diarrhea\n•  No resistance development reported so far\n•  No residues during withdrawal period\n•  Control wet dropping in poultry and thereby fly breeding in poultry',
@@ -31,14 +31,14 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIQUINOL ADVANCE 12%',
         subTitle: '3-in-one Versatile Non AGP & Antidiarrheal',
         rating: 4.7,
-        image: '/products/nutriquinol_12_pack.png',
-        logoImage: '/products/nutriquinol_12_logo.png',
+        image: '/products/nutriquinol_12_pack.webp',
+        logoImage: '/products/nutriquinol_12_logo.webp',
         gallery: [
-          '/products/nutriquinol_12_pack.png',
-          '/products/nutriquinol_12_page1.jpg',
-          '/products/nutriquinol_12_page2.jpg',
-          '/products/nutriquinol_12_page3.jpg',
-          '/products/nutriquinol_12_page4.jpg'
+          '/products/nutriquinol_12_pack.webp',
+          '/products/nutriquinol_12_page1.webp',
+          '/products/nutriquinol_12_page2.webp',
+          '/products/nutriquinol_12_page3.webp',
+          '/products/nutriquinol_12_page4.webp'
         ],
         composition: 'Chlorohydroxyquinoline..12%\nFortified with specialized potentiator for better results...q.s.',
         benefits: '•	Prevents & control all types of non specific diarrhea & wet dropping\n•	Proven non antibiotic growth promoter\n•	Active against gram positive, gram negative bacteria & fungi\n•	Nutriquinol potentiates the effect of anti coccidial drugs in Poultry\n•	No resistance development reported so far\n•	No residues during withdrawal period\n•	Control wet dropping in poultry and thereby fly breeding and controls fly population\n•	Improves FCR, weight gain and egg production in poultry',
@@ -50,12 +50,12 @@ export const POULTRY_CATEGORIES = [
         title: 'ROXADIAN',
         subTitle: 'Roxarsone 20%',
         rating: 4.6,
-        image: '/products/roxadian_20_pack.png',
-        logoImage: '/products/roxadian_20_logo.png',
+        image: '/products/roxadian_20_pack.webp',
+        logoImage: '/products/roxadian_20_logo.webp',
         gallery: [
-          '/products/roxadian_20_pack.png',
-          '/products/roxadian_20_page1.jpg',
-          '/products/roxadian_20_page2.jpg'
+          '/products/roxadian_20_pack.webp',
+          '/products/roxadian_20_page1.webp',
+          '/products/roxadian_20_page2.webp'
         ],
         composition: 'Each Kg Contains :\nRoxarsone.............200 gm\n\nRoxaDian 20% is an ideal non- antibiotic growth promoter. It contains 3-Nitro-4-hydroxy phenyl arsonic acid, also known as Roxarsone.\nIt is a non-specific chemical and selectively germicidal, i.e. stimulates the growth of beneficial microbes and inhibits the growth of harmful one.',
         benefits: '●	Helps to improve growth, performance and livability\n●	Potentiates the action of Coccidostats when used in combination\n●	Improve pigmentation in birds\n●	No chances of development of resistance\n●	Improve egg production in poultry',
@@ -67,17 +67,17 @@ export const POULTRY_CATEGORIES = [
         title: 'AVIROM PLUS',
         subTitle: 'Enramycin 8% Granules',
         rating: 4.9,
-        image: '/products/avirom_plus_25kg.png?v=20261123',
-        logoImage: '/products/avirom_plus_logo.png',
+        image: '/products/avirom_plus_25kg.webp?v=20261123',
+        logoImage: '/products/avirom_plus_logo.webp',
         gallery: [
-          '/products/avirom_plus_25kg.png?v=20261123',
-          '/products/Avirom plus.jpeg',
-          '/products/Avirom Folder 2026 01.jpg',
-          '/products/Avirom Folder 2026 02.jpg',
-          '/products/Avirom Folder 2026 03.jpg',
-          '/products/Avirom Folder 2026 04.jpg',
-          '/products/Avirom Folder 2026 05.jpg',
-          '/products/Avirom Folder 2026 06.jpg'
+          '/products/avirom_plus_25kg.webp?v=20261123',
+          '/products/Avirom plus.webp',
+          '/products/Avirom Folder 2026 01.webp',
+          '/products/Avirom Folder 2026 02.webp',
+          '/products/Avirom Folder 2026 03.webp',
+          '/products/Avirom Folder 2026 04.webp',
+          '/products/Avirom Folder 2026 05.webp',
+          '/products/Avirom Folder 2026 06.webp'
         ],
         composition: 'Sodium Butyrate....30%\nEssential Oils (Cinnamon, Thymol, Oregano)....10%, Excipient Kieselgurh',
         indication: '• Natural Growth Promoter • Treatment against Dysbacteriosis',
@@ -90,16 +90,16 @@ export const POULTRY_CATEGORIES = [
         title: 'GOD N',
         subTitle: 'Glucose Oxidase',
         rating: 4.8,
-        image: '/products/god_n_5000_25kg.png?v=20261123',
-        logoImage: '/products/god_n_logo.png',
+        image: '/products/god_n_5000_25kg.webp?v=20261123',
+        logoImage: '/products/god_n_logo.webp',
         gallery: [
-          '/products/god_n_5000_25kg.png?v=20261123',
-          '/products/god_n_5000_25kg.png?v=20261123',
-          '/products/God-N Folder 01.jpg',
-          '/products/God-N Folder 02.jpg',
-          '/products/God-N Folder 03.jpg',
-          '/products/God-N Folder 04.jpg',
-          '/products/God-N.png'
+          '/products/god_n_5000_25kg.webp?v=20261123',
+          '/products/god_n_5000_25kg.webp?v=20261123',
+          '/products/God-N Folder 01.webp',
+          '/products/God-N Folder 02.webp',
+          '/products/God-N Folder 03.webp',
+          '/products/God-N Folder 04.webp',
+          '/products/God-N.webp'
         ],
         composition: 'Glucose Oxidase activity - 2000 U/gm',
         indication: '●  Reduces infection pressure in GIT, controls pathogen population and can replace antibiotics\n●  GOD-N destroyes chemical structure of mycotoxins in feed so reduces toxicity and improves immunity.\n●  It has antibacterial and Antifungal effect in Gut\n●  GOD-N improves intestinal microecological environment\n●  GOD-N helps to adjust intestinal pH, enhances digestion & absorption of feed',
@@ -111,14 +111,14 @@ export const POULTRY_CATEGORIES = [
         title: 'CUOXINE',
         subTitle: 'Ultimate Solution to Stop Mould & Fungal Spores',
         rating: 4.7,
-        image: '/products/Cuoxine.png',
-        logoImage: '/products/cuoxine_logo.png',
+        image: '/products/Cuoxine.webp',
+        logoImage: '/products/cuoxine_logo.webp',
         gallery: [
-          '/products/Cuoxine.png',
-          '/products/CuOxine Folder 01.jpg',
-          '/products/CuOxine Folder 02.jpg',
-          '/products/CuOxine Folder 03.jpg',
-          '/products/CuOxine Folder 04.jpg'
+          '/products/Cuoxine.webp',
+          '/products/CuOxine Folder 01.webp',
+          '/products/CuOxine Folder 02.webp',
+          '/products/CuOxine Folder 03.webp',
+          '/products/CuOxine Folder 04.webp'
         ],
         composition: 'Copper Oxine bio-chelated complex on stabilized carrier.',
         advantage: 'Broad-spectrum anti-fungal and mold barrier that eliminates mould growth, preserves feed freshness, and prevents mycotoxin formation in raw feed grains.',
@@ -145,11 +145,11 @@ export const POULTRY_CATEGORIES = [
             title: 'COXICHECK - MN',
             subTitle: '7.5 gm/kg maduramycin ammonium and 80 gm/kg nicarbazin',
             rating: 4.0,
-            image: '/products/coxicheck_mn_pack.png',
-            logoImage: '/products/coxichek_logo.png',
+            image: '/products/coxicheck_mn_pack.webp',
+            logoImage: '/products/coxichek_logo.webp',
             gallery: [
-              '/products/coxicheck_mn_pack.png',
-              '/products/Coxicheck MN 2026.jpg'
+              '/products/coxicheck_mn_pack.webp',
+              '/products/Coxicheck MN 2026.webp'
             ],
             brandRender: 'coxicheck_mn',
             composition: '7.5 gm/kg Maduramycin Ammonium and 80 gm/kg Nicarbazin +912.5 gm/kg Corn Cob Meal',
@@ -165,11 +165,11 @@ export const POULTRY_CATEGORIES = [
             title: 'N-CARB™',
             subTitle: '80 gm/kg monensin + 80 gm/kg nicarbazin',
             rating: 4.5,
-            image: '/products/ncarb_pack.png',
-            logoImage: '/products/n_carb_logo.png',
+            image: '/products/ncarb_pack.webp',
+            logoImage: '/products/n_carb_logo.webp',
             gallery: [
-              '/products/ncarb_pack.png',
-              '/products/Ncarb 2026.jpg'
+              '/products/ncarb_pack.webp',
+              '/products/Ncarb 2026.webp'
             ],
             brandRender: 'n_carb',
             composition: '80g/kg monensin + 80g/kg nicarbazin',
@@ -192,11 +192,11 @@ export const POULTRY_CATEGORIES = [
             title: 'NUTRIDOL 25%',
             subTitle: 'Highly Effective in the Prevention of Coccidiosis',
             rating: 4.7,
-            image: '/products/nutridol_25_pack.png',
-            logoImage: '/products/nutridol_25_logo.png',
+            image: '/products/nutridol_25_pack.webp',
+            logoImage: '/products/nutridol_25_logo.webp',
             gallery: [
-              '/products/nutridol_25_pack.png',
-              '/products/nutridol_25_leaflet_hd.jpg'
+              '/products/nutridol_25_pack.webp',
+              '/products/nutridol_25_leaflet_hd.webp'
             ],
             composition: '250 gm/kg Clopidol NutriDol 25% is highly effective coccidiostat product. It consist of 3,5-dichloro-2,6-dimethyl-4-pyridinol (clopidol), a pyridine derivative.',
             advantage: 'NutriDol 25% is broad-spectrum coccidiostat used in the prevention & treatment of coccidiosis caused by Eimeria tenella, E. necatrix, E. maxima, E. acervulina, E. mitis, E. praecox and E. brunetti.\n\nNutriDol 25% can be utilized effectively in shuttle or rotation programs with other anticoccidials, to enhance feed efficiency and body weight gain.',
@@ -210,11 +210,11 @@ export const POULTRY_CATEGORIES = [
             title: 'ROBIDIAN 10%',
             subTitle: 'Robenidine HCL',
             rating: 4.6,
-            image: '/products/robidian_10_pack.png',
-            logoImage: '/products/robidian_10_logo.png',
+            image: '/products/robidian_10_pack.webp',
+            logoImage: '/products/robidian_10_logo.webp',
             gallery: [
-              '/products/robidian_10_pack.png',
-              '/products/robidian_leaflet.jpg'
+              '/products/robidian_10_pack.webp',
+              '/products/robidian_leaflet.webp'
             ],
             composition: 'Robidian 10% contains 100 gm of Active Robenidine HCL in 1 Kg Premix',
             spectrum: 'Robidian 10% is an anticoccidal of choice for cleanup program. Highly effective on E. mitis, E. brunette, E. tenella, E. acervulina, E. maxima, E. necatrix & E. praecox',
@@ -228,11 +228,11 @@ export const POULTRY_CATEGORIES = [
             title: 'NUTRIQUINATE',
             subTitle: '60 gm/kg decoquinate',
             rating: 4.5,
-            image: '/products/nutriquinate_pack.png',
-            logoImage: '/products/nutriquinate_logo.png',
+            image: '/products/nutriquinate_pack.webp',
+            logoImage: '/products/nutriquinate_logo.webp',
             gallery: [
-              '/products/nutriquinate_pack.png',
-              '/products/nutriquinate_leaflet.jpg'
+              '/products/nutriquinate_pack.webp',
+              '/products/nutriquinate_leaflet.webp'
             ],
             composition: '60 gm/kg decoquinate',
             advantage: 'Nutriquinate is a quinolone cocdidiostat at used in the prevention and control of coccidiosis caused by Eimeria tenella, E. acervulina, E. maxima, E. necatrix, E. brunetti, E.mivati and Toxoplasma species. Nutriquinate can be utilized effectively in shuttle or rotation programs with other anticoccidials to enhance feed efficiency and rate of gain.',
@@ -246,11 +246,11 @@ export const POULTRY_CATEGORIES = [
             title: 'NILCOX',
             subTitle: 'Type A Medicated Article with Microtracer',
             rating: 4.6,
-            image: '/products/nilcox_25_pack.png',
-            logoImage: '/products/nilcox_25_logo.png',
+            image: '/products/nilcox_25_pack.webp',
+            logoImage: '/products/nilcox_25_logo.webp',
             gallery: [
-              '/products/nilcox_25_pack.png',
-              '/products/nilcox_leaflet.jpg'
+              '/products/nilcox_25_pack.webp',
+              '/products/nilcox_leaflet.webp'
             ],
             composition: 'Nicarbazin....... 25%',
             usage: 'Nicarbazine 25% - 500 gm/ton of feed (125 PPM)',
@@ -264,11 +264,11 @@ export const POULTRY_CATEGORIES = [
             title: 'VETOCOX',
             subTitle: 'Revolutionary CLEAN UP Anticoccidial',
             rating: 4.8,
-            image: '/products/vetocox_pack.png',
-            logoImage: '/products/vetocox_logo.png',
+            image: '/products/vetocox_pack.webp',
+            logoImage: '/products/vetocox_logo.webp',
             gallery: [
-              '/products/vetocox_pack.png',
-              '/products/vetocox_leaflet.jpg'
+              '/products/vetocox_pack.webp',
+              '/products/vetocox_leaflet.webp'
             ],
             composition: 'Diclazuril 0.5%',
             usage: '200 gm/ton of feed (1 ppm of Diclox)',
@@ -287,11 +287,11 @@ export const POULTRY_CATEGORIES = [
             title: 'MONENDIAN 200',
             subTitle: '200 gm/kg Monensin Sodium',
             rating: 4.6,
-            image: '/products/monendian_200_pack.png',
-            logoImage: '/products/monendian_200_logo.png',
+            image: '/products/monendian_200_pack.webp',
+            logoImage: '/products/monendian_200_logo.webp',
             gallery: [
-              '/products/monendian_200_pack.png',
-              '/products/monendian_leaflet.jpg'
+              '/products/monendian_200_pack.webp',
+              '/products/monendian_leaflet.webp'
             ],
             composition: '200 gm/kg Monensin Sodium',
             advantage: 'MonenDian 200 is a proven ionophore for the prevention and control of coccidiosis caused by Eimeria species. MonenDian 200 can be utilized effectively in shuttle or rotation programs with other coccidiostats.',
@@ -306,11 +306,11 @@ export const POULTRY_CATEGORIES = [
             title: 'NUTRISTAT 12%',
             subTitle: '120 gm/kg Salinomycin Sodium',
             rating: 4.7,
-            image: '/products/nutristat_12_pack.png',
-            logoImage: '/products/nutristat_12_logo.png',
+            image: '/products/nutristat_12_pack.webp',
+            logoImage: '/products/nutristat_12_logo.webp',
             gallery: [
-              '/products/nutristat_12_pack.png',
-              '/products/nutristat_leaflet.jpg'
+              '/products/nutristat_12_pack.webp',
+              '/products/nutristat_leaflet.webp'
             ],
             composition: '120 gm/kg Salinomycin Sodium + 880 gm/kg Calcium Carbonate',
             advantage: 'NutriSTAT 12% is a flexible, monovalent ionophore which can be utilized effectively in all seasons as a whole-life product or in shuttle or rotation programs with other anticoccidials. Salinomycin has been widely used over a long period of time with negligible resistance issues.',
@@ -324,11 +324,11 @@ export const POULTRY_CATEGORIES = [
             title: 'MADURADIAN 1%',
             subTitle: 'Protect Your Performance',
             rating: 4.7,
-            image: '/products/maduradian_1_pack.png',
-            logoImage: '/products/maduradian_1_logo.png',
+            image: '/products/maduradian_1_pack.webp',
+            logoImage: '/products/maduradian_1_logo.webp',
             gallery: [
-              '/products/maduradian_1_pack.png',
-              '/products/maduradian_leaflet.jpg'
+              '/products/maduradian_1_pack.webp',
+              '/products/maduradian_leaflet.webp'
             ],
             benefits: '• High Potency Active\n• Broad Spectrum Control\n• High Compatibility\n• Increased Growth Rate\n• Improved Feed Efficiency\n• Reduced Mortality',
             usage: '500 gm/ton of feed (5ppm) or as directed by Nutritionists',
@@ -347,11 +347,11 @@ export const POULTRY_CATEGORIES = [
             title: 'AMPRODIAN K',
             subTitle: 'ORAL POWDER I.P.',
             rating: 4.9,
-            image: '/products/amprodian_k_pack.png',
-            logoImage: '/products/amprodian_k_logo.png',
+            image: '/products/amprodian_k_pack.webp',
+            logoImage: '/products/amprodian_k_logo.webp',
             gallery: [
-              '/products/amprodian_k_pack.png',
-              '/products/amprodian_leaflet.jpg'
+              '/products/amprodian_k_pack.webp',
+              '/products/amprodian_leaflet.webp'
             ],
             composition: 'Each 100 gm contains :\nAmprolium...............20 gm    \nVitamin K...............250 mg',
             benefits: '• Amprodian as dietary aid is highly effective against coccidiosis\n• Vitamin K3 checks intestinal hemorrhage\n• As dietary aid is effective against all species of Eimeria which  causes coccidiosis',
@@ -377,11 +377,11 @@ export const POULTRY_CATEGORIES = [
         title: 'CHLORNEX 15%',
         subTitle: 'Chlortetracycline HCL',
         rating: 4.8,
-        image: '/products/chlornex_15_pack.png',
-        logoImage: '/products/chlornex_25_logo.png',
+        image: '/products/chlornex_15_pack.webp',
+        logoImage: '/products/chlornex_25_logo.webp',
         gallery: [
-          '/products/chlornex_15_pack.png',
-          '/products/chlornex_leaflet.jpg'
+          '/products/chlornex_15_pack.webp',
+          '/products/chlornex_leaflet.webp'
         ],
         composition: 'ChlorNEX contains 150 gm of Active Chlortetracycline HCL in 1 Kg Granular Premix',
         spectrum: "ChlorNEX 15% is truly broad spectrum antimicrobial. Effective on Gram '+', Gram '-' bacteria & protozoa.",
@@ -395,12 +395,12 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIMYCIN 80',
         subTitle: 'Bambermycin/ Moenomycin/ Flavophospholipol - 80mg/gm',
         rating: 4.9,
-        image: '/products/nutrimycin_80_pack.png',
-        logoImage: '/products/nutrimycin_80_logo.png',
+        image: '/products/nutrimycin_80_pack.webp',
+        logoImage: '/products/nutrimycin_80_logo.webp',
         gallery: [
-          '/products/nutrimycin_80_pack.png',
-          '/products/nutrimycin_leaf1.jpg',
-          '/products/nutrimycin_leaf2.jpg'
+          '/products/nutrimycin_80_pack.webp',
+          '/products/nutrimycin_leaf1.webp',
+          '/products/nutrimycin_leaf2.webp'
         ],
         composition: 'Bambermycin/ Moenomycin/ Flavophospholipol - 80mg/gm',
         benefits: '•  Avoids generating bacterial resistance and helps minimize antibiotic resistance.\n•  Reserved strictly for in-feed agricultural use to enhance growth and performance in livestock, rather than human applications.\n•  Operates locally in the gut without systemic absorption, leaving no residual buildup.\n•  Supports a balanced digestive microflora by lowering pathogen levels while preserving helpful bacteria such as Lactobacilli and Bifidobacteria.\n•  Assists young birds in establishing healthy intestinal microflora early on.\n•  Lowers pathogen shedding in litter, helping decrease disease transmission.',
@@ -413,11 +413,11 @@ export const POULTRY_CATEGORIES = [
         title: 'ENREX',
         subTitle: 'Enramycin 8% Granules',
         rating: 4.7,
-        image: '/products/enrex_pack.png',
-        logoImage: '/products/enrex_logo.png',
+        image: '/products/enrex_pack.webp',
+        logoImage: '/products/enrex_logo.webp',
         gallery: [
-          '/products/enrex_pack.png',
-          '/products/enrex_leaflet.jpg'
+          '/products/enrex_pack.webp',
+          '/products/enrex_leaflet.webp'
         ],
         composition: 'Each 1 kg of EnRex contains 80 gm of Enramycin HCl a polypeptide, which has a strong action against Gram positive bacteria (Clostridium perfringens). It improves weight gain and feed conversion',
         benefits: '•  Improves flock intestinal health, resulting in better feed efficiency\n•  Improves growth performance at very low inclusion levels\n•  Improves weight gain and feed conversion\n•  Reduces wet droppings in poultry\n•  No cross resistance between Enramycin HCl and other available antibiotics\n•  No detectable residues in tissues\n•  No side effect',
@@ -429,11 +429,11 @@ export const POULTRY_CATEGORIES = [
         title: 'AVILADIAN 100',
         subTitle: 'Avilamycin 100 gm/kg',
         rating: 4.8,
-        image: '/products/aviladian_100_pack.png',
-        logoImage: '/products/aviladian_100_logo.png',
+        image: '/products/aviladian_100_pack.webp',
+        logoImage: '/products/aviladian_100_logo.webp',
         gallery: [
-          '/products/aviladian_100_pack.png',
-          '/products/aviladian_leaflet.jpg'
+          '/products/aviladian_100_pack.webp',
+          '/products/aviladian_leaflet.webp'
         ],
         composition: '100 gm/kg Avilamycin',
         indication: '•  For the prevention and control of Necrotic Enteritis in broiler chickens caused by Clostridium perfringens.\n•  For increased rate of weight gain and improved feed efficiency in broiler chickens.',
@@ -446,10 +446,10 @@ export const POULTRY_CATEGORIES = [
         title: 'LINCODIAN 11%',
         subTitle: 'Antimicrobial Performance Enhancer',
         rating: 4.8,
-        image: '/products/lincodian_11_leaflet.jpg',
-        logoImage: '/products/lincodian_11_logo.png',
+        image: '/products/lincodian_11_leaflet.webp',
+        logoImage: '/products/lincodian_11_logo.webp',
         gallery: [
-          '/products/lincodian_11_leaflet.jpg'
+          '/products/lincodian_11_leaflet.webp'
         ],
         composition: '•  Lincomycin Hydrochloride...0.88%\n•  Neomycin Sulphate...............5%',
         benefits: '•  Maintains gut integrity & Improves respiratory health\n•  Enhances growth & FCR',
@@ -461,11 +461,11 @@ export const POULTRY_CATEGORIES = [
         title: 'LINCODIAN N',
         subTitle: 'Feed Additive',
         rating: 4.8,
-        image: '/products/lincodian_n_pack.png',
-        logoImage: '/products/lincodian_n_logo.png',
+        image: '/products/lincodian_n_pack.webp',
+        logoImage: '/products/lincodian_n_logo.webp',
         gallery: [
-          '/products/lincodian_n_pack.png',
-          '/products/Lincodian N.jpg'
+          '/products/lincodian_n_pack.webp',
+          '/products/Lincodian N.webp'
         ],
         composition: 'Lincomycin HCL B.P. Vet 11% w/w',
         benefits: 'Lincodian 11% premix is an ideal AGP.\nSuppresses the growth of harmful gut bacteria.\nPromotes efficient feed utilization for better returns.\nHighly active against respiratory infections, necrotic enteritis, anaerobic bacteria etc.\nImproves FCR, weight gain in broilers and egg production in layers.',
@@ -477,11 +477,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIOTC',
         subTitle: 'Oxytetracycline HCL',
         rating: 4.6,
-        image: '/products/nutriotc_pack.png',
-        logoImage: '/products/nutriotc_10_logo.png',
+        image: '/products/nutriotc_pack.webp',
+        logoImage: '/products/nutriotc_10_logo.webp',
         gallery: [
-          '/products/nutriotc_pack.png',
-          '/products/nutriotc_leaflet.jpg'
+          '/products/nutriotc_pack.webp',
+          '/products/nutriotc_leaflet.webp'
         ],
         composition: 'Each Kg Contains :\nOxytetracycline HCL..200 gm\nExcipient..................q.s.',
         indication: 'For the treatment of secondary bacterial infections following respiratory diseases in poultry and for pigs. Bacterial scours and pasteurella in calves and lambs.\nGastroenteritis in pigs caused by bacteria sensitive to oxytetracycline and for the use against other bacterial infections as prescribed by a veterinarian.',
@@ -494,11 +494,11 @@ export const POULTRY_CATEGORIES = [
         title: 'FASTGRO',
         subTitle: 'Dual Power for Faster Growth & Bigger Profits',
         rating: 4.7,
-        image: '/products/fastgro_pack.png',
-        logoImage: '/products/fastgro_logo.png',
+        image: '/products/fastgro_pack.webp',
+        logoImage: '/products/fastgro_logo.webp',
         gallery: [
-          '/products/fastgro_pack.png',
-          '/products/fastgro_leaflet.jpg'
+          '/products/fastgro_pack.webp',
+          '/products/fastgro_leaflet.webp'
         ],
         composition: 'Nosiheptide.......10gm/kg\nQuinocetone....100gm/kg\nExcipient..........qs',
         indication: '●	Growth promotion and weight gain enhancement in poultry.\n●	Prevention and control of bacterial enteritis (e.g., necrotic enteritis caused by Clostridium).\n●	Management of digestive disorders like diarrhea from E. coli or Salmonella.\n●	Improvement of overall flock health and productivity in intensive farming systems.',
@@ -511,11 +511,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NOSIDIAN 10',
         subTitle: '10 gm/kg nosiheptide',
         rating: 4.8,
-        image: '/products/nosidian_10_pack.png',
-        logoImage: '/products/nosidian_10_logo.png',
+        image: '/products/nosidian_10_pack.webp',
+        logoImage: '/products/nosidian_10_logo.webp',
         gallery: [
-          '/products/nosidian_10_pack.png',
-          '/products/nosidian_leaflet.jpg'
+          '/products/nosidian_10_pack.webp',
+          '/products/nosidian_leaflet.webp'
         ],
         composition: '10 gm/kg nosiheptide',
         indication: 'Poultry :\nFor the control of necrotic enteritis (caused by Clostridium perfringens Types A & C) and as an aid in the prevention of necrotic enteritis in broilers and replacement layers.',
@@ -537,11 +537,11 @@ export const POULTRY_CATEGORIES = [
         title: 'TYLOPLUS 25%',
         subTitle: 'A Revolutionary 3rd Generation Macrolide Antibiotic',
         rating: 4.9,
-        image: '/products/tyloplus_25_cover_hd.jpg',
-        logoImage: '/products/tyloplus_25_logo.png',
+        image: '/products/tyloplus_25_cover_hd.webp',
+        logoImage: '/products/tyloplus_25_logo.webp',
         gallery: [
-          '/products/tyloplus_25_cover_hd.jpg',
-          '/products/tyloplus_25_details_hd.jpg'
+          '/products/tyloplus_25_cover_hd.webp',
+          '/products/tyloplus_25_details_hd.webp'
         ],
         composition: 'Each Gram of Tyl O plus 25% contains 250 mg of Tylvalosin Tartrate',
         indication: 'Tyl O plus 25% (250 mg/g) is indicated for prevention and treatment of Mycoplasmosis (Mycoplasma gallisepticum, M. synoviae and other Mycoplasma species), and for diseases associated with Clostridium perfringens (enteritis resulting in wet litter syndrome and cholangiohepatitis) in chickens. Tyl O plus 25% also has activity against Ornithobacterium Rhinotracheale (ORT) of poultry.',
@@ -554,11 +554,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIMULIN 80%',
         subTitle: 'A Revolutionary 3rd Generation Macrolide Antibiotic',
         rating: 4.8,
-        image: '/products/nutrimulin_80_pack.png',
-        logoImage: '/products/nutrimulin_80_logo_hd.png',
+        image: '/products/nutrimulin_80_pack.webp',
+        logoImage: '/products/nutrimulin_80_logo_hd.webp',
         gallery: [
-          '/products/nutrimulin_80_pack.png',
-          '/products/nutrimulin_80_leaflet_hd.jpg'
+          '/products/nutrimulin_80_pack.webp',
+          '/products/nutrimulin_80_leaflet_hd.webp'
         ],
         composition: 'Each gram contains : Tiamulin Hydrogen Fumarate .................... 800 mg',
         benefits: '•  Nutrimulin 80% helps in preventing CRD caused by M. gallisepticum, M. synoviae and complicated by other secondary bacterial infections.\n•  Nutrimulin 80% is active against Gram \'+\' ve bacteria, obligate anaerobes & organisms resistant to macrolide antibiotics.\n•  Nutrimulin 80% penetrates target tissues effectively & maintains high concentration.\n•  Reduces morbidity & mortality in CRD.',
@@ -572,11 +572,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIMULIN 10%',
         subTitle: 'A Revolutionary 3rd Generation Macrolide Antibiotic',
         rating: 4.7,
-        image: '/products/nutrimulin_10_pack.png',
-        logoImage: '/products/nutrimulin_10_logo_hd.png',
+        image: '/products/nutrimulin_10_pack.webp',
+        logoImage: '/products/nutrimulin_10_logo_hd.webp',
         gallery: [
-          '/products/nutrimulin_10_pack.png',
-          '/products/nutrimulin_10_leaflet_hd.jpg'
+          '/products/nutrimulin_10_pack.webp',
+          '/products/nutrimulin_10_leaflet_hd.webp'
         ],
         composition: 'Each gram contains : Tiamulin Hydrogen Fumarate .................... 100 mg',
         benefits: '•  Nutrimulin 10% helps in preventing CRD caused by M. gallisepticum, M. synoviae and complicated by other secondary bacterial infections\n•  Nutrimulin 10% is active against Gram +ve bacteria, obligate anaerobes & organisms resistant to macrolide antibiotics\n•  Nutrimulin 10% penetrates target tissues effectively & maintains high concentration\n•  Reduces morbidity & mortality in CRD',
@@ -591,11 +591,11 @@ export const POULTRY_CATEGORIES = [
         title: 'TYLODIAN P',
         subTitle: 'Tylosin Phosphate',
         rating: 4.8,
-        image: '/products/tylodian_p_pack.png',
-        logoImage: '/products/tylodian_p_logo.png',
+        image: '/products/tylodian_p_pack.webp',
+        logoImage: '/products/tylodian_p_logo.webp',
         gallery: [
-          '/products/tylodian_p_pack.png',
-          '/products/TyloDian-P.jpg'
+          '/products/tylodian_p_pack.webp',
+          '/products/TyloDian-P.webp'
         ],
         composition: 'Each Kg Contains : Tylosin Phosphate 10%',
         benefits: '•  Excellent Solution of CRD.\n•  Increases egg production, hatchability and FCR.\n•  Ensures uniformity of flock.\n•  Small granular form helps in uniform mixing in feed.\n•  Quickly accumulates at the site of infection.\n•  Helps to prevent production losses.\n•  Increases weight gain.\n•  Improves feed efficiency.',
@@ -616,15 +616,15 @@ export const POULTRY_CATEGORIES = [
         title: 'VALECID SR',
         subTitle: 'With Power of Forgotten Acid and Specific Release Technology',
         rating: 4.9,
-        image: '/products/valecid_sr_drum_pack.png',
-        logoImage: '/products/Valecid SR.png',
+        image: '/products/valecid_sr_drum_pack.webp',
+        logoImage: '/products/Valecid SR.webp',
         gallery: [
-          '/products/valecid_sr_drum_pack.png',
-          '/products/valecid_sr_bag_pack.png',
-          '/products/Valecid SR Leaflet 01.jpg',
-          '/products/Valecid SR Leaflet 02.jpg',
-          '/products/Valecid SR Leaflet 03.jpg',
-          '/products/Valecid SR Leaflet 04.jpg'
+          '/products/valecid_sr_drum_pack.webp',
+          '/products/valecid_sr_bag_pack.webp',
+          '/products/Valecid SR Leaflet 01.webp',
+          '/products/Valecid SR Leaflet 02.webp',
+          '/products/Valecid SR Leaflet 03.webp',
+          '/products/Valecid SR Leaflet 04.webp'
         ],
         composition: 'Combination of Organic Acids, Inorganic Acids, Essential Oils and Phytochemicals protects entire gut (crop to ceca) from variety of pathogens\nFormic acid\t    Valeric acid*\t             Essential oil\nAcetic acid\t              Citric acid\t             Polyphenols\nPropionic acid\t     Lauric acid \t             Curcumin\nButyric acid* \t    Phosphoric acid    \t    Menthol\t             *Esterified',
         indication: '•\tTo control necrotic enteritis and other economically important bacterial infections\n•\tTo improves intestinal defense and maintaining gut integrity\n•\tTo maintains feed hygiene and to reduce pathogen intake through feed \n•\tTo acidify gut for better nutrient digestion\n•\tTo promote growth of probiotics especially lactobacilli\n•\tTo reduces enterocytes villi inflammations',
@@ -636,12 +636,12 @@ export const POULTRY_CATEGORIES = [
         title: 'PROVALERIN',
         subTitle: 'The Mono-Acid Choice for Clostridia',
         rating: 4.8,
-        image: '/products/provalerin_pack.png',
-        logoImage: '/products/Provalerin.png',
+        image: '/products/provalerin_pack.webp',
+        logoImage: '/products/Provalerin.webp',
         gallery: [
-          '/products/provalerin_pack.png',
-          '/products/ProValerin 01.jpg',
-          '/products/ProValerin 02.jpg'
+          '/products/provalerin_pack.webp',
+          '/products/ProValerin 01.webp',
+          '/products/ProValerin 02.webp'
         ],
         composition: 'Valeric Acid......25%',
         benefits: '•\tReduces incidence of Necrotic Enteritis\n•\tReduces NE lesion score – less severe gut damage\n•\tImproves Villus height to Crypt depth Ratio – Gut morphology\n•\tImproves FCR & body weight\n•\tImproves broiler gut health & performance\n•\tProvalerin promotes energy harvest in the Gut\n•\tIntestinotrophic & gut barrier stabilizing effects result in protection against subclinical NE',
@@ -654,12 +654,12 @@ export const POULTRY_CATEGORIES = [
         title: 'GUTOCID +',
         subTitle: 'Blend of Organic Acids & Phytochemicals',
         rating: 4.8,
-        image: '/products/gutocid_plus_pack.png',
-        logoImage: '/products/Gutocid +.png',
+        image: '/products/gutocid_plus_pack.webp',
+        logoImage: '/products/Gutocid +.webp',
         gallery: [
-          '/products/gutocid_plus_pack.png',
-          '/products/GutOcid Leaflet 01.jpg',
-          '/products/GutOcid Leaflet 02.jpg'
+          '/products/gutocid_plus_pack.webp',
+          '/products/GutOcid Leaflet 01.webp',
+          '/products/GutOcid Leaflet 02.webp'
         ],
         composition: 'Formic Acid\t   Acetic acid\t   Propionic acid\t      Butyric acid\nValeric acid\t   Citric acid\t   Lauric acid\t      Lactic acid\nPhosphoric acid\t   Curcumin \t   Menthol \t                polyphenols',
         indication: '•\tTo improves Gut Health & prevents enteric infections\n•\tTo improves feed hygiene\n•\tTo acidify gut for better nutrient digestion\n•\tTo improves performance',
@@ -680,14 +680,14 @@ export const POULTRY_CATEGORIES = [
         title: 'IMMUOVA 360',
         subTitle: 'Ovary Stimulant for Layers and Breeders',
         rating: 4.9,
-        image: '/products/immu_ova_360_pack.png',
-        logoImage: '/products/immu_ova_360_logo.png',
+        image: '/products/immu_ova_360_pack.webp',
+        logoImage: '/products/immu_ova_360_logo.webp',
         gallery: [
-          '/products/immu_ova_360_pack.png',
-          '/products/Immu-OVA360 01.jpg',
-          '/products/Immu-OVA360 02.jpg',
-          '/products/Immu-OVA360 03.jpg',
-          '/products/Immu-OVA360 04.jpg'
+          '/products/immu_ova_360_pack.webp',
+          '/products/Immu-OVA360 01.webp',
+          '/products/Immu-OVA360 02.webp',
+          '/products/Immu-OVA360 03.webp',
+          '/products/Immu-OVA360 04.webp'
         ],
         composition: 'Each kg contains :\nLauric acid ..................30%\nProtein hydrolysate ....10%\nGrowth promoter ........10%',
         benefits: '●	Maintain hormonal cycle rhythm\n●	Stimulates & strengthens ovary\n●	Mitigates stress & improve production\n●	To improve maturity in pullets\n●	Helps to reduces fluctuations in production & for non layer treatment\n●	Helps to reduces steep decline in production after 45 wks',
@@ -699,12 +699,12 @@ export const POULTRY_CATEGORIES = [
         title: 'AMORICH O',
         subTitle: 'Research Formulation on Ovarian Dysfunction',
         rating: 4.9,
-        image: '/products/amorich_o_pack.png',
-        logoImage: '/products/Amorich O.png',
+        image: '/products/amorich_o_pack.webp',
+        logoImage: '/products/Amorich O.webp',
         gallery: [
-          '/products/amorich_o_pack.png',
-          '/products/AmorichO Leaflet 01.jpg',
-          '/products/AmorichO Leaflet 02.jpg'
+          '/products/amorich_o_pack.webp',
+          '/products/AmorichO Leaflet 01.webp',
+          '/products/AmorichO Leaflet 02.webp'
         ],
         composition: 'AMORICH O is a perfect blend of Phytobiotics extracted from Capparis spinosa, Terminalia arjuna, Cichorium intybus, Solanum nigrum, Tamarix gallica, Achillea millefolium along with Yeast complex and vital ovarian health minerals like organic Chromium, Zinc, Manganese, Cobalt and Selenium.',
         benefits: '•  Stimulates ovarian development to achieve maturity\n•  Helps to attend peak egg production at proper age and helps to maintain it for long\n•  Improves egg quality and egg mass\n•  Improves immunity and overall health of birds\n•  Helps to regain egg production after drop may be due to any disease condition or toxicity\n•  In Breeders helps to improve hatchability',
@@ -725,12 +725,12 @@ export const POULTRY_CATEGORIES = [
         title: 'VITAFAST VIT E 50%',
         subTitle: 'Pure Stabilized Vitamin E 50% Premix Powder',
         rating: 4.8,
-        image: '/products/vitafast_e50_1kg_pack.jpg',
-        logoImage: '/products/vitafast_e50_logo.png',
+        image: '/products/vitafast_e50_1kg_pack.webp',
+        logoImage: '/products/vitafast_e50_logo.webp',
         gallery: [
-          '/products/vitafast_e50_1kg_pack.jpg',
-          '/products/vitafast_e50_5kg_pack.jpg',
-          '/products/vitafast_e50_leaflet.jpg'
+          '/products/vitafast_e50_1kg_pack.webp',
+          '/products/vitafast_e50_5kg_pack.webp',
+          '/products/vitafast_e50_leaflet.webp'
         ],
         composition: 'Each 1 kg contains :\nVitamin E..........................50%\nExcipient (Ad).................100%',
         chemicalStability: 'The product is chemically stable under standard ambient conditions (room temperature)'
@@ -741,11 +741,11 @@ export const POULTRY_CATEGORIES = [
         title: 'VITAFAST VIT E, SELENIUM, BIOTIN',
         subTitle: 'The Next Generation Immunity Booster',
         rating: 4.9,
-        image: '/products/vitafast_se_biotin_pack.jpg',
-        logoImage: '/products/vitafast_se_biotin_logo.png',
+        image: '/products/vitafast_se_biotin_pack.webp',
+        logoImage: '/products/vitafast_se_biotin_logo.webp',
         gallery: [
-          '/products/vitafast_se_biotin_pack.jpg',
-          '/products/vitafast_se_biotin_leaflet.jpg'
+          '/products/vitafast_se_biotin_pack.webp',
+          '/products/vitafast_se_biotin_leaflet.webp'
         ],
         composition: 'Each 1 kg contains :\nVitamin E...........................50%\nSelenium....................400 ppm\nBiotin............................200 mg',
         chemicalStability: 'The product is chemically stable under standard ambient conditions (room temperature)',
@@ -758,12 +758,12 @@ export const POULTRY_CATEGORIES = [
         title: 'VITAFAST CHROM C',
         subTitle: 'The Next Generation Immunity Booster',
         rating: 4.8,
-        image: '/products/vitafast_chrom_c_1kg_pack.png',
-        logoImage: '/products/vitafast_chrom_c_logo.png',
+        image: '/products/vitafast_chrom_c_1kg_pack.webp',
+        logoImage: '/products/vitafast_chrom_c_logo.webp',
         gallery: [
-          '/products/vitafast_chrom_c_1kg_pack.png',
-          '/products/vitafast_chrom_c_5kg_pack.png',
-          '/products/vitafast_chrom_leaflet.jpg'
+          '/products/vitafast_chrom_c_1kg_pack.webp',
+          '/products/vitafast_chrom_c_5kg_pack.webp',
+          '/products/vitafast_chrom_leaflet.webp'
         ],
         composition: 'Each kg contents :\nVitamin C (coated).........94%\nBio active Chromium........2%\nExcipients (ad)............100 %',
         indication: 'To build up resistance against diseases\nTo overcome stress\nImproves fertility in breeders\nHigher weight gain in broilers\nAs a growth promoter in all species\nAs nutritional requirement in aquaculture\nBoosts egg production in layers',
@@ -785,11 +785,11 @@ export const POULTRY_CATEGORIES = [
         title: 'VITAFAST VIT E&SE',
         subTitle: 'Ovary Stimulant for Layers and Breeders',
         rating: 4.8,
-        image: '/products/vitafast_e_se_pack.png',
-        logoImage: '/products/vitafast_e_se_logo.png',
+        image: '/products/vitafast_e_se_pack.webp',
+        logoImage: '/products/vitafast_e_se_logo.webp',
         gallery: [
-          '/products/vitafast_e_se_pack.png',
-          '/products/Vitafast E & Se.jpg'
+          '/products/vitafast_e_se_pack.webp',
+          '/products/Vitafast E & Se.webp'
         ],
         composition: 'Each ml contains:\nVitamin E ………………. 100 mg\nSelenium ………………. 0.5 mg\nExcipients ………………. q.s.',
         indication: '•	To improve vaccine titers (Pre & Post vaccination)\n•	To improve fertility & hatchability\n•	As an immunomodulatory – speeds up recovery and reduces mortality',
@@ -802,11 +802,11 @@ export const POULTRY_CATEGORIES = [
         title: 'VITAFAST VIT A, D3&E WITH VIT C',
         subTitle: 'Water Miscible Vitamin Feed Supplement',
         rating: 4.8,
-        image: '/products/vitafast_ad3e_c_pack.png',
-        logoImage: '/products/vitafast_ad3e_c_logo.png',
+        image: '/products/vitafast_ad3e_c_pack.webp',
+        logoImage: '/products/vitafast_ad3e_c_logo.webp',
         gallery: [
-          '/products/vitafast_ad3e_c_pack.png',
-          '/products/Vitafast Vit A D3 & E.jpg'
+          '/products/vitafast_ad3e_c_pack.webp',
+          '/products/Vitafast Vit A D3 & E.webp'
         ],
         composition: 'Each ml contains :\n•  Vitamin A ..................... 50000 IU\n•  Vitamin D3 ................... 5000 IU\n•  Vitamin E ..................... 30 IU\n•  Vitamin C ..................... 100 mg\n•  Carbohydrate nutritive organic base ..................... q.s.',
         usage: 'Water miscible poultry feed supplement liquid oral.',
@@ -818,11 +818,11 @@ export const POULTRY_CATEGORIES = [
         title: 'VITAFAST A',
         subTitle: 'Water-Miscible Vitamin A',
         rating: 4.7,
-        image: '/products/vitafast_a_pack.png',
-        logoImage: '/products/vitafast_a_logo.png',
+        image: '/products/vitafast_a_pack.webp',
+        logoImage: '/products/vitafast_a_logo.webp',
         gallery: [
-          '/products/vitafast_a_pack.png',
-          '/products/Vitafast A Leaflet.jpg'
+          '/products/vitafast_a_pack.webp',
+          '/products/Vitafast A Leaflet.webp'
         ],
         composition: 'Nutritional value per ml :\n•	Vitamin A ........ 1,00,000 I.U. (As Vitamin A Palmitate)',
         indication: '•	Prevention & treatment of Vitamin A deficiency\n•	In Breeder – for better Hatchability & production\n•	For maintaining integrity of mucous membranes\n•	For prevention of ataxia & normal bone growth',
@@ -844,11 +844,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRILIVOL FORTE POWDER',
         subTitle: 'Unrivalled Combination of Natural & Synthetic Liver Stimulants',
         rating: 4.9,
-        image: '/products/nutrilivol_forte_pack.png',
-        logoImage: '/products/nutrilivol_forte_logo.png',
+        image: '/products/nutrilivol_forte_pack.webp',
+        logoImage: '/products/nutrilivol_forte_logo.webp',
         gallery: [
-          '/products/nutrilivol_forte_pack.png',
-          '/products/Nutrilivol forte - NEW.jpg'
+          '/products/nutrilivol_forte_pack.webp',
+          '/products/Nutrilivol forte - NEW.webp'
         ],
         composition: '•\tCholine Chloride\n•\tDL Methionine\n•\tLiver Extract\n•\tL-Lysine\n•\tYeast Extract\n•\tManganese\n•\tVitamin B1\n•\tZinc\n•\tVitamin B12\n•\tNiacinamide\n•\tD-Panthenol\n•\tInositol\n•\tFortified with Allicin & Natural complex polysaccharides',
         benefits: '•\tAllicin & Natural complex polysaccharides boosts immunity, improves appetite, ensures gut health, flavours feed, helps to reduce ammonia odour.\n•\tAllicin has antibacterial & antiviral properties. It helps to reduce abdominal fat.\n•\tProtect liver from toxic effects.\n•\tTreats anorexia and hepatic disorders.\n•\tHelps to control fatty liver condition.\n•\tImmuno-modulatory effects & prevents stress on post-antibiotic therapy.',
@@ -861,12 +861,12 @@ export const POULTRY_CATEGORIES = [
         title: 'CURMINT',
         subTitle: 'Blend of Ancient Knowledge With Modern Technology',
         rating: 4.8,
-        image: '/products/curmint_pack.png',
-        logoImage: '/products/curmint_logo.png',
+        image: '/products/curmint_pack.webp',
+        logoImage: '/products/curmint_logo.webp',
         gallery: [
-          '/products/curmint_pack.png',
-          '/products/Curmint 01.jpg',
-          '/products/Curmint 02.jpg'
+          '/products/curmint_pack.webp',
+          '/products/Curmint 01.webp',
+          '/products/Curmint 02.webp'
         ],
         composition: 'Curmint Contains :\n• Bio-Active Curcumin\n• Menthol    • Turmerones\n• Fortified with Polyphenols,\n• Antioxidants & Fatty Acids.',
         benefits: 'Broilers :\n•\tAntiseptic & Anti-inflammatory in Gut\n•\tImprovement in FCR & Daily Weight Gain\n•\tActs as an Immunity Optimizer\n•\tHelps to reduce mortality\n•\tImparts attractive yellow colour to feed\n•\tHelps to reduce abdominal & subcutaneous fat\n•\tImproves Meat Quality\n\nBreeder / Layers :\n•\tHelps to improve Egg Production & Chick Quality\n•\tImprove Flock Uniformity\n•\tActs as an Immunity Optimizer\n•\tHelps to reduce stress in males',
@@ -888,11 +888,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRITOX',
         subTitle: 'Ultimate Toxin Binder with Mold Inhibitor',
         rating: 4.9,
-        image: '/products/nutritox_mitb_pack.png',
-        logoImage: '/products/nutritox_mitb_logo.png',
+        image: '/products/nutritox_mitb_pack.webp',
+        logoImage: '/products/nutritox_mitb_logo.webp',
         gallery: [
-          '/products/nutritox_mitb_pack.png',
-          '/products/Nutritox MITB Leaflet.jpg'
+          '/products/nutritox_mitb_pack.webp',
+          '/products/Nutritox MITB Leaflet.webp'
         ],
         benefits: '•\tNutritox MITB contains Live yeast which on disintegration liberates MOS and b glucans Which potentiates action of toxin binder and helps to boost immunity\n•\tActivated Carbon - Activated carbon has high degree of porosity which greatly increases its surface area & the adsorption capacity\nSurface area of 1 gm material \nSpecialized clays  260 m2\nActivated Carbon  3000 m2\n•\tNutritox MITB does not allow Fungus to grow in feed, hence improves shelf life of finished feed\n•\tNutritox MITB provides optimal elimination of full range of Mycotoxins & helps to improve Gut Health & Immunity\n•\tNutritox MITB does not adsorb vital Nutrients and Vitamins from feed\n•\tNutritox MITB is effective on Bacterial Endotoxins & Chemical toxins\n•\tNutritox MITB protects Vital organs from the ill effects of Mycotoxins',
         dosage: '•  Mycotoxin prevention programme : 1-1.5 kg/ton of feed\n•  Mycotoxin treatment programme : 2 Kg/ton of feed\n(When high degree of mould growth & toxicity is suspected)\n\n(Animal Feed Supplement\nNot For Human & Medicinal Use\nFor Animal Use Only)',
@@ -904,11 +904,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRITOX ADVANCE',
         subTitle: 'Blend of Ancient Knowledge With Modern Technology',
         rating: 4.8,
-        image: '/products/nutritox_advance_pack.png',
-        logoImage: '/products/nutritox_advance_logo.png',
+        image: '/products/nutritox_advance_pack.webp',
+        logoImage: '/products/nutritox_advance_logo.webp',
         gallery: [
-          '/products/nutritox_advance_pack.png',
-          '/products/Nutritox Advance.jpg'
+          '/products/nutritox_advance_pack.webp',
+          '/products/Nutritox Advance.webp'
         ],
         benefits: '•  Nutritox Advance contains Live yeast which on disintegration liberates MOS and b glucans Which potentiates action of toxin binder and helps to boost immunity\n•  Nutritox Advance does not allow Fungus to grow in feed, hence improves shelf life of finished feed\n•  Nutritox Advance provides optimal elimination of full range of Mycotoxins & helps to improve Gut Health & Immunity\n•  Nutritox Advance does not adsorb vital Nutrients and Vitamins from feed\n•  Nutritox Advance is effective on Bacterial Endotoxins & Chemical toxins\n•  Nutritox Advance protects Vital organs from the ill effects of Mycotoxins',
         dosage: '•  Mycotoxin prevention programme: 1 kg/ton of feed\n•  Mycotoxin treatment programme: 1.5-2 kg/ton of feed\n(When high degree of mould growth & toxicity is suspected)',
@@ -929,11 +929,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRILISORB',
         subTitle: 'Nutritional Enhancer & Emulsifier with a Difference',
         rating: 4.8,
-        image: '/products/nutrilisorb_pack.png',
-        logoImage: '/products/nutrilisorb_logo.png',
+        image: '/products/nutrilisorb_pack.webp',
+        logoImage: '/products/nutrilisorb_logo.webp',
         gallery: [
-          '/products/nutrilisorb_pack.png',
-          '/products/Nutrilisorb.jpg'
+          '/products/nutrilisorb_pack.webp',
+          '/products/Nutrilisorb.webp'
         ],
         composition: 'The combination of Hydrolized Lysophospholipids with q.s.\nLysophospholipids are small bioactive lipid molecules characterized by a single carbon chain and a polar head group. Two subgroups can be distinguished : molecules containing the sphingoid base backbone (Lysosphingolipids) and molecules containing the glycerol backbone (Lysoglycerophospholipids).',
         benefits: '•  Enhances emulsification of fats and nutrients\n•  Enhances absorption of nutrients from the gut\n•  Improves bio-availability of feed additives\n•  Enhances the enzymatic digestion of the feed in poultry\n•  Helps in the extraction of maximum nutritional value from high-density poultry rations',
@@ -954,11 +954,11 @@ export const POULTRY_CATEGORIES = [
         title: 'CYRODIAN 2%',
         subTitle: 'Cyromazine Feed Supplement',
         rating: 4.9,
-        image: '/products/cyrodian_2_pack.png',
-        logoImage: '/products/cyrodian_2_logo.png',
+        image: '/products/cyrodian_2_pack.webp',
+        logoImage: '/products/cyrodian_2_logo.webp',
         gallery: [
-          '/products/cyrodian_2_pack.png',
-          '/products/CyroDian Leaflet.jpg'
+          '/products/cyrodian_2_pack.webp',
+          '/products/CyroDian Leaflet.webp'
         ],
         composition: 'Cyromazine (Feed Grade)...2%\nInert Ingredient..................98%',
         features: '• Cyrodian 2% is a feed supplement to control files in and around poultry farms.\n• Cyrodian 2% interferes with molting process of fly larvae thereby breaking the fly life-cycle.',
@@ -982,11 +982,11 @@ export const POULTRY_CATEGORIES = [
         title: 'CHLORNEX WS',
         subTitle: 'Broad Spectrum with Highest Solubility',
         rating: 4.8,
-        image: '/products/chlornex_ws_pack.png',
-        logoImage: '/products/chlornex_ws_logo.png',
+        image: '/products/chlornex_ws_pack.webp',
+        logoImage: '/products/chlornex_ws_logo.webp',
         gallery: [
-          '/products/chlornex_ws_pack.png',
-          '/products/ChlorNex WS Leaflets.jpg'
+          '/products/chlornex_ws_pack.webp',
+          '/products/ChlorNex WS Leaflets.webp'
         ],
         composition: '200g/kg (20%) Chlortetracycline Hydrochloride water-soluble formulation.',
         advantage: 'Highest solubility water-line antibiotic that dissolves rapidly without leaving sediment or clogging automatic drinker nipples and pipelines. Delivers quick therapeutic blood levels to treat systemic and enteric bacterial infections.',
@@ -1001,11 +1001,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIDOX N',
         subTitle: 'Prevents Early Chicks Mortality',
         rating: 4.8,
-        image: '/products/nutridox_n_pack.png',
-        logoImage: '/products/nutridox_n_logo.png',
+        image: '/products/nutridox_n_pack.webp',
+        logoImage: '/products/nutridox_n_logo.webp',
         gallery: [
-          '/products/nutridox_n_pack.png',
-          '/products/NutriDox N Leaflet.jpg'
+          '/products/nutridox_n_pack.webp',
+          '/products/NutriDox N Leaflet.webp'
         ],
         composition: 'Each gm contains: Doxycycline Hyclate 100 mg (10%), Neomycin Sulphate 100 mg (10%), Excipients q.s.',
         advantage: 'Synergistic dual antibiotic combination specifically developed to prevent Early Chick Mortality (ECM). Doxycycline delivers rapid systemic and respiratory tissue penetration, while Neomycin provides intense local antimicrobial action in the gut without systemic absorption.',
@@ -1029,11 +1029,11 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRIKACIN',
         subTitle: 'Amikacin Sulphate Injection I.P. (Vet) - Prevents Early Chicks Mortality',
         rating: 4.9,
-        image: '/products/nutrikacin_pack.jpg',
-        logoImage: '/products/nutrikacin_logo.png',
+        image: '/products/nutrikacin_pack.webp',
+        logoImage: '/products/nutrikacin_logo.webp',
         gallery: [
-          '/products/nutrikacin_pack.jpg',
-          '/products/Nutrikacin Leaflet.jpg'
+          '/products/nutrikacin_pack.webp',
+          '/products/Nutrikacin Leaflet.webp'
         ],
         composition: 'Each ml contains : Amikacin Sulphate IP...........250 mg',
         indication: '● Cattle, Horse & Camel :\nRepeat breeding Respiratory tract & Umblical infections caused by E. Coli & Salmonella Mastitis, Metritis & systemic infections Enteritis.\n\n● Pig, Sheep, Goat, Calf & Dog :\nRespiratory & Urogenital Tract infections Secondary bacterial infections associated with viral disease like Canine distemper, Haemorrhagic gastroentritis, Proteus infections. Post surgical care, Calf-scours\n\n● Poultry :\nChronic respiratory disease (CRD) Bronchitis, E. Coli, Salmonella infections & prevention of early chick mortality.',
@@ -1046,11 +1046,11 @@ export const POULTRY_CATEGORIES = [
         title: 'TYLOPLUS INJECTABLE',
         subTitle: 'Tylosin Injection IP (Vet) 20%',
         rating: 4.8,
-        image: '/products/tyloplus_inj_pack.jpg',
-        logoImage: '/products/tyloplus_logo.png',
+        image: '/products/tyloplus_inj_pack.webp',
+        logoImage: '/products/tyloplus_logo.webp',
         gallery: [
-          '/products/tyloplus_inj_pack.jpg',
-          '/products/Tyloplus_100 ml Leaflet.jpg'
+          '/products/tyloplus_inj_pack.webp',
+          '/products/Tyloplus_100 ml Leaflet.webp'
         ],
         composition: 'Each ml contains : \nTylosin IP (Vet) ..... 200 mg \nWater for Injection & Propylene Glycol IP ..... q.s. (In equal Volume)',
         dosage: 'As directed by the Veterinarian Practitioner.',
@@ -1072,12 +1072,12 @@ export const POULTRY_CATEGORIES = [
         title: 'NUTRINEX',
         subTitle: 'Prevents Early Chicks Mortality',
         rating: 4.9,
-        image: '/products/nutrinex_1kg_pack.png',
-        logoImage: '/products/nutrinex_logo.png',
+        image: '/products/nutrinex_1kg_pack.webp',
+        logoImage: '/products/nutrinex_logo.webp',
         gallery: [
-          '/products/nutrinex_1kg_pack.png',
-          '/products/nutrinex_500gm_pack.png',
-          '/products/Nutrinex Leaflet.jpg'
+          '/products/nutrinex_1kg_pack.webp',
+          '/products/nutrinex_500gm_pack.webp',
+          '/products/Nutrinex Leaflet.webp'
         ],
         composition: 'Potassium Monopersulphate compound 49.8% w/w containing : Triple Salts Potassium Monopersulphate, Potassium Hydrogen Sulphate, Potassium Sulphate Sodium Chloride 1.5%, Buffers, Descalars Agent, Stabilizers, Detergents.',
         benefits: '•\tSynergy of integrated chemical system of 6 biocides activity\n•\tBlend of per oxygen compounds, surfactants, organic acids acid and inorganic buffer with stabilizer\n•\tCan be used as sanitizer, disinfectant and for removal of biofilms in watering systems\n•\tEffectively useful in breeder farms, hatcheries, commercial farms, chicken processing plants, dairy plants, hoof cleaning of cattle and washing of all equipment\n•\tHighly effective against bacteria viruses and fungi with no evidence of resistance',

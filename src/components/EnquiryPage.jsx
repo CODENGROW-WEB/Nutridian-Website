@@ -51,7 +51,7 @@ export default function EnquiryPage({ onBackToHome, initialProduct = '' }) {
       {/* Top Header Banner - Full width edge-to-edge touching both sides */}
       <div className="relative w-full overflow-hidden bg-gradient-to-r from-amber-400 via-orange-500 to-amber-500 border-b border-orange-200/60 shadow-xs">
         <img
-          src="/enquire_now_banner.png"
+          src="/enquire_now_banner.webp"
           alt="ENQUIRE NOW - Nutridian Animal Health"
           className="w-full h-auto object-cover object-center select-none block"
         />
@@ -256,7 +256,7 @@ export default function EnquiryPage({ onBackToHome, initialProduct = '' }) {
               >
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
                   <img
-                    src="/logo_facebook.png"
+                    src="/logo_facebook.webp"
                     alt="Facebook"
                     className="w-full h-full object-contain select-none"
                   />
@@ -275,7 +275,7 @@ export default function EnquiryPage({ onBackToHome, initialProduct = '' }) {
               >
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden">
                   <img
-                    src="/logo_linkedin.png"
+                    src="/logo_linkedin.webp"
                     alt="LinkedIn"
                     className="w-full h-full object-contain select-none"
                   />
@@ -294,7 +294,7 @@ export default function EnquiryPage({ onBackToHome, initialProduct = '' }) {
               >
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-black flex items-center justify-center shadow-xs group-hover:scale-108 group-hover:shadow-lg transition-all duration-200 overflow-hidden p-1">
                   <img
-                    src="/logo_whatsapp.png"
+                    src="/logo_whatsapp.webp"
                     alt="WhatsApp"
                     className="w-full h-full object-contain select-none"
                   />

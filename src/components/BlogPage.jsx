@@ -8,7 +8,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
       <div className="relative w-full overflow-hidden bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 border-b border-orange-200/60 shadow-xs">
         <div className="relative w-full">
           <img
-            src="/our_foundations_banner.png"
+            src="/our_foundations_banner.webp"
             alt="OUR FOUNDATIONS - Nutridian Animal Health"
             className="w-full h-auto object-cover object-center select-none block"
           />
@@ -62,7 +62,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative group max-w-md w-full">
                 <img
-                  src="/kanad_factory_gate.png"
+                  src="/kanad_factory_gate.webp"
                   alt="Kanad Chemicals Private Limited Manufacturing Facility"
                   className="w-full h-auto object-contain select-none transition-transform duration-300 group-hover:scale-[1.02]"
                 />
@@ -85,7 +85,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
               {/* Left Column: 3D Puzzle R & D Graphic (Exact provided image) */}
               <div className="lg:col-span-6 flex justify-center">
                 <img
-                  src="/rd_puzzle_graphic.png"
+                  src="/rd_puzzle_graphic.webp"
                   alt="Manufacturing Unit R&D Puzzle Innovation"
                   className="w-full max-w-sm lg:max-w-none h-auto object-contain select-none transition-transform duration-300 hover:scale-[1.02]"
                 />
@@ -134,7 +134,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
               <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-300 flex flex-col bg-[#476982] text-white group">
                 <div className="w-full aspect-[1024/526] overflow-hidden bg-white">
                   <img
-                    src="/card_our_vision.jpg"
+                    src="/card_our_vision.webp"
                     alt="Our Vision"
                     className="w-full h-[200%] object-cover object-top select-none group-hover:scale-105 transition-transform duration-500"
                   />
@@ -156,7 +156,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
               <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-300 flex flex-col bg-[#476982] text-white group">
                 <div className="w-full aspect-[1024/526] overflow-hidden bg-white">
                   <img
-                    src="/card_our_mission.png"
+                    src="/card_our_mission.webp"
                     alt="Our Mission"
                     className="w-full h-[200%] object-cover object-top select-none group-hover:scale-105 transition-transform duration-500"
                   />
@@ -178,7 +178,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
               <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-300 flex flex-col bg-[#476982] text-white group">
                 <div className="w-full aspect-[1024/526] overflow-hidden bg-white">
                   <img
-                    src="/card_our_values.png"
+                    src="/card_our_values.webp"
                     alt="Our Values"
                     className="w-full h-[200%] object-cover object-top select-none group-hover:scale-105 transition-transform duration-500"
                   />
@@ -230,31 +230,31 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 lg:gap-5 mb-10 max-w-5xl mx-auto">
             {[
               {
-                img: '/cert_doc_cgmp.png',
+                img: '/cert_doc_cgmp.webp',
                 name: 'cGMP Certificate',
                 subtitle: 'Good Manufacturing Practice - Food Hygiene (Cert No: 80473/A/0001/NA/En)',
                 badge: 'cGMP Standard'
               },
               {
-                img: '/cert_doc_iso9001.png',
+                img: '/cert_doc_iso9001.webp',
                 name: 'ISO 9001:2015',
                 subtitle: 'Quality Management System - UKAS & IAF (Cert No: 72828/A/0001/UK/En)',
                 badge: 'Quality Standard'
               },
               {
-                img: '/cert_doc_iso22000.png',
+                img: '/cert_doc_iso22000.webp',
                 name: 'ISO 22000:2018',
                 subtitle: 'Food Safety Management System (Cert No: 72828/B/0001/UK/En)',
                 badge: 'Food Safety'
               },
               {
-                img: '/cert_doc_famiqs.png',
+                img: '/cert_doc_famiqs.webp',
                 name: 'FAMI-QS Certificate',
                 subtitle: 'EU CERT Feed Safety & Quality Management System (Cert No: EU-02-D-763)',
                 badge: 'FAMI-QS Code'
               },
               {
-                img: '/cert_doc_fssai.png',
+                img: '/cert_doc_fssai.webp',
                 name: 'FSSAI State License',
                 subtitle: 'Food Safety and Standards Authority of India (License No: 11517022000488)',
                 badge: 'Govt. Licensed'
@@ -283,7 +283,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
           {/* Official Quality Logos Strip (Exact shared image) */}
           <div className="max-w-2xl mx-auto px-4 flex justify-center pt-2">
             <img
-              src="/compliance_cert_logos.png"
+              src="/compliance_cert_logos.webp"
               alt="cGMP, ISO 22000, ISO 9001:2015, HALAL, FAMI-QS Certified"
               className="w-full max-w-xl h-auto object-contain select-none drop-shadow-xs"
             />
