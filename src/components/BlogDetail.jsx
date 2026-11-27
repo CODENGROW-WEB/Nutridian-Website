@@ -21,7 +21,7 @@ export default function BlogDetail({ onBackToHome, onOpenRequestModal }) {
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
-            <span>Back to Home</span>
+            <span>Back to Blogs</span>
           </button>
 
           <div className="text-xs font-semibold text-slate-500">

@@ -103,13 +103,7 @@ function App() {
     } else if (pageName === 'OUR FOUNDATIONS' || pageName === 'FOUNDATIONS') {
       window.location.hash = '#our-foundations'
     } else if (pageName === 'BLOG' || pageName === 'BLOGS') {
-      setActivePage('HOME')
-      window.location.hash = '#blog'
-      setTimeout(() => {
-        const el = document.querySelector('#blog')
-        if (el) el.scrollIntoView({ behavior: 'smooth' })
-      }, 100)
-      return
+      window.location.hash = '#blogs'
     } else if (pageName === 'CONTACT' || pageName === 'CONTACT US') {
       window.location.hash = '#contact'
     } else if (pageName === 'ENQUIRY' || pageName === 'ENQUIRE NOW' || pageName === 'ENQUIRE') {
