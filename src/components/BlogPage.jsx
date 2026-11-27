@@ -1,297 +1,210 @@
+import { useEffect } from 'react'
 import SectionHeading from './SectionHeading'
+import AdvertisementCarousel from './AdvertisementCarousel'
 
-export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
+export default function BlogPage({ onBackToHome, onNavigate, onOpenRequestModal }) {
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [])
+
+  const blogs = [
+    {
+      id: 1,
+      date: 'April 11, 2026',
+      badge: 'Featured Story',
+      title: 'Nutridian Animal Health: Boosting Productivity with Cost Effective Innovative Solutions',
+      excerpt: "Valued at $1.9 billion in 2023, the Indian animal health and nutrition market is projected to reach $4.3 billion by 2030. Discover how Nutridian Animal Health is pioneering non-AGP feed solutions...",
+      image: '/blog/director_umashankar_shah.webp',
+      alt: 'Umashankar Shah, Director - Nutridian Animal Health',
+      views: 1240,
+      clickable: true
+    },
+    {
+      id: 2,
+      date: 'April 11, 2026',
+      badge: 'Nutritional Guide',
+      title: '5 Proven Ways to Increase Milk Yield and Quality',
+      excerpt: "Milk production isn't just about quantity; it's about the right balance of minerals and vitamins. In this blog, we share five expert-backed tips on how to elevate ruminant productivity...",
+      image: '/blog/blog_2.webp?v=20261123',
+      alt: 'Poultry Broiler Health and Performance',
+      views: 890,
+      clickable: false
+    },
+    {
+      id: 3,
+      date: 'April 11, 2026',
+      badge: 'Biosecurity',
+      title: 'Optimal Biosecurity & Disinfection Protocols in Hatcheries',
+      excerpt: "Proper biosecurity and water sanitation routines can reduce early chick mortality by up to 80%. Learn about synergistic biocide systems that eliminate biofilms...",
+      image: '/blog/blog_3.webp?v=20261123',
+      alt: 'Commercial Poultry Farm Flocks',
+      views: 760,
+      clickable: false
+    }
+  ]
+
+  const handleCardClick = (b) => {
+    if (b.clickable || b.id === 1) {
+      if (onNavigate) {
+        onNavigate('BLOG_DETAIL')
+      } else {
+        window.location.hash = '#article'
+      }
+    }
+  }
+
   return (
-    <section id="blog-page" className="w-full bg-white overflow-hidden min-h-[85vh]">
+    <section id="blog-dedicated-page" className="w-full bg-[#f8fafc] min-h-screen pb-16">
       
-      {/* Top Banner Header: OUR FOUNDATIONS (Full width edge-to-edge touching both sides) */}
-      <div className="relative w-full overflow-hidden bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 border-b border-orange-200/60 shadow-xs">
-        <div className="relative w-full">
-          <img
-            src="/our_foundations_banner.webp"
-            alt="OUR FOUNDATIONS - Nutridian Animal Health"
-            className="w-full h-auto object-cover object-center select-none block"
-          />
+      {/* ─────────────────────────────────────────────────────────────
+          1. TOP BANNER: Matching user's reference layout with website's color theme
+          ───────────────────────────────────────────────────────────── */}
+      <div className="relative w-full overflow-hidden bg-gradient-to-r from-slate-950 via-[#1e1e24] to-slate-950 border-b-2 border-[#ea580c]/80 shadow-md">
+        
+        {/* Subtle Warm Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-600/15 via-transparent to-orange-600/10 pointer-events-none" />
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 md:py-16 relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/20 border border-orange-500/40 text-orange-400 text-xs font-extrabold uppercase tracking-widest mb-3">
+              <span>Articles &bull; Science &bull; Updates</span>
+            </div>
+            
+            {/* Main Header Title matching reference */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-none drop-shadow-md">
+              Blog
+            </h1>
 
-          {/* Interactive 'Enquiry Now' Button on Left */}
-          <div className="absolute left-[6%] sm:left-[8%] md:left-[10%] top-[60%] sm:top-[62%] -translate-y-1/2 z-20">
+            <p className="text-slate-300 text-xs sm:text-sm md:text-base font-medium mt-2 max-w-xl leading-relaxed">
+              Discover veterinary research, flock nutrition insights, biosecurity protocols, and corporate milestones from Nutridian Animal Health.
+            </p>
+          </div>
+
+          {/* Quick Consultation CTA */}
+          <div className="shrink-0 pt-2 sm:pt-0">
             <button
               onClick={onOpenRequestModal}
-              className="px-3 xs:px-4 sm:px-6 py-1 xs:py-1.5 sm:py-2.5 rounded-full bg-white/95 hover:bg-white text-orange-600 hover:text-orange-700 font-extrabold text-[11px] xs:text-xs sm:text-sm lg:text-base border border-orange-300 sm:border-2 shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer hover:scale-105 active:scale-95"
+              className="px-5 py-2.5 rounded-full bg-gradient-to-r from-[#ea580c] to-[#c2410c] hover:from-[#c2410c] hover:to-[#9a3412] text-white font-bold text-xs sm:text-sm shadow-lg hover:shadow-xl transition-all cursor-pointer hover:scale-105 active:scale-95"
             >
-              Enquiry Now
+              Request Information
             </button>
           </div>
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-12">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-12">
 
-        {/* Top Navigation Breadcrumb */}
+        {/* 2. Top Navigation Breadcrumb */}
         <div className="mb-8 flex items-center justify-between">
           <button
             onClick={onBackToHome}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 hover:bg-orange-100 text-slate-700 hover:text-orange-700 font-bold text-xs transition-colors cursor-pointer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white hover:bg-orange-50 text-slate-800 hover:text-orange-600 font-bold text-xs border border-slate-300 shadow-xs transition-colors cursor-pointer group"
           >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg
+              className="w-4 h-4 transition-transform group-hover:-translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
             <span>Back to Home</span>
           </button>
 
           <span className="text-xs font-semibold text-slate-400">
-            Home &nbsp;/&nbsp; <span className="text-orange-600 font-bold">Our Foundations</span>
+            Home &nbsp;/&nbsp; <span className="text-[#ea580c] font-bold">Blog</span>
           </span>
         </div>
 
-        {/* SECTION 1: KCPL Company Profile & Factory Gate */}
-        <div className="pt-2 pb-12 sm:pb-16">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-            
-            {/* Left Column: KCPL History Copy with Drop-Cap 'K' - Enlarged box as drawn by user */}
-            <div className="lg:col-span-7 text-slate-800 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-medium">
-              <p className="text-justify leading-[1.75]">
-                <span className="float-left mr-3.5 mt-1 w-11 h-11 sm:w-12 sm:h-12 bg-[#ea580c] text-white font-black text-2xl sm:text-3xl flex items-center justify-center rounded-md shadow-md select-none font-sans">
-                  K
-                </span>
-                anad Chemicals Pvt. Ltd. (KCPL) is a well-established and reputed leader in the animal health industry, globally recognized for excellence in manufacturing and exporting high-quality solutions like Halquinol and allied products. Founded in 1971, KCPL brings over 55 years of deep expertise to producing feed additives, medicines and chemicals that prevent and treat animal diseases while optimizing production efficiency. Guided by a profound understanding of customer needs, our products are carefully formulated to meet strict standard specifications and are backed by rigorous research. At KCPL, we constantly upgrade our processes to deliver affordable, innovative and effective solutions worldwide. Expanding our global reach, KCPL launched Nutridian Animal Health—a dynamic venture dedicated to bringing premier products and services directly to the grassroots level of the animal healthcare market. Under the guidance of our Managing Director and executive leadership, Nutridian AH has quickly made a powerful impact across the industry.
-              </p>
-            </div>
+        {/* 3. Section Heading */}
+        <SectionHeading title="LATEST ARTICLES" className="mb-10 sm:mb-12" />
 
-            {/* Right Column: Kanad Chemicals Factory Gate Photo (Exact provided image) */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="relative group max-w-md w-full">
-                <img
-                  src="/kanad_factory_gate.webp"
-                  alt="Kanad Chemicals Private Limited Manufacturing Facility"
-                  className="w-full h-auto object-contain select-none transition-transform duration-300 group-hover:scale-[1.02]"
-                />
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        {/* SECTION 2: MANUFACTURING UNIT R&D (Gap reduced as marked by user) */}
-        <div className="py-6 sm:py-8 border-t border-slate-200">
-          
-          <SectionHeading title="MANUFACTURING UNIT R&D" className="mb-6 sm:mb-8" />
-
-          <div className="space-y-4 sm:space-y-5">
-            
-            {/* Top Grid: R&D Graphic Left + State-of-the-Art Manufacturing Right */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-start">
+        {/* 4. The 3 Blog Cards (Exact Match to Homepage Cards) */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-7 lg:gap-8 max-w-6xl mx-auto">
+          {blogs.map((b) => (
+            <article
+              key={b.id}
+              onClick={() => handleCardClick(b)}
+              className={`bg-white border shadow-xs transition-all duration-300 flex flex-col justify-between group rounded-sm overflow-hidden ${
+                b.clickable || b.id === 1
+                  ? 'border-orange-300 hover:border-[#ea580c] hover:shadow-xl cursor-pointer hover:-translate-y-1'
+                  : 'border-slate-300 hover:shadow-md'
+              }`}
+            >
               
-              {/* Left Column: 3D Puzzle R & D Graphic (Exact provided image) */}
-              <div className="lg:col-span-6 flex justify-center">
+              {/* Top Image Box */}
+              <div className="w-full aspect-[4/3] bg-slate-100 overflow-hidden flex items-center justify-center relative">
                 <img
-                  src="/rd_puzzle_graphic.webp"
-                  alt="Manufacturing Unit R&D Puzzle Innovation"
-                  className="w-full max-w-sm lg:max-w-none h-auto object-contain select-none transition-transform duration-300 hover:scale-[1.02]"
+                  src={b.image}
+                  alt={b.alt || b.title}
+                  className="w-full h-full object-cover object-top block transition-transform duration-500 group-hover:scale-105"
                 />
+                {b.badge && (
+                  <span className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-black/80 text-white backdrop-blur-xs">
+                    {b.badge}
+                  </span>
+                )}
+                {(b.clickable || b.id === 1) && (
+                  <span className="absolute bottom-3 right-3 px-3 py-1 rounded-full text-xs font-bold bg-[#ea580c] text-white shadow-md opacity-90 group-hover:opacity-100 flex items-center gap-1">
+                    <span>Read Article</span>
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                )}
               </div>
 
-              {/* Right Column: State-of-the-Art Manufacturing */}
-              <div className="lg:col-span-6 space-y-2.5 pt-1">
-                <h3 className="text-sm sm:text-base lg:text-lg font-extrabold text-slate-900 flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block shrink-0" />
-                  <span>State-of-the-Art Manufacturing</span>
-                </h3>
-                <p className="text-slate-700 text-xs sm:text-sm lg:text-[14.5px] leading-relaxed text-justify font-medium">
-                  Our sophisticated manufacturing facility is equipped with cutting-edge technology and advanced processing systems. Featuring high-precision machinery and tools, the plant is fully optimized to meet the diverse and exacting requirements of our industrial clients. We strictly maintain our facility in accordance with stringent global industrial standards to guarantee the highest level of product quality, safety and consistency.
-                </p>
-              </div>
-
-            </div>
-
-            {/* Bottom Row: Innovative Research & Development (Full width below) */}
-            <div className="space-y-2.5 pt-1">
-              <h3 className="text-sm sm:text-base lg:text-lg font-extrabold text-slate-900 flex items-center gap-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block shrink-0" />
-                <span>Innovative Research &amp; Development</span>
-              </h3>
-              <p className="text-slate-700 text-xs sm:text-sm lg:text-[14.5px] leading-relaxed text-justify font-medium">
-                Complementing our production capabilities, our well-integrated R&amp;D unit consistently drives process innovation and quality enhancement. This dedicated research focus allows us to develop superior, customized products tailored to evolving market needs. Every formulation undergoes rigorous, scientifically validated testing to ensure maximum efficacy and performance.
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-        {/* ---------------------------------------------------- */}
-        {/* SECTION 3: BLUEPRINT & HORIZON (Vision, Mission, Values) */}
-        {/* ---------------------------------------------------- */}
-        <div className="py-12 sm:py-16 border-t border-slate-200">
-          
-          {/* Header Badge with authentic rooster emblem */}
-          <SectionHeading title="BLUEPRINT & HORIZON" className="mb-10 sm:mb-12" />
-
-          {/* Cards Container with Soft Neutral Background */}
-          <div className="bg-[#f4f6f8] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xs border border-slate-200/80">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-              
-              {/* CARD 1: OUR VISION */}
-              <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-300 flex flex-col bg-[#476982] text-white group">
-                <div className="w-full aspect-[1024/526] overflow-hidden bg-white">
-                  <img
-                    src="/card_our_vision.webp"
-                    alt="Our Vision"
-                    className="w-full h-[200%] object-cover object-top select-none group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                
-                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between text-center">
-                  <div className="pb-3 mb-2 border-b border-white/30">
-                    <h3 className="font-science-gothic font-black tracking-[0.25em] text-sm sm:text-base uppercase text-white">
-                      OUR VISION
-                    </h3>
+              {/* Card Body Content */}
+              <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between bg-white">
+                <div>
+                  <div className="text-xs sm:text-sm font-semibold text-slate-800 flex items-center justify-between">
+                    <span>{b.date}</span>
+                    {(b.clickable || b.id === 1) && (
+                      <span className="text-[11px] font-extrabold text-[#ea580c] uppercase tracking-wide">
+                        Click to Read &rarr;
+                      </span>
+                    )}
                   </div>
-                  <p className="text-white text-xs sm:text-sm leading-relaxed font-medium">
-                    To Become leading Indian animal healthcare organization driven by people
+                  <h3 className={`text-base sm:text-lg font-bold leading-snug mt-2 transition-colors ${
+                    b.clickable || b.id === 1 ? 'text-slate-900 group-hover:text-[#ea580c]' : 'text-slate-900'
+                  }`}>
+                    {b.title}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mt-2.5 font-normal line-clamp-3">
+                    {b.excerpt}
                   </p>
                 </div>
-              </div>
 
-              {/* CARD 2: OUR MISSION */}
-              <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-300 flex flex-col bg-[#476982] text-white group">
-                <div className="w-full aspect-[1024/526] overflow-hidden bg-white">
-                  <img
-                    src="/card_our_mission.webp"
-                    alt="Our Mission"
-                    className="w-full h-[200%] object-cover object-top select-none group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-
-                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between text-center">
-                  <div className="pb-3 mb-2 border-b border-white/30">
-                    <h3 className="font-science-gothic font-black tracking-[0.25em] text-sm sm:text-base uppercase text-white">
-                      OUR MISSION
-                    </h3>
+                {/* Divider Line & Views Count */}
+                <div className="mt-4 pt-1">
+                  <div className="w-full h-[1.5px] bg-slate-800 mb-2.5" />
+                  <div className="flex items-center justify-between text-xs text-slate-900 font-semibold">
+                    <div className="flex items-center gap-1.5">
+                      <svg className="w-4 h-4 text-slate-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                      </svg>
+                      <span>{b.views}</span>
+                    </div>
+                    {(b.clickable || b.id === 1) && (
+                      <span className="text-xs font-bold text-[#ea580c] group-hover:underline">
+                        Read Post &rarr;
+                      </span>
+                    )}
                   </div>
-                  <p className="text-white text-xs sm:text-sm leading-relaxed font-medium">
-                    We are committed to develop innovative, safe &amp; effective products for the livestock health
-                  </p>
                 </div>
               </div>
 
-              {/* CARD 3: OUR VALUES */}
-              <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-300 flex flex-col bg-[#476982] text-white group">
-                <div className="w-full aspect-[1024/526] overflow-hidden bg-white">
-                  <img
-                    src="/card_our_values.webp"
-                    alt="Our Values"
-                    className="w-full h-[200%] object-cover object-top select-none group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-
-                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between text-left">
-                  <div className="pb-3 mb-2 border-b border-white/30 text-center">
-                    <h3 className="font-science-gothic font-black tracking-[0.25em] text-sm sm:text-base uppercase text-white">
-                      OUR VALUES
-                    </h3>
-                  </div>
-                  <ul className="space-y-1.5 text-white text-xs sm:text-sm leading-relaxed font-medium pl-2 sm:pl-4">
-                    <li className="flex items-center gap-2">
-                      <span className="font-bold text-slate-200">&ndash;</span>
-                      <span>Creativity &amp; Efficiency</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="font-bold text-slate-200">&ndash;</span>
-                      <span>Concern For Achievement</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="font-bold text-slate-200">&ndash;</span>
-                      <span>Collaboration &amp; Human</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>        {/* ---------------------------------------------------- */}
-        {/* SECTION 4: COMPLIANCE & STADARDS                     */}
-        {/* ---------------------------------------------------- */}
-        <div className="py-12 sm:py-16 border-t border-slate-200">
-          
-          {/* Header Badge with authentic rooster emblem */}
-          <SectionHeading title="COMPLIANCE & STANDARDS" className="mb-8 sm:mb-10" />
-
-          {/* Subhead Quote Statement (Exact wording matching reference) */}
-          <div className="max-w-3xl mx-auto text-center mb-10 sm:mb-12 px-4">
-            <p className="text-sm sm:text-base md:text-lg font-semibold text-slate-800 leading-relaxed font-sans">
-              &ldquo;A trusted global manufacturer and exporter of Halquinol and allied products.<br className="hidden sm:block" />
-              Driven by international quality standards, we are proud to be<br className="hidden sm:block" />
-              cGMP, ISO 9001: 2015, ISO 22000, Fami QS and Halal certified.&rdquo;
-            </p>
-          </div>
-
-          {/* 5 Authentic Certificate Paper Documents Grid (Click to Enlarge Modal) */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 lg:gap-5 mb-10 max-w-5xl mx-auto">
-            {[
-              {
-                img: '/cert_doc_cgmp.webp',
-                name: 'cGMP Certificate',
-                subtitle: 'Good Manufacturing Practice - Food Hygiene (Cert No: 80473/A/0001/NA/En)',
-                badge: 'cGMP Standard'
-              },
-              {
-                img: '/cert_doc_iso9001.webp',
-                name: 'ISO 9001:2015',
-                subtitle: 'Quality Management System - UKAS & IAF (Cert No: 72828/A/0001/UK/En)',
-                badge: 'Quality Standard'
-              },
-              {
-                img: '/cert_doc_iso22000.webp',
-                name: 'ISO 22000:2018',
-                subtitle: 'Food Safety Management System (Cert No: 72828/B/0001/UK/En)',
-                badge: 'Food Safety'
-              },
-              {
-                img: '/cert_doc_famiqs.webp',
-                name: 'FAMI-QS Certificate',
-                subtitle: 'EU CERT Feed Safety & Quality Management System (Cert No: EU-02-D-763)',
-                badge: 'FAMI-QS Code'
-              },
-              {
-                img: '/cert_doc_fssai.webp',
-                name: 'FSSAI State License',
-                subtitle: 'Food Safety and Standards Authority of India (License No: 11517022000488)',
-                badge: 'Govt. Licensed'
-              }
-            ].map((cert, idx) => (
-              <div
-                key={idx}
-                className="bg-white border-2 border-slate-200 rounded-xl p-2 sm:p-2.5 shadow-2xs flex flex-col items-center justify-center overflow-hidden"
-              >
-                <div className="relative w-full overflow-hidden rounded-lg bg-slate-50 flex items-center justify-center">
-                  <img
-                    src={cert.img}
-                    alt={cert.name}
-                    className="w-full h-auto object-contain select-none"
-                  />
-                </div>
-                <div className="mt-2 text-center w-full px-1">
-                  <p className="text-[11px] sm:text-xs font-bold text-slate-800 truncate">
-                    {cert.name}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Official Quality Logos Strip (Exact shared image) */}
-          <div className="max-w-2xl mx-auto px-4 flex justify-center pt-2">
-            <img
-              src="/compliance_cert_logos.webp"
-              alt="cGMP, ISO 22000, ISO 9001:2015, HALAL, FAMI-QS Certified"
-              className="w-full max-w-xl h-auto object-contain select-none drop-shadow-xs"
-            />
-          </div>
-
+            </article>
+          ))}
         </div>
 
       </div>
+
+      {/* 5. Continuous Moving Advertisement Carousel */}
+      <AdvertisementCarousel />
+
     </section>
   )
 }

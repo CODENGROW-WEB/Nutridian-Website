@@ -7,6 +7,7 @@ import EnquiryPage from './components/EnquiryPage'
 import Events from './components/Events'
 import BlogPage from './components/BlogPage'
 import BlogDetail from './components/BlogDetail'
+import OurFoundations from './components/OurFoundations'
 import PoultryProducts from './components/PoultryProducts'
 import CategoryMarquee from './components/CategoryMarquee'
 import ComplianceCertifications from './components/ComplianceCertifications'
@@ -51,11 +52,7 @@ function App() {
       } else if (hash === '#our-foundations' || hash === '#foundations' || hash === '#about-us' || hash === '#about') {
         setActivePage('OUR FOUNDATIONS')
       } else if (hash === '#blog' || hash === '#blogs') {
-        setActivePage('HOME')
-        setTimeout(() => {
-          const el = document.querySelector('#blog')
-          if (el) el.scrollIntoView({ behavior: 'smooth' })
-        }, 100)
+        setActivePage('BLOG')
       } else if (hash === '#contact') {
         setActivePage('CONTACT')
       } else if (hash === '#enquiry' || hash === '#enquire' || hash === '#enquire-now' || hash === '#enquiry-now') {
@@ -174,16 +171,23 @@ function App() {
           <Events
             onBackToHome={() => handleNavigate('HOME')}
           />
+        ) : activePage === 'BLOG' || activePage === 'BLOGS' ? (
+          /* Dedicated BLOG Page View matching user's mockup & website theme */
+          <BlogPage
+            onBackToHome={() => handleNavigate('HOME')}
+            onNavigate={handleNavigate}
+            onOpenRequestModal={() => handleNavigate('ENQUIRY')}
+          />
         ) : activePage === 'BLOG_DETAIL' || activePage === 'ARTICLE' ? (
           /* Dedicated Pharma Outlook Feature Blog Detail Page */
           <BlogDetail
-            onBackToHome={() => handleNavigate('HOME')}
+            onBackToHome={() => handleNavigate('BLOG')}
             onOpenRequestModal={() => handleNavigate('ENQUIRY')}
             onNavigate={handleNavigate}
           />
         ) : activePage === 'OUR FOUNDATIONS' || activePage === 'FOUNDATIONS' || activePage === 'ABOUT US' || activePage === 'ABOUT' ? (
           /* Dedicated OUR FOUNDATIONS Page View */
-          <BlogPage
+          <OurFoundations
             onBackToHome={() => handleNavigate('HOME')}
             onOpenRequestModal={() => handleNavigate('ENQUIRY')}
           />

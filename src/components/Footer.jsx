@@ -104,6 +104,14 @@ export default function Footer({ onOpenRequestModal, onNavigate }) {
               </li>
               <li>
                 <button
+                  onClick={() => onNavigate && onNavigate('BLOG')}
+                  className="hover:text-orange-600 transition-colors text-left cursor-pointer"
+                >
+                  Blog
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={onOpenRequestModal}
                   className="hover:text-orange-600 transition-colors text-left cursor-pointer"
                 >
