@@ -30,60 +30,10 @@ export default function BlogDetail({ onBackToHome, onOpenRequestModal }) {
         </div>
 
         {/* ─────────────────────────────────────────────────────────────
-            FEATURED HERO BLOCK: Exact match to user's design reference
-            (Photo with "READ THE LATEST" circular badge + overlapping white card)
-            ───────────────────────────────────────────────────────────── */}
-        <div className="relative mb-16 max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-12 items-center">
-            
-            {/* Left Column: Image with circular "READ THE LATEST" badge */}
-            <div className="md:col-span-7 relative z-0">
-              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg border border-slate-200">
-                <img
-                  src="/blog/lifestyle_desk_reading.webp"
-                  alt="Editorial Reading Lifestyle"
-                  className="w-full h-full object-cover"
-                />
-
-                {/* Circular Black Badge: Exact match to reference */}
-                <div className="absolute top-4 left-4 z-20 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-black/95 text-white flex flex-col items-center justify-center font-black text-[9px] sm:text-[10px] leading-tight text-center tracking-widest shadow-xl border border-white/20 select-none">
-                  <span>READ</span>
-                  <span>THE</span>
-                  <span>LATEST</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column: Overlapping Crisp White Card */}
-            <div className="md:col-span-6 md:-ml-16 lg:-ml-20 relative z-10 mt-6 md:mt-0">
-              <div className="bg-white p-6 sm:p-8 lg:p-10 shadow-2xl rounded-sm border border-slate-200/90">
-                <h1 className="text-xl sm:text-2xl lg:text-[26px] font-serif font-bold text-slate-900 tracking-wide leading-snug uppercase mb-4">
-                  NUTRIDIAN ANIMAL HEALTH: BOOSTING PRODUCTIVITY WITH COST EFFECTIVE INNOVATIVE SOLUTIONS
-                </h1>
-                
-                <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-6 font-normal">
-                  The Indian animal health and nutrition sector is expanding rapidly, with market valuations projected to reach $4.3 billion by 2030. Learn how Nutridian Animal Health delivers specialized, affordable non-AGP additives and nutritional technologies tailored for poultry producers.
-                </p>
-
-                <button
-                  onClick={() => {
-                    const el = document.getElementById('article-content')
-                    if (el) el.scrollIntoView({ behavior: 'smooth' })
-                  }}
-                  className="px-6 py-2.5 bg-[#e8e2d8] hover:bg-[#ded7ca] text-slate-900 font-bold uppercase tracking-widest text-xs transition-all shadow-xs cursor-pointer active:scale-95"
-                >
-                  READ POST
-                </button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        {/* ─────────────────────────────────────────────────────────────
             MAIN ARTICLE CONTENT SECTION
             ───────────────────────────────────────────────────────────── */}
         <article id="article-content" className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-10 lg:p-12 max-w-5xl mx-auto">
+
           
           {/* Header Title Bar */}
           <div className="border-b border-slate-200 pb-6 mb-8">
