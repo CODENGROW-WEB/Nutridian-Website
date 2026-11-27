@@ -116,14 +116,14 @@ export default function OurCore({ onRequestInfo, onBackToHome, onNavigate }) {
               <button
                 onClick={() => {
                   if (onNavigate) {
-                    onNavigate('BLOG')
+                    onNavigate('OUR FOUNDATIONS')
                   } else if (onRequestInfo) {
                     onRequestInfo()
                   }
                 }}
                 className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-amber-500 via-orange-500 to-red-600 text-white font-extrabold text-sm tracking-wide shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 hover:scale-105 active:scale-95 transition-all cursor-pointer group"
               >
-                <span>More Details</span>
+                <span>More Information</span>
                 <svg
                   className="w-4 h-4 transform group-hover:translate-x-1 transition-transform"
                   fill="none"

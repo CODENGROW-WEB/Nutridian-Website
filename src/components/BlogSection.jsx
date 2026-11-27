@@ -1,6 +1,6 @@
 import SectionHeading from './SectionHeading'
 
-export default function BlogSection({ onNavigate }) {
+export default function BlogSection() {
 
   const blogs = [
     {
@@ -32,12 +32,6 @@ export default function BlogSection({ onNavigate }) {
     }
   ]
 
-  const handleCardClick = (blog) => {
-    if (blog.id === 1 && onNavigate) {
-      onNavigate('BLOG_DETAIL')
-    }
-  }
-
   return (
     <section id="blog" className="py-12 sm:py-16 bg-[#f7f7f7]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,10 +44,7 @@ export default function BlogSection({ onNavigate }) {
           {blogs.map((b) => (
             <article
               key={b.id}
-              onClick={() => handleCardClick(b)}
-              className={`bg-white border border-slate-300 shadow-xs hover:shadow-md transition-shadow duration-300 flex flex-col justify-between group ${
-                b.id === 1 ? 'cursor-pointer' : ''
-              }`}
+              className="bg-white border border-slate-300 shadow-xs hover:shadow-md transition-shadow duration-300 flex flex-col justify-between group"
             >
               
               {/* Top Image Box */}

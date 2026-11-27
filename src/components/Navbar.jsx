@@ -77,7 +77,7 @@ export default function Navbar({ activePage = 'HOME', onNavigate, onOpenRequestM
     } else if (link.name === 'EVENTS') {
       if (onNavigate) onNavigate('EVENTS')
     } else if (link.name === 'BLOG') {
-      if (onNavigate) onNavigate('BLOG')
+      if (onNavigate) onNavigate('HOME', '#blog')
     } else if (link.name === 'CONTACT') {
       if (onNavigate) onNavigate('CONTACT')
     } else if (link.name === 'HOME') {

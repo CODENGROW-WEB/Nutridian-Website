@@ -40,7 +40,7 @@ export default function BlogPage({ onBackToHome, onOpenRequestModal }) {
           </button>
 
           <span className="text-xs font-semibold text-slate-400">
-            Home &nbsp;/&nbsp; <span className="text-orange-600 font-bold">Foundations &amp; Blog</span>
+            Home &nbsp;/&nbsp; <span className="text-orange-600 font-bold">Our Foundations</span>
           </span>
         </div>
 

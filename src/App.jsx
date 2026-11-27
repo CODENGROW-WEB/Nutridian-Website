@@ -48,8 +48,14 @@ function App() {
         setActivePage('EVENTS')
       } else if (hash === '#blog-detail' || hash === '#article' || hash === '#pharma-outlook') {
         setActivePage('BLOG_DETAIL')
-      } else if (hash === '#blog' || hash === '#blogs' || hash === '#our-foundations' || hash === '#foundations') {
-        setActivePage('BLOG')
+      } else if (hash === '#our-foundations' || hash === '#foundations' || hash === '#about-us' || hash === '#about') {
+        setActivePage('OUR FOUNDATIONS')
+      } else if (hash === '#blog' || hash === '#blogs') {
+        setActivePage('HOME')
+        setTimeout(() => {
+          const el = document.querySelector('#blog')
+          if (el) el.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
       } else if (hash === '#contact') {
         setActivePage('CONTACT')
       } else if (hash === '#enquiry' || hash === '#enquire' || hash === '#enquire-now' || hash === '#enquiry-now') {
@@ -97,8 +103,16 @@ function App() {
       window.location.hash = '#events'
     } else if (pageName === 'BLOG_DETAIL' || pageName === 'ARTICLE') {
       window.location.hash = '#blog-detail'
-    } else if (pageName === 'BLOG' || pageName === 'OUR FOUNDATIONS' || pageName === 'FOUNDATIONS') {
+    } else if (pageName === 'OUR FOUNDATIONS' || pageName === 'FOUNDATIONS') {
       window.location.hash = '#our-foundations'
+    } else if (pageName === 'BLOG' || pageName === 'BLOGS') {
+      setActivePage('HOME')
+      window.location.hash = '#blog'
+      setTimeout(() => {
+        const el = document.querySelector('#blog')
+        if (el) el.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+      return
     } else if (pageName === 'CONTACT' || pageName === 'CONTACT US') {
       window.location.hash = '#contact'
     } else if (pageName === 'ENQUIRY' || pageName === 'ENQUIRE NOW' || pageName === 'ENQUIRE') {
@@ -167,8 +181,8 @@ function App() {
             onOpenRequestModal={() => handleNavigate('ENQUIRY')}
             onNavigate={handleNavigate}
           />
-        ) : activePage === 'BLOG' || activePage === 'BLOGS' || activePage === 'OUR FOUNDATIONS' || activePage === 'FOUNDATIONS' || activePage === 'ABOUT US' || activePage === 'ABOUT' ? (
-          /* Dedicated BLOG & OUR FOUNDATIONS Page View */
+        ) : activePage === 'OUR FOUNDATIONS' || activePage === 'FOUNDATIONS' || activePage === 'ABOUT US' || activePage === 'ABOUT' ? (
+          /* Dedicated OUR FOUNDATIONS Page View */
           <BlogPage
             onBackToHome={() => handleNavigate('HOME')}
             onOpenRequestModal={() => handleNavigate('ENQUIRY')}

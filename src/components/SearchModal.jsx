@@ -9,7 +9,8 @@ export default function SearchModal({ isOpen, onClose, onNavigate }) {
     { title: 'Nutridian Probiotics & Gut Care', category: 'Overview', snippet: 'Advanced bio-additives to improve digestive efficiency.', page: 'POULTRY PRODUCT' },
     { title: 'KCPL Export Standards & Quality', category: 'About', snippet: 'Manufacturing and exporting premier agricultural products since 1971.', page: 'OUR CORE' },
     { title: 'Annual Poultry Industry Event 2026', category: 'Events', snippet: 'Join Nutridian Animal Health at the upcoming national livestock summit.', page: 'EVENTS' },
-    { title: 'Latest Research & Technical Blogs', category: 'Blog', snippet: 'Scientific research and field studies on poultry nutrition and biosecurity.', page: 'BLOG' },
+    { title: 'Latest Research & Technical Blogs', category: 'Blog', snippet: 'Scientific research and field studies on poultry nutrition and biosecurity.', page: 'HOME', anchor: '#blog' },
+    { title: 'Our Foundations & KCPL History', category: 'Company', snippet: 'Manufacturing excellence, R&D facilities, and global presence since 1971.', page: 'OUR FOUNDATIONS' },
   ]
 
   // Add all 15 poultry categories
